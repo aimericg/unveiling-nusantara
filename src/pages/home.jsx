@@ -52,7 +52,7 @@ export default function Home() {
         </div>
         <div className="paragraph2">
           <h2>Typography as a Program</h2>
-          <p>Content of paragraph 2 goes here.</p>
+          <p>Latinisation - latin bias, Unicode standardisation and showcasing alternatives, materiality of type, holistic thinking, preserving scripts</p>
         </div>
         <div className="paragraph3">
           <h2>Questions of Neutrality</h2>
