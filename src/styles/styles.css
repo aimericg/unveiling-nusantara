@@ -140,11 +140,7 @@ h1 {
   line-height: 105%;
   text-align: left;
   
-  text-shadow:
-    -1px -1px 0 #fff,  
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    1px 1px 0 #fff;
+
 }
 .page h1 {
   font-size: 48px;
@@ -189,18 +185,34 @@ h1 {
 }
 h2 {
   font-family: DOTCIRFUL;
-  color: grey;
-  stroke: 5px dotted green;
-  
+  color: blue;
+
+  z-axis: -1;
   text-shadow:
-    -1px -1px 0 #fffff,  
-    1px -1px 0 #fffff,
-    -1px 1px 0 #fffff,
-    1px 1px 0 #fffff;
+    -1px -1px 0 #00000,  
+    1px -1px 0 #00000,
+    -1px 1px 0 #00000,
+    1px 1px 0 #00000;
 }
 
-.paragraph1 {
-  display: relative;
-  margin: -4rem 0rem;
-  
+.grid-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  top: -4rem;
+}
+
+.paragraph1,
+.paragraph2,
+.paragraph3 {
+  padding: 0.2rem;
+  border-radius: 8px;
+}
+
+/* Additional styling for paragraph headings */
+.paragraph1 h2,
+.paragraph2 h2,
+.paragraph3 h2 {
+  color: blue;
 }

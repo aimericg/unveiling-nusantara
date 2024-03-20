@@ -45,9 +45,19 @@ export default function Home() {
     <>
       <h1 className="title">{hello}</h1>
       {/* When the user hovers over the image we apply the wiggle style to it */}
-      <div class="paragraph1">
-      <p>Waroeng in Indonesia have started to be embodied by “cheap” fonts, such as impact, strechted type, cooper black and more. The use of these fonts are not the same in a western context, they are more used or they used to be more used for more conventional stuff. Waroeng have embraced new meanings and new purposes for the font, they are now used more unconventionally, in bold store fronts fulll of color and often strechted to the max.</p>
-      <br></br>
+      <div className="grid-container">
+        <div className="paragraph1">
+          <h2>The Waroeng Experience</h2>
+          <p>Waroeng in Indonesia have started to be embodied by “cheap” fonts, such as impact, strechted type, cooper black and more. The use of these fonts are not the same in a western context, they are more used or they used to be more used for more conventional stuff. Waroeng have embraced new meanings and new purposes for the font, they are now used more unconventionally, in bold store fronts fulll of color and often strechted to the max.</p>
+        </div>
+        <div className="paragraph2">
+          <h2>Typography as a Program</h2>
+          <p>Content of paragraph 2 goes here.</p>
+        </div>
+        <div className="paragraph3">
+          <h2>Questions of Neutrality</h2>
+          <p>Content of paragraph 3 goes here.</p>
+        </div>
       </div>
       <animated.div onMouseEnter={trigger} style={style}>
         <img
