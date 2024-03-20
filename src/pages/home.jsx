@@ -45,6 +45,10 @@ export default function Home() {
     <>
       <h1 className="title">{hello}</h1>
       {/* When the user hovers over the image we apply the wiggle style to it */}
+      <div class="paragraph1">
+      <p>Waroeng in Indonesia have started to be embodied by “cheap” fonts, such as impact, strechted type, cooper black and more. The use of these fonts are not the same in a western context, they are more used or they used to be more used for more conventional stuff. Waroeng have embraced new meanings and new purposes for the font, they are now used more unconventionally, in bold store fronts fulll of color and often strechted to the max.</p>
+      <br></br>
+      </div>
       <animated.div onMouseEnter={trigger} style={style}>
         <img
           src="https://cdn.glitch.com/2f80c958-3bc4-4f47-8e97-6a5c8684ac2c%2Fillustration.svg?v=1618196579405"
