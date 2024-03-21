@@ -13,8 +13,8 @@ to this section's matching END comment to see page-specific styles.
   --color-primary: #AFECE0;
   --wrapper-height: 85vh;
   --image-max-width: 320px;
-  --font-family: "HK Grotesk";
-  --font-family-header: "HK Grotesk";
+  --font-family: "DejaVuSerifCondensed";
+  --font-family-header: "DejaVuSerifCondensed";
 }
 
 /* Basic page style resets */
@@ -43,6 +43,12 @@ to this section's matching END comment to see page-specific styles.
   font-weight: regular;
   src: url("https://cdn.glitch.global/53ce0b84-77c9-492a-9b7d-5ff4dec3955e/DOTCIRFUL-Component-L3.otf?v=1710963593937")
     format("opentype");
+}
+
+@font-face {
+  font-family: DejaVuSerifCondensed;
+  src: url("https://cdn.glitch.global/53ce0b84-77c9-492a-9b7d-5ff4dec3955e/DejaVuSerifCondensed.ttf?v=1711024054029")
+    format("truetype");
 }
 
 /* Our remix on glitch button */
@@ -84,7 +90,7 @@ to this section's matching END comment to see page-specific styles.
 
 .footer a:not(.btn--remix):link,
 a:not(.btn--remix):visited {
-  font-family: HK Grotesk;
+  font-family: DejaVuSerifCondensed;
   font-style: normal;
   font-weight: normal;
   font-size: 1.1rem;
@@ -110,7 +116,7 @@ END Glitch hello-app default styles
 
 /* Page structure */
 body {
-  font-family: HK Grotesk;
+  font-family: DejaVuSerifCondensed;
   background-color: var(--color-bg);
 }
 .wrapper {
