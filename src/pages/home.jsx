@@ -70,7 +70,7 @@ export default function Home() {
         </div>
       </div>
       
-      <div className="instructions">
+      <div className="about-project">
         <h2>About this Project</h2>
         <p>
           This is the Glitch <strong>Hello React</strong> project. You can use

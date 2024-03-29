@@ -182,19 +182,15 @@ h1 {
   padding-left: 3.5rem;
 }
 
-/* Instructions */
-.instructions {
-  margin: 1rem auto 0;
-}
-.instructions p {
-  font-size: 1rem;
-}
+
 h2 {
   font-family: DOTCIRFUL;
   color: black;
 
   z-axis: -1;
 }
+
+
 
 .grid-container {
   position: relative;
@@ -222,4 +218,20 @@ h2 {
 .paragraph2 h2,
 .paragraph3 h2 {
   color: black;
+}
+
+/* Instructions */
+.about-project {
+  margin: 1rem 0 0 0;
+  max-width: 20rem;
+
+  color: grey;
+  
+  
+}
+.about-project p {
+  font-size: 1rem;
+}
+.about-project h2 {
+  color: grey;
 }
