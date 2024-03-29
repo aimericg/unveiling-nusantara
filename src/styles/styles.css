@@ -118,6 +118,8 @@ END Glitch hello-app default styles
 body {
   font-family: DejaVuSerifCondensed;
   background-color: var(--color-bg);
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 .wrapper {
   min-height: var(--wrapper-height);
@@ -200,11 +202,15 @@ h2 {
 .grid-container {
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 0.8rem;
   top: -0rem;
   border-radius:0;
   margin-left: -0.4rem;
+}
+
+.grid-container > * {
+  width: calc(33.33vw - 0.8rem); /* Each column takes 33.33vw with gap included */
 }
 
 
