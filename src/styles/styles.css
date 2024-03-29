@@ -191,10 +191,14 @@ h2 {
   z-axis: -1;
 }
 
-
+.scroll-container {
+  overflow-y: auto;
+  max-height: 80vh; /* Adjust the height as needed */
+  padding-right: 20px; /* Adjust for scrollbar width */
+}
 
 .grid-container {
-  position: relative;
+
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0.8rem;
