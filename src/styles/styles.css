@@ -153,6 +153,7 @@ h1 {
 }
 
 .page p {
+  top: -4rem;
   line-height: 1.5;
 }
 
@@ -223,7 +224,7 @@ h2 {
 /* Instructions */
 .about-project {
   margin: 1rem 0 0 0;
-  max-width: 20rem;
+  max-width: 30rem;
 
   color: grey;
   

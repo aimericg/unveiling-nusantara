@@ -51,9 +51,10 @@ export default function Home() {
             used or they used to be more used for more conventional stuff.
             Waroeng have embraced new meanings and new purposes for the font,
             they are now used more unconventionally, in bold store fronts fulll
-            of color and often strechted to the max.
-            
-            The graphic identity of Warung in Indonesia should be celebrated and embraced rather than seen as cheap. The practicality and the commonalities have emerged to give it its own charm.
+            of color and often strechted to the max. The graphic identity of
+            Warung in Indonesia should be celebrated and embraced rather than
+            seen as cheap. The practicality and the commonalities have emerged
+            to give it its own charm.
           </p>
         </div>
         <div className="paragraph2">
@@ -69,14 +70,18 @@ export default function Home() {
           <p>Content of paragraph 3 goes here.</p>
         </div>
       </div>
-      
+
       <div className="about-project">
         <h2>About this Project</h2>
         <p>
-          This is the Glitch <strong>Hello React</strong> project. You can use
-          it to build your own app. See more info in the{" "}
-          <Link href="/about">About</Link> page, and check out README.md in the
-          editor for additional detail plus next steps you can take!
+          This is a project started by Aimeric Permata Guerre, for his
+          graduation from Willem de Kooning Academy (Rotterdam, NL). <br></br>
+          <br></br>
+          The main purpose was a rediscovery of his Indonesian roots through the
+          study of local languages and the developement of the Graphic Design in
+          the region of South East Asia. As well as growing a critical
+          perspective on his past education which tended to be a bit more
+          Eurocentric/Western centric.
         </p>
       </div>
     </>
