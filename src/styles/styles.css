@@ -207,11 +207,12 @@ h2 {
 .paragraph1,
 .paragraph2,
 .paragraph3 {
+  position: relative;
   padding: 0.2rem;
   padding-top: 0;
   border-radius: 0;
  
-  margin-top: none;
+  top: -7rem;
 }
 
 /* Additional styling for paragraph headings */
