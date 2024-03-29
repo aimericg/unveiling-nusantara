@@ -69,24 +69,9 @@ export default function Home() {
           <p>Content of paragraph 3 goes here.</p>
         </div>
       </div>
-      <animated.div onMouseEnter={trigger} style={style}>
-        <img
-          src="https://cdn.glitch.com/2f80c958-3bc4-4f47-8e97-6a5c8684ac2c%2Fillustration.svg?v=1618196579405"
-          className="illustration"
-          onClick={handleChangeHello}
-          alt="Illustration click to change language"
-        />
-      </animated.div>
-      <div className="navigation">
-        {/* When the user hovers over this text, we apply the wiggle function to the image style */}
-        <animated.div onMouseEnter={trigger}>
-          <a className="btn--click-me" onClick={handleChangeHello}>
-            Psst, click me
-          </a>
-        </animated.div>
-      </div>
+      
       <div className="instructions">
-        <h2>Using this project</h2>
+        <h2>About this Project</h2>
         <p>
           This is the Glitch <strong>Hello React</strong> project. You can use
           it to build your own app. See more info in the{" "}

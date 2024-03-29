@@ -191,14 +191,9 @@ h1 {
 }
 h2 {
   font-family: DOTCIRFUL;
-  color: blue;
+  color: black;
 
   z-axis: -1;
-  text-shadow:
-    -1px -1px 0 #00000,  
-    1px -1px 0 #00000,
-    -1px 1px 0 #00000,
-    1px 1px 0 #00000;
 }
 
 .grid-container {
@@ -208,6 +203,7 @@ h2 {
   gap: 0.8rem;
   top: -0rem;
   border-radius:0;
+  margin-left: -0.4rem;
 }
 
 
@@ -217,7 +213,7 @@ h2 {
   padding: 0.2rem;
   padding-top: 0;
   border-radius: 0;
-  background-color: rgba(0,255,0,0.37);
+ 
   margin-top: none;
 }
 
@@ -225,5 +221,5 @@ h2 {
 .paragraph1 h2,
 .paragraph2 h2,
 .paragraph3 h2 {
-  color: blue;
+  color: black;
 }
