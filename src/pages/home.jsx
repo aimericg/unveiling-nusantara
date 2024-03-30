@@ -55,30 +55,26 @@ export default function Home() {
               fulll of color and often strechted to the max. The graphic
               identity of Warung in Indonesia should be celebrated and embraced
               rather than seen as cheap. The practicality and the commonalities
-              have emerged to give it its own charm.
-              
-              Waroeng in Indonesia have started to be embodied by “cheap” fonts,
-              such as impact, strechted type, cooper black and more. The use of
-              these fonts are not the same in a western context, they are more
-              used or they used to be more used for more conventional stuff.
-              Waroeng have embraced new meanings and new purposes for the font,
-              they are now used more unconventionally, in bold store fronts
-              fulll of color and often strechted to the max. The graphic
+              have emerged to give it its own charm. Waroeng in Indonesia have
+              started to be embodied by “cheap” fonts, such as impact, strechted
+              type, cooper black and more. The use of these fonts are not the
+              same in a western context, they are more used or they used to be
+              more used for more conventional stuff. Waroeng have embraced new
+              meanings and new purposes for the font, they are now used more
+              unconventionally, in bold store fronts fulll of color and often
+              strechted to the max. The graphic identity of Warung in Indonesia
+              should be celebrated and embraced rather than seen as cheap. The
+              practicality and the commonalities have emerged to give it its own
+              charm. Waroeng in Indonesia have started to be embodied by “cheap”
+              fonts, such as impact, strechted type, cooper black and more. The
+              use of these fonts are not the same in a western context, they are
+              more used or they used to be more used for more conventional
+              stuff. Waroeng have embraced new meanings and new purposes for the
+              font, they are now used more unconventionally, in bold store
+              fronts fulll of color and often strechted to the max. The graphic
               identity of Warung in Indonesia should be celebrated and embraced
               rather than seen as cheap. The practicality and the commonalities
               have emerged to give it its own charm.
-              
-              Waroeng in Indonesia have started to be embodied by “cheap” fonts,
-              such as impact, strechted type, cooper black and more. The use of
-              these fonts are not the same in a western context, they are more
-              used or they used to be more used for more conventional stuff.
-              Waroeng have embraced new meanings and new purposes for the font,
-              they are now used more unconventionally, in bold store fronts
-              fulll of color and often strechted to the max. The graphic
-              identity of Warung in Indonesia should be celebrated and embraced
-              rather than seen as cheap. The practicality and the commonalities
-              have emerged to give it its own charm.
-              
             </p>
           </div>
         </div>
@@ -124,33 +120,33 @@ export default function Home() {
         </div>
       </div>
       <div className="grid-container2">
-      <div className="about-project">
-        <h2>About this Project</h2>
-        <p>
-          This is a project started by Aimeric Permata Guerre, for his
-          graduation from Willem de Kooning Academy (Rotterdam, NL). <br></br>
-          <br></br>
-          The main purpose was a rediscovery of his Indonesian roots through the
-          study of local languages and the developement of the Graphic Design in
-          the region of South East Asia. As well as growing a critical
-          perspective on his past education which tended to be a bit more
-          Eurocentric/Western centric.
-        </p>
+        <div className="about-project">
+          <h2>About this Project</h2>
+          <p>
+            This is a project started by Aimeric Permata Guerre, for his
+            graduation from Willem de Kooning Academy (Rotterdam, NL). <br></br>
+            <br></br>
+            The main purpose was a rediscovery of his Indonesian roots through
+            the study of local languages and the developement of the Graphic
+            Design in the region of South East Asia. As well as growing a
+            critical perspective on his past education which tended to be a bit
+            more Eurocentric/Western centric.
+          </p>
+        </div>
+        <div className="about-project">
+          <h2>Ressources</h2>
+          <p>
+            This is a project started by Aimeric Permata Guerre, for his
+            graduation from Willem de Kooning Academy (Rotterdam, NL). <br></br>
+            <br></br>
+            The main purpose was a rediscovery of his Indonesian roots through
+            the study of local languages and the developement of the Graphic
+            Design in the region of South East Asia. As well as growing a
+            critical perspective on his past education which tended to be a bit
+            more Eurocentric/Western centric.
+          </p>
+        </div>
       </div>
-      <div className="about-project">
-        <h2>Ressources</h2>
-        <p>
-          This is a project started by Aimeric Permata Guerre, for his
-          graduation from Willem de Kooning Academy (Rotterdam, NL). <br></br>
-          <br></br>
-          The main purpose was a rediscovery of his Indonesian roots through the
-          study of local languages and the developement of the Graphic Design in
-          the region of South East Asia. As well as growing a critical
-          perspective on his past education which tended to be a bit more
-          Eurocentric/Western centric.
-        </p>
-      </div>
-    </div>
     </>
   );
 }
