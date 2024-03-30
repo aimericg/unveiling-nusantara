@@ -137,7 +137,7 @@ export default function Home() {
             more Eurocentric/Western centric.
           </p>
         </div>
-        <div className="about-project">
+        <div className="about-ressources">
           <h2>Ressources</h2>
           <p>
             This is a project started by Aimeric Permata Guerre, for his
