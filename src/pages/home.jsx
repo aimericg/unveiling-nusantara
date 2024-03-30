@@ -39,8 +39,10 @@ export default function Home() {
   };
   return (
     <>
+      
       <h1 className="title">{hello}</h1>
       {/* When the user hovers over the image we apply the wiggle style to it */}
+      
       <div className="grid-container">
         <div className="paragraph1">
           <div className="scroll-container">
@@ -117,8 +119,10 @@ export default function Home() {
             <h2>Banishing Design Principles</h2>
             <p>Content of paragraph 3 goes here.</p>
           </div>
-        </div>
+        
       </div>
+      </div>
+    <div className="bottom-part">
       <div className="grid-container2">
         <div className="about-project">
           <h2>About this Project</h2>
@@ -145,6 +149,7 @@ export default function Home() {
             critical perspective on his past education which tended to be a bit
             more Eurocentric/Western centric.
           </p>
+        </div>
         </div>
       </div>
     </>
