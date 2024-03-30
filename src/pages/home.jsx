@@ -122,7 +122,7 @@ export default function Home() {
         
       </div>
       </div>
-    <div className="bottom-part">
+    
       <div className="grid-container2">
         <div className="about-project">
           <h2>About this Project</h2>
@@ -150,7 +150,7 @@ export default function Home() {
             more Eurocentric/Western centric.
           </p>
         </div>
-        </div>
+        
       </div>
     </>
   );
