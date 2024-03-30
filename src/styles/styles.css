@@ -65,7 +65,10 @@ body {
   font-family: DejaVuSerifCondensed;
   background-color: var(--color-bg);
   overflow-x: auto;
-  overflow-y: hidden;
+  overflow-y: visible;
+  position: relative;
+  top:-4.5rem;
+  
 }
 
 
@@ -86,7 +89,6 @@ body {
 /* Page titles */
 h1 {
   margin: -0.5rem -0.5rem;
-  position: static;
   outline: 6px dotted orange;
   color: orange;
   font-family: DOTCIRFUL;
