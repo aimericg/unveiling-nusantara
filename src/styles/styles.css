@@ -11,7 +11,7 @@ to this section's matching END comment to see page-specific styles.
   --color-bg: #FFFFA0;
   --color-text-main: #000000;
   --color-primary: #AFECE0;
-  --wrapper-height: 85vh;
+  --wrapper-height: 86vh;
   --image-max-width: 320px;
   --font-family: "DejaVuSerifCondensed";
   --font-family-header: "DejaVuSerifCondensed";
@@ -104,7 +104,7 @@ a:not(.btn--remix):visited {
 
 .footer .links {
   padding: 0.5rem 1rem 1.5rem;
-  white-space: nowrap;
+  
 }
 
 .divider {
@@ -119,8 +119,7 @@ body {
   font-family: DejaVuSerifCondensed;
   background-color: var(--color-bg);
   overflow-x: auto;
-  overflow-y: hidden;
-  min-height: 100vh;
+  overflow-y: visible;
 }
 .wrapper {
   min-height: var(--wrapper-height);
@@ -139,7 +138,7 @@ body {
 /* Page titles */
 h1 {
   margin: -0.5rem -0.5rem;
-  
+  position: static;
   outline: 6px dotted orange;
   color: orange;
   font-family: DOTCIRFUL;
@@ -225,7 +224,7 @@ h2 {
  
   top: -7rem;
   padding-bottom: -7rem;
-  margin-bottom: -7rem;
+  margin-bottom: -8rem;
 }
 
 /* Additional styling for paragraph headings */
@@ -235,11 +234,10 @@ h2 {
   color: black;
 }
 
-/* Instructions */
+/* About Project*/
 .about-project {
   margin: 1rem 0 0 0;
-  max-width: 30rem;
-
+  max-width: 50vw;
   color: grey;
   
   
