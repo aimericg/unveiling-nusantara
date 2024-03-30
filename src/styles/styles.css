@@ -202,7 +202,7 @@ h2 {
 .grid-container {
 
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   gap: 0.8rem;
   top: -0rem;
   border-radius:0;
@@ -216,7 +216,10 @@ h2 {
 
 .paragraph1,
 .paragraph2,
-.paragraph3 {
+.paragraph3,
+.paragraph4,
+.paragraph5,
+.paragraph6 {
   position: relative;
   padding: 0.2rem;
   padding-top: 0;
@@ -230,7 +233,10 @@ h2 {
 /* Additional styling for paragraph headings */
 .paragraph1 h2,
 .paragraph2 h2,
-.paragraph3 h2 {
+.paragraph3 h2,
+.paragraph4 h2,
+.paragraph5 h2,
+.paragraph6 h2 {
   color: black;
 }
 
