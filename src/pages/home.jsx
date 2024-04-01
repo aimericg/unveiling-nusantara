@@ -39,10 +39,9 @@ export default function Home() {
   };
   return (
     <>
-      
       <h1 className="title">{hello}</h1>
       {/* When the user hovers over the image we apply the wiggle style to it */}
-      
+
       <div className="grid-container">
         <div className="paragraph1">
           <div className="scroll-container">
@@ -86,7 +85,15 @@ export default function Home() {
             <p>
               Latinisation - latin bias, Unicode standardisation and showcasing
               alternatives, materiality of type, holistic thinking, preserving
-              scripts, taking back the public space / public signage
+              scripts, taking back the public space / public signage Apple and
+              Adobe and large companies involved in the technologies of fonts
+              and computers do not value the importance of other scripts and put
+              themselves in a hierarchical role in which scripts must be adapted
+              to their conventions/standards, not the other way around. In a
+              larger perspective, perhaps other models should be inovated to
+              counter this problem and perhaps Unicode is not the only way after
+              all? The unicode also lacks funding and is mostly developped and
+              iterating with the help of volunteer work.
             </p>
           </div>
         </div>
@@ -119,10 +126,9 @@ export default function Home() {
             <h2>Banishing Design Principles</h2>
             <p>Content of paragraph 3 goes here.</p>
           </div>
-        
+        </div>
       </div>
-      </div>
-    
+
       <div className="grid-container2">
         <div className="about-project">
           <h2>About this Project</h2>
@@ -140,12 +146,14 @@ export default function Home() {
         <div className="about-ressources">
           <h2>Ressources</h2>
           <p>
-            Ressources below shares this knowledge helped determine the attitude and power of my project.<br></br>
+            Ressources below shares this knowledge helped determine the attitude
+            and power of my project.<br></br>
             <br></br>
-            <a href="https://docs.google.com/document/d/1Hbymt6a3zz044xF_LCqGfTmXJip3cetj5sHlxZEjtJ4/edit">The Decolonial Reader</a>
+            <a href="https://docs.google.com/document/d/1Hbymt6a3zz044xF_LCqGfTmXJip3cetj5sHlxZEjtJ4/edit">
+              The Decolonial Reader
+            </a>
           </p>
         </div>
-        
       </div>
     </>
   );
