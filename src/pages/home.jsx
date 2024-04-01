@@ -140,7 +140,9 @@ export default function Home() {
             the study of local languages and the developement of the Graphic
             Design in the region of South East Asia. As well as growing a
             critical perspective on his past education which tended to be a bit
-            more Eurocentric/Western centric.
+            more Eurocentric/Western centric. This project very much welcomes
+            criticism and outside opinions. You are invited to contribute via
+            the following form.
           </p>
         </div>
         <div className="about-ressources">
