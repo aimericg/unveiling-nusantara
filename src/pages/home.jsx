@@ -141,7 +141,7 @@ export default function Home() {
           <h2>Ressources</h2>
           <p>
             Ressources below shares this knowledge helped determine the attitude and power of my project.<br></br>
-            <br></br>-  
+            <br></br>
             <a href="https://docs.google.com/document/d/1Hbymt6a3zz044xF_LCqGfTmXJip3cetj5sHlxZEjtJ4/edit">The Decolonial Reader</a>
           </p>
         </div>
