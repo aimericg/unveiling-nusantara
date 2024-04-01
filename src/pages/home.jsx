@@ -93,7 +93,7 @@ export default function Home() {
               larger perspective, perhaps other models should be inovated to
               counter this problem and perhaps Unicode is not the only way after
               all? The unicode also lacks funding and is mostly developped and
-              iterating with the help of volunteer work.
+              iterating with the help of volunteer work. The Unicode should not be seen as this flawless and perfect model. It is a method of standardisation in itself.
             </p>
           </div>
         </div>
