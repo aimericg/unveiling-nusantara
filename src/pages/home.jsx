@@ -140,14 +140,9 @@ export default function Home() {
         <div className="about-ressources">
           <h2>Ressources</h2>
           <p>
-            This is a project started by Aimeric Permata Guerre, for his
-            graduation from Willem de Kooning Academy (Rotterdam, NL). <br></br>
-            <br></br>
-            The main purpose was a rediscovery of his Indonesian roots through
-            the study of local languages and the developement of the Graphic
-            Design in the region of South East Asia. As well as growing a
-            critical perspective on his past education which tended to be a bit
-            more Eurocentric/Western centric.
+            Ressources below shares this knowledge helped determine the attitude and power of my project.<br></br>
+            <br></br>-  
+            <a href="https://docs.google.com/document/d/1Hbymt6a3zz044xF_LCqGfTmXJip3cetj5sHlxZEjtJ4/edit">The Decolonial Reader</a>
           </p>
         </div>
         
