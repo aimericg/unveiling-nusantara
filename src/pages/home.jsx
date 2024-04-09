@@ -99,7 +99,7 @@ export default function Home() {
         </div>
         <div className="paragraph3">
           <div className="scroll-container">
-            <h2>Questions of Neutrality</h2>
+            <h2>Positions of Neutrality</h2>
             <p>Content of paragraph 3 goes here.</p>
           </div>
         </div>

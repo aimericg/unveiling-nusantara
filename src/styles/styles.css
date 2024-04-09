@@ -51,6 +51,11 @@ to this section's matching END comment to see page-specific styles.
     format("truetype");
 }
 
+@font-face {
+  font-family: DejaVuSans;
+  src: url("https://cdn.glitch.global/53ce0b84-77c9-492a-9b7d-5ff4dec3955e/DejaVuSans.ttf?v=1712630913028")
+    format("truetype");
+}
 
 
 .divider {
@@ -201,6 +206,10 @@ h2 {
 .paragraph5 h2,
 .paragraph6 h2 {
   color: black;
+}
+
+.paragraph2 p {
+  font-family: DejaVuSans;
 }
 
 /* About Project*/
