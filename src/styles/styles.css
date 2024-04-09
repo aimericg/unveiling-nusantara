@@ -26,6 +26,7 @@ to this section's matching END comment to see page-specific styles.
 }
 
 /* Import fonts */
+
 @font-face {
   font-family: HK Grotesk;
   src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
@@ -35,6 +36,13 @@ to this section's matching END comment to see page-specific styles.
   font-family: HK Grotesk;
   font-weight: bold;
   src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
+    format("opentype");
+}
+
+@font-face {
+  font-family: AndersonGrotesk;
+  font-weight: regular;
+  src: url("https://cdn.glitch.global/53ce0b84-77c9-492a-9b7d-5ff4dec3955e/AndersonGrotesk-Bold.otf?v=1712663509694")
     format("opentype");
 }
 
@@ -208,12 +216,21 @@ h2 {
   color: black;
 }
 
+.paragraph1 p {
+  font-family: AndersonGrotesk;
+}
+
 .paragraph2 p {
   font-family: DejaVuSans;
 }
 
 .paragraph3 p {
   font-family: HK Grotesk;
+}
+
+.paragraph4 p {
+  font-family: "Comissioner";
+  font-weight:400;
 }
 
 /* About Project*/
