@@ -45,7 +45,7 @@ export default function Home() {
       <div className="grid-container">
         <div className="paragraph1">
           <div className="scroll-container">
-            <h2>The Waroeng Experience</h2>
+            <h2>Warung Banner Identity</h2>
             <p>
               Waroeng in Indonesia have started to be embodied by “cheap” fonts,
               such as impact, strechted type, cooper black and more. The use of
@@ -81,7 +81,7 @@ export default function Home() {
         </div>
         <div className="paragraph2">
           <div className="scroll-container">
-            <h2>Typography as a Program</h2>
+            <h2>Typeface as a Program</h2>
             <p>
               Latinisation - latin bias, Unicode standardisation and showcasing
               alternatives, materiality of type, holistic thinking, preserving
