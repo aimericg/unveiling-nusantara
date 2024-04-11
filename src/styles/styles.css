@@ -79,10 +79,12 @@ END Glitch hello-app default styles
 body {
   font-family: DejaVuSerifCondensed;
   background-color: var(--color-bg);
-  background: rgb(34,193,195);
-  background: linear-gradient(36deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  
   overflow-x: auto;
   overflow-y: visible;
+  background: rgb(34,193,195);
+  background: linear-gradient(36deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  min-width: 2330px;
   position: relative;
   top:-7.5rem;
   
