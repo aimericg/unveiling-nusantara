@@ -11,7 +11,7 @@ to this section's matching END comment to see page-specific styles.
   --color-bg: #FFFFA0;
   --color-text-main: #000000;
   --color-primary: #AFECE0;
-  --wrapper-height: 86vh;
+  --wrapper-height: 100vh;
   --image-max-width: 320px;
   --font-family: "DejaVuSerifCondensed";
   --font-family-header: "DejaVuSerifCondensed";
@@ -77,6 +77,8 @@ END Glitch hello-app default styles
 body {
   font-family: DejaVuSerifCondensed;
   background-color: var(--color-bg);
+  background: rgb(34,193,195);
+  background: linear-gradient(36deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
   overflow-x: auto;
   overflow-y: visible;
   position: relative;
@@ -238,7 +240,7 @@ h2 {
   
   margin: 1rem 1rem 1rem 0;
   color: grey;
-  width: calc(50vw - 0.8rem);
+  width: calc(50vw - 2rem);
   position: fixed;
 
   
@@ -255,5 +257,10 @@ h2 {
   position: fixed;
   left: 50vw;
   margin: 1rem 1rem 1rem 0.5rem;
-  width: calc(50vw - 1rem);
+  width: calc(50vw - 2rem);
+}
+
+h2 {
+  position: relative;
+  top: +0.9rem;
 }
