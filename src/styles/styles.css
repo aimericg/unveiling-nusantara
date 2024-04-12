@@ -224,13 +224,10 @@ h2 {
 
 .paragraph1 p {
   font-family: AndersonGrotesk;
-  background-color: rgba(255,0,0,0.6);
+  /*  background-color: rgba(255,0,0,0.6); */
 }
 
-.paragraph1 {
-  background: rgb(34,193,195);
-  background: linear-gradient(36deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-}
+
 
 .paragraph2 p {
   font-family: DejaVuSans;
