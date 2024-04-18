@@ -126,13 +126,20 @@ export default function Home() {
         <div className="paragraph3">
           <div className="scroll-container">
             <h2>Positions of Neutrality</h2>
-            <p>Content of paragraph 3 goes here.</p>
+            <p>Is it really efficient to create neutrality?</p>
           </div>
         </div>
         <div className="paragraph4">
           <div className="scroll-container">
             <h2>Latinisation</h2>
-            <p>Are the aspects of weights, italics onl</p>
+            <p>
+              Are the aspects of weights, italics, contrast only applicable to
+              Latin script? Design education is centered around Latin script,
+              notions of weights, italics, contrast have been used for the
+              developments of typefaces and is creating the designer's liberty
+              to create emphasis on certain aspects. Though in other languages,
+              emphasis can be done through different forms.
+            </p>
           </div>
         </div>
         <div className="paragraph5">
@@ -178,7 +185,7 @@ export default function Home() {
         <div className="paragraph6">
           <div className="scroll-container">
             <h2>Banishing Design Principles</h2>
-            <p>Content of paragraph 3 goes here.</p>
+            <p>Should there really be design principles for defining what is good or bad design? On a global level, generalising criterias for design can not be simply put.</p>
           </div>
         </div>
       </div>
