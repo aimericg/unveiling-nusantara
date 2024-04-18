@@ -85,7 +85,7 @@ body {
   
   min-width: 2330px;
   position: relative;
-  top:-7.5rem;
+  top:-1rem;
   
 }
 
@@ -207,7 +207,7 @@ h2 {
   padding-top: 0;
   border-radius: 0;
  
-  top: -6rem;
+  top: -18.5rem;
   padding-bottom: -7rem;
   margin-bottom: -8rem;
 }
@@ -249,12 +249,13 @@ h2 {
   color: grey;
   width: calc(50vw - 2rem);
   position: fixed;
+  top: 27rem;
 
   
   
 }
 .about-project p {
-  font-size: 1rem;
+  
 }
 .about-project h2 {
   color: grey;
