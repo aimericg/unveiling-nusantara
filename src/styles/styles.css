@@ -245,6 +245,12 @@ h2 {
 .paragraph2 p {
   font-family: DejaVuSans;
 }
+.paragraph2 mark {
+  background-color: rgba(255,0,0,0.3);
+  color: white;
+  mix-blend-mode: hard-light;
+  
+}
 
 .paragraph3 p {
   font-family: HK Grotesk;

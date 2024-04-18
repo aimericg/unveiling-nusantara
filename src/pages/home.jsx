@@ -41,73 +41,85 @@ export default function Home() {
     <>
       <h1 className="title">{hello}</h1>
       {/* When the user hovers over the image we apply the wiggle style to it */}
-      <h1 className="title">---  Decolonial Design <br></br>-----   Manifesto Indonesia</h1>
+      <h1 className="title">
+        --- Decolonial Design <br></br>----- Manifesto Indonesia
+      </h1>
       <div className="grid-container">
         <div className="paragraph1">
           <div className="scroll-container">
             <h2>Warung Banner Identity</h2>
             <p>
-              <mark>Waroeng in Indonesia have started to be embodied by “cheap” fonts,
-              such as impact, strechted type, cooper black and more. The use of
-              these fonts are not the same in a western context, they are more
-              used or they used to be more used for more conventional stuff.
-              Waroeng have embraced new meanings and new purposes for the font,
-              they are now used more unconventionally, in bold store fronts
-              fulll of color and often strechted to the max. The graphic
-              identity of Warung in Indonesia should be celebrated and embraced
-              rather than seen as cheap. The practicality and the commonalities
-              have emerged to give it its own charm. Waroeng in Indonesia have
-              started to be embodied by “cheap” fonts, such as impact, strechted
-              type, cooper black and more.<img src="https://cdn.glitch.global/53ce0b84-77c9-492a-9b7d-5ff4dec3955e/pecel-lele-warung.jpg?v=1713431011588" alt="Warung stand in lamongan"></img> The use of these fonts are not the
-              same in a western context, they are more used or they used to be
-              more used for more conventional stuff. Waroeng have embraced new
-              meanings and new purposes for the font, they are now used more
-              unconventionally, in bold store fronts fulll of color and often
-              strechted to the max. The graphic identity of Warung in Indonesia
-              should be celebrated and embraced rather than seen as cheap. The
-              practicality and the commonalities have emerged to give it its own
-              charm. Waroeng in Indonesia have started to be embodied by “cheap”
-              fonts, such as impact, strechted type, cooper black and more. The
-              use of these fonts are not the same in a western context, they are
-              more used or they used to be more used for more conventional
-              stuff. Waroeng have embraced new meanings and new purposes for the
-              font, they are now used more unconventionally, in bold store
-              fronts fulll of color and often strechted to the max. The graphic
-              identity of Warung in Indonesia should be celebrated and embraced
-              rather than seen as cheap. The practicality and the commonalities
-              have emerged to give it its own charm.
-                </mark>
+              <mark>
+                Waroeng in Indonesia have started to be embodied by “cheap”
+                fonts, such as impact, strechted type, cooper black and more.
+                The use of these fonts are not the same in a western context,
+                they are more used or they used to be more used for more
+                conventional stuff. Waroeng have embraced new meanings and new
+                purposes for the font, they are now used more unconventionally,
+                in bold store fronts fulll of color and often strechted to the
+                max. The graphic identity of Warung in Indonesia should be
+                celebrated and embraced rather than seen as cheap. The
+                practicality and the commonalities have emerged to give it its
+                own charm. Waroeng in Indonesia have started to be embodied by
+                “cheap” fonts, such as impact, strechted type, cooper black and
+                more.
+                <img
+                  src="https://cdn.glitch.global/53ce0b84-77c9-492a-9b7d-5ff4dec3955e/pecel-lele-warung.jpg?v=1713431011588"
+                  alt="Warung stand in lamongan"
+                ></img>{" "}
+                <br></br> The use of these fonts are not the same in a western
+                context, they are more used or they used to be more used for
+                more conventional stuff. Waroeng have embraced new meanings and
+                new purposes for the font, they are now used more
+                unconventionally, in bold store fronts fulll of color and often
+                strechted to the max. The graphic identity of Warung in
+                Indonesia should be celebrated and embraced rather than seen as
+                cheap. The practicality and the commonalities have emerged to
+                give it its own charm. Waroeng in Indonesia have started to be
+                embodied by “cheap” fonts, such as impact, strechted type,
+                cooper black and more. The use of these fonts are not the same
+                in a western context, they are more used or they used to be more
+                used for more conventional stuff. Waroeng have embraced new
+                meanings and new purposes for the font, they are now used more
+                unconventionally, in bold store fronts fulll of color and often
+                strechted to the max. The graphic identity of Warung in
+                Indonesia should be celebrated and embraced rather than seen as
+                cheap. The practicality and the commonalities have emerged to
+                give it its own charm.
+              </mark>
             </p>
-            
           </div>
         </div>
         <div className="paragraph2">
           <div className="scroll-container">
             <h2>Typeface as a Program</h2>
             <p>
-              Latinisation - latin bias, Unicode standardisation and showcasing
-              alternatives, materiality of type, holistic thinking, preserving
-              scripts, taking back the public space / public signage Apple and
-              Adobe and large companies involved in the technologies of fonts
-              and computers do not value the importance of other scripts and put
-              themselves in a hierarchical role in which scripts must be adapted
-              to their conventions/standards, not the other way around. In a
-              larger perspective, perhaps other models should be inovated to
-              counter this problem and perhaps Unicode is not the only way after
-              all? The unicode also lacks funding and is mostly developped and
-              iterating with the help of volunteer work. The Unicode should not
-              be seen as this flawless and perfect model. It is a method of
-              standardisation in itself.
-              <br></br>
-              <br></br>
-              The use of typography is now heavily reliant on its digital form
-              as a software, one that is nurtured for a specific expected use
-              and that is mainly centered around the english language and
-              languages that use the Latin alphabet as it is undoubtably the
-              environment in which it was developped the most. The unicode
-              consortium in that sense is made initially for the Latin script,
-              now has been adapted to expand to various foreign scripts but a
-              large latin bias is still quite present.
+              {" "}
+              <mark>
+                Latinisation - latin bias, Unicode standardisation and
+                showcasing alternatives, materiality of type, holistic thinking,
+                preserving scripts, taking back the public space / public
+                signage Apple and Adobe and large companies involved in the
+                technologies of fonts and computers do not value the importance
+                of other scripts and put themselves in a hierarchical role in
+                which scripts must be adapted to their conventions/standards,
+                not the other way around. In a larger perspective, perhaps other
+                models should be inovated to counter this problem and perhaps
+                Unicode is not the only way after all? The unicode also lacks
+                funding and is mostly developped and iterating with the help of
+                volunteer work. The Unicode should not be seen as this flawless
+                and perfect model. It is a method of standardisation in itself.
+                <br></br>
+                <br></br>
+                The use of typography is now heavily reliant on its digital form
+                as a software, one that is nurtured for a specific expected use
+                and that is mainly centered around the english language and
+                languages that use the Latin alphabet as it is undoubtably the
+                environment in which it was developped the most. The unicode
+                consortium in that sense is made initially for the Latin script,
+                now has been adapted to expand to various foreign scripts but a
+                large latin bias is still quite present.
+              </mark>
             </p>
           </div>
         </div>
