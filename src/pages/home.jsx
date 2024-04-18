@@ -93,7 +93,9 @@ export default function Home() {
               larger perspective, perhaps other models should be inovated to
               counter this problem and perhaps Unicode is not the only way after
               all? The unicode also lacks funding and is mostly developped and
-              iterating with the help of volunteer work. The Unicode should not be seen as this flawless and perfect model. It is a method of standardisation in itself.
+              iterating with the help of volunteer work. The Unicode should not
+              be seen as this flawless and perfect model. It is a method of
+              standardisation in itself.
             </p>
           </div>
         </div>
@@ -118,7 +120,25 @@ export default function Home() {
         <div className="paragraph6">
           <div className="scroll-container">
             <h2>Process of Modernisation</h2>
-            <p>Content of paragraph 3 goes here.</p>
+            <p>
+              The steps of making a modern typeface in a digital sphere mainly
+              tends to the loss of its materiality. Over a series of
+              modifications, imperfections lead to the medium the letters were
+              initially engraved on or brushed into are less and less present.
+              For the main objective of creating efficiency, yet sometimes
+              burning a big part of the initial character. Should the process of
+              digitalization be added to different scripts? As they all derive
+              from different forms of materiality, the Balinese script Aksara
+              Bali for example is heavily linked to its role in religious
+              manuscripts, sacred in the forms of "lontars" made out of palm
+              leaf strips and inked with burnt candlenut. If the main use of the
+              script today is in a palm leaf manuscript, shouldn't the script
+              still involve these imperfections as a vital part of its identity.
+              What would happen if that materiality is not respected? Under
+              colonial ruling, this is what happened for the Javanese script,
+              which is a sister script of Aksara Bali, yet this one was changed
+              to be adapted to movable type and to be printed with letterpress.
+            </p>
           </div>
         </div>
         <div className="paragraph6">
