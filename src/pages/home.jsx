@@ -47,7 +47,7 @@ export default function Home() {
           <div className="scroll-container">
             <h2>Warung Banner Identity</h2>
             <p>
-              Waroeng in Indonesia have started to be embodied by “cheap” fonts,
+              <mark>Waroeng in Indonesia have started to be embodied by “cheap” fonts,
               such as impact, strechted type, cooper black and more. The use of
               these fonts are not the same in a western context, they are more
               used or they used to be more used for more conventional stuff.
@@ -58,7 +58,7 @@ export default function Home() {
               rather than seen as cheap. The practicality and the commonalities
               have emerged to give it its own charm. Waroeng in Indonesia have
               started to be embodied by “cheap” fonts, such as impact, strechted
-              type, cooper black and more. The use of these fonts are not the
+              type, cooper black and more.<img src="https://cdn.glitch.global/53ce0b84-77c9-492a-9b7d-5ff4dec3955e/pecel-lele-warung.jpg?v=1713431011588" alt="Warung stand in lamongan"></img> The use of these fonts are not the
               same in a western context, they are more used or they used to be
               more used for more conventional stuff. Waroeng have embraced new
               meanings and new purposes for the font, they are now used more
@@ -76,8 +76,9 @@ export default function Home() {
               identity of Warung in Indonesia should be celebrated and embraced
               rather than seen as cheap. The practicality and the commonalities
               have emerged to give it its own charm.
+                </mark>
             </p>
-            <img src="https://cdn.glitch.global/53ce0b84-77c9-492a-9b7d-5ff4dec3955e/pecel-lele-warung.jpg?v=1713431011588" alt="Warung stand in lamongan"></img>
+            
           </div>
         </div>
         <div className="paragraph2">
