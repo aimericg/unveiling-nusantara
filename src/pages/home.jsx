@@ -42,7 +42,7 @@ export default function Home() {
       <h1 className="title">{hello}</h1>
       {/* When the user hovers over the image we apply the wiggle style to it */}
       <h1 className="title">
-        --- Decolonial Design <br></br>----- Manifesto Indonesia
+        >>> Decolonial Design <br></br>> >>>> Manifesto Indonesia
       </h1>
       <div className="grid-container">
         <div className="paragraph1">
@@ -86,6 +86,10 @@ export default function Home() {
                 Indonesia should be celebrated and embraced rather than seen as
                 cheap. The practicality and the commonalities have emerged to
                 give it its own charm.
+                <br></br>
+                <br></br>
+                Should we accept the design canon or should start over from
+                scratch and remove it? Its time for the canon to incorporate these different voices in design.
               </mark>
             </p>
           </div>
@@ -185,7 +189,11 @@ export default function Home() {
         <div className="paragraph6">
           <div className="scroll-container">
             <h2>Banishing Design Principles</h2>
-            <p>Should there really be design principles for defining what is good or bad design? On a global level, generalising criterias for design can not be simply put.</p>
+            <p>
+              Should there really be design principles for defining what is good
+              or bad design? On a global level, generalising criterias for
+              design can not be simply put.
+            </p>
           </div>
         </div>
       </div>
