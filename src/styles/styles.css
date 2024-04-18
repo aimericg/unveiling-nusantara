@@ -255,6 +255,11 @@ h2 {
   font-family: HK Grotesk;
 }
 
+.paragraph3 mark {
+  font-family: HK Grotesk;
+  background-color: rgba(0,0,255,0.3);
+}
+
 .paragraph4 p {
   font-family: "Comissioner";
   font-weight:400;

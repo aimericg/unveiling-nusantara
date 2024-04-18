@@ -140,11 +140,13 @@ export default function Home() {
           <div className="scroll-container">
             <h2>Positions of Neutrality</h2>
             <p>
-              Is it really efficient to create neutrality? Can you really be
-              neutral? Perhaps you could in a more local Western environment but
-              the emphasis on trying to show neutrality already creates a
-              standpoint. Is there only one neutrality? Is neutral the same in
-              every language? under different cultures and experiences?
+              <mark>
+                Is it really efficient to create neutrality? Can you really be
+                neutral? Perhaps you could in a more local Western environment
+                but the emphasis on trying to show neutrality already creates a
+                standpoint. Is there only one neutrality? Is neutral the same in
+                every language? under different cultures and experiences?
+              </mark>
             </p>
           </div>
         </div>
