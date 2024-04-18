@@ -132,7 +132,7 @@ export default function Home() {
         <div className="paragraph4">
           <div className="scroll-container">
             <h2>Latinisation</h2>
-            <p>Content of paragraph 3 goes here.</p>
+            <p>Are the aspects of weights, italics onl</p>
           </div>
         </div>
         <div className="paragraph5">

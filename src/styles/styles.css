@@ -85,7 +85,7 @@ body {
   
   min-width: 2330px;
   position: relative;
-  top:-1.5rem;
+  top:-1rem;
   
 }
 
@@ -209,7 +209,7 @@ h2 {
  
   top: -18.5rem;
   padding-bottom: -7rem;
-  margin-bottom: -7rem;
+  margin-bottom: -6rem;
 }
 
 /* Additional styling for paragraph headings */
@@ -248,7 +248,6 @@ h2 {
 .paragraph2 mark {
   background-color: rgba(255,0,0,0.3);
   color: white;
-  mix-blend-mode: hard-light;
   
 }
 
