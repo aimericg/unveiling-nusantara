@@ -154,12 +154,14 @@ export default function Home() {
           <div className="scroll-container">
             <h2>Latinisation</h2>
             <p>
-              Are the aspects of weights, italics, contrast only applicable to
-              Latin script? Design education is centered around Latin script,
-              notions of weights, italics, contrast have been used for the
-              developments of typefaces and is creating the designer's liberty
-              to create emphasis on certain aspects. Though in other languages,
-              emphasis can be done through different forms.
+              <mark>
+                Are the aspects of weights, italics, contrast only applicable to
+                Latin script? Design education is centered around Latin script,
+                notions of weights, italics, contrast have been used for the
+                developments of typefaces and is creating the designer's liberty
+                to create emphasis on certain aspects. Though in other
+                languages, emphasis can be done through different forms.
+              </mark>
             </p>
           </div>
         </div>
@@ -209,7 +211,9 @@ export default function Home() {
             <p>
               Should there really be design principles for defining what is good
               or bad design? On a global level, generalising criterias for
-              design can not be simply put.
+              design can not be simply put. Design principles cannot and
+              shouldnt be adapted globally, this has consequences the local
+              cultural identity and its associated language.
             </p>
           </div>
         </div>
