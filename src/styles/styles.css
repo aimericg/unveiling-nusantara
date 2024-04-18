@@ -108,7 +108,7 @@ body {
 /* Page titles */
 h1 {
   margin: -0.5rem -0.5rem;
-  outline: 6px dotted orange;
+  /* outline: 6px dotted orange;*/
   color: orange;
   font-family: DOTCIRFUL;
   font-style: normal;

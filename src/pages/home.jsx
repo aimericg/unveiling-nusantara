@@ -138,6 +138,11 @@ export default function Home() {
               colonial ruling, this is what happened for the Javanese script,
               which is a sister script of Aksara Bali, yet this one was changed
               to be adapted to movable type and to be printed with letterpress.
+              Are we then not noticing these changes under a different colonial
+              era? Should typefaces be developped the same as they were for
+              Latin scripts but for other scripts? Because that process already
+              works for the Latin script, it shouldnt not work for foreign
+              scripts? See "Latinisation" for more on this subject.
             </p>
           </div>
         </div>
@@ -173,6 +178,10 @@ export default function Home() {
             <br></br>
             <a href="https://docs.google.com/document/d/1Hbymt6a3zz044xF_LCqGfTmXJip3cetj5sHlxZEjtJ4/edit">
               The Decolonial Reader
+            </a>
+            <br></br>
+            <a href="https://www.donner.nl/politics-of-design/ruben-pater/9789063694227">
+              The Politics of Design
             </a>
           </p>
         </div>
