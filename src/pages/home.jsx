@@ -96,6 +96,16 @@ export default function Home() {
               iterating with the help of volunteer work. The Unicode should not
               be seen as this flawless and perfect model. It is a method of
               standardisation in itself.
+              <br></br>
+              <br></br>
+              The use of typography is now heavily reliant on its digital form
+              as a software, one that is nurtured for a specific expected use
+              and that is mainly centered around the english language and
+              languages that use the Latin alphabet as it is undoubtably the
+              environment in which it was developped the most. The unicode
+              consortium in that sense is made initially for the Latin script,
+              now has been adapted to expand to various foreign scripts but a
+              large latin bias is still quite present.
             </p>
           </div>
         </div>
@@ -114,7 +124,12 @@ export default function Home() {
         <div className="paragraph5">
           <div className="scroll-container">
             <h2>Public Presence</h2>
-            <p>Content of paragraph 3 goes here.</p>
+            <p>
+              Public signage is overly dominated with typefaces like the
+              American's Highway Gothic present in an immense number of
+              countries around the world. Doesn't that pose domincance over
+              communication?
+            </p>
           </div>
         </div>
         <div className="paragraph6">
