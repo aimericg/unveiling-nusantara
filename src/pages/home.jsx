@@ -77,6 +77,7 @@ export default function Home() {
               rather than seen as cheap. The practicality and the commonalities
               have emerged to give it its own charm.
             </p>
+            <img src="https://cdn.glitch.global/53ce0b84-77c9-492a-9b7d-5ff4dec3955e/pecel-lele-warung.jpg?v=1713431011588" alt="Warung stand in lamongan"></img>
           </div>
         </div>
         <div className="paragraph2">
