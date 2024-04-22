@@ -8,7 +8,7 @@ to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 /* Our default values set as CSS variables */
 :root {
-  --color-bg: #FFFFA0;
+  --color-bg: yellow;
   --color-text-main: #000000;
   --color-primary: #AFECE0;
   --wrapper-height: 100vh;
@@ -238,6 +238,12 @@ h2 {
   position: relative;
   left:+1rem;
   
+}
+
+.paragraph1 a {
+  color: red;
+  -webkit-text-stroke: 1px magenta; /* For webkit browsers like Chrome and Safari */
+  text-stroke: 1px pink; /* Standard property */
 }
 
 

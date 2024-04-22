@@ -63,11 +63,12 @@ export default function Home() {
                 own charm. Waroeng in Indonesia have started to be embodied by
                 “cheap” fonts, such as impact, strechted type, cooper black and
                 more.
+                <br></br>
                 <img
                   src="https://cdn.glitch.global/53ce0b84-77c9-492a-9b7d-5ff4dec3955e/pecel-lele-warung.jpg?v=1713431011588"
                   alt="Warung stand in lamongan"
                 ></img>{" "}
-                <br></br> The use of these fonts are not the same in a western
+                <br></br> <a>CAN TYPEFACES BE READAPTED IN A FOREIGN ENVIRONMENT? ARE TYPEFACES TO CHANGE FUNCTION IN A FOREIGN ENVIRONMENT?</a> The use of these fonts are not the same in a western
                 context, they are more used or they used to be more used for
                 more conventional stuff. Waroeng have embraced new meanings and
                 new purposes for the font, they are now used more
