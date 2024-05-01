@@ -68,20 +68,25 @@ export default function Home() {
                   src="https://cdn.glitch.global/53ce0b84-77c9-492a-9b7d-5ff4dec3955e/pecel-lele-warung.jpg?v=1713431011588"
                   alt="Warung stand in lamongan"
                 ></img>{" "}
-                <br></br> <a>CAN TYPEFACES BE READAPTED IN A FOREIGN ENVIRONMENT? ARE TYPEFACES TO CHANGE FUNCTION IN A FOREIGN ENVIRONMENT?</a> The use of these fonts are not the same in a western
+                <br></br>{" "}
+                <a>
+                  CAN TYPEFACES BE READAPTED IN A FOREIGN ENVIRONMENT? ARE
+                  TYPEFACES TO CHANGE FUNCTION IN A FOREIGN ENVIRONMENT?
+                </a>{" "}
+                The use of these fonts are not the same in a western context,
+                they are more used or they used to be more used for more
+                conventional stuff. Waroeng have embraced new meanings and new
+                purposes for the font, they are now used more unconventionally,
+                in bold store fronts fulll of color and often strechted to the
+                max. The graphic identity of Warung in Indonesia should be
+                celebrated and embraced rather than seen as cheap. The
+                practicality and the commonalities have emerged to give it its
+                own charm. Waroeng in Indonesia have started to be embodied by
+                “cheap” fonts, such as impact, strechted type, cooper black and
+                more. The use of these fonts are not the same in a western
                 context, they are more used or they used to be more used for
                 more conventional stuff. Waroeng have embraced new meanings and
                 new purposes for the font, they are now used more
-                unconventionally, in bold store fronts fulll of color and often
-                strechted to the max. The graphic identity of Warung in
-                Indonesia should be celebrated and embraced rather than seen as
-                cheap. The practicality and the commonalities have emerged to
-                give it its own charm. Waroeng in Indonesia have started to be
-                embodied by “cheap” fonts, such as impact, strechted type,
-                cooper black and more. The use of these fonts are not the same
-                in a western context, they are more used or they used to be more
-                used for more conventional stuff. Waroeng have embraced new
-                meanings and new purposes for the font, they are now used more
                 unconventionally, in bold store fronts fulll of color and often
                 strechted to the max. The graphic identity of Warung in
                 Indonesia should be celebrated and embraced rather than seen as
@@ -146,7 +151,40 @@ export default function Home() {
                 neutral? Perhaps you could in a more local Western environment
                 but the emphasis on trying to show neutrality already creates a
                 standpoint. Is there only one neutrality? Is neutral the same in
-                every language? under different cultures and experiences?
+                every language? under different cultures and experiences? Title:
+                Exploring Neutrality in Latin Script and Typography Is it truly
+                possible to achieve neutrality? This question becomes
+                particularly poignant when we consider the Latin script and
+                typography. 
+                <br></br>
+                <br></br>
+                In our quest for neutrality, do we inadvertently
+                create biases? Can there be a universal standard for neutrality,
+                or does it vary across languages, cultures, and experiences? In
+                many Western contexts, there's a prevailing notion that
+                neutrality can be attained through certain typographic choices
+                and the use of Latin script. However, this assumption warrants
+                scrutiny. The very act of striving for neutrality already
+                implies a standpoint, one that may not necessarily align with
+                the diverse perspectives and cultural nuances present globally.
+                Moreover, neutrality itself is not a monolithic concept. What
+                may seem neutral in one cultural context could carry different
+                connotations or implications in another. The fonts, styles, and
+                even the spacing of letters can evoke different emotions and
+                associations, shaped by the unique histories and experiences of
+                different communities. Furthermore, the idea of neutrality in
+                language and typography raises questions about power dynamics.
+                Whose perspective is being privileged in the pursuit of
+                neutrality? Whose voices are being marginalized or excluded?
+                These considerations underscore the complexity of the concept
+                and challenge us to reevaluate our assumptions about what
+                constitutes neutrality. Ultimately, the quest for neutrality in
+                Latin script and typography invites us to engage in a deeper
+                exploration of language, culture, and representation. Rather
+                than aiming for a one-size-fits-all solution, we must embrace
+                diversity and multiplicity, recognizing that true neutrality may
+                lie not in uniformity, but in embracing and celebrating
+                difference.
               </mark>
             </p>
           </div>
@@ -208,7 +246,7 @@ export default function Home() {
         </div>
         <div className="paragraph6">
           <div className="scroll-container">
-            <h2>Banishing Design Principles</h2>
+            <h2>BANISHING DESIGN PRINCIPLES</h2>
             <p>
               Should there really be design principles for defining what is good
               or bad design? On a global level, generalising criterias for
@@ -222,7 +260,7 @@ export default function Home() {
 
       <div className="grid-container2">
         <div className="about-project">
-          <h2>About this Project</h2>
+          <h2>PURPOSE OF THIS TEXT</h2>
           <p>
             This is a project started by Aimeric Permata Guerre, for his
             graduation from Willem de Kooning Academy (Rotterdam, NL). <br></br>
@@ -237,7 +275,7 @@ export default function Home() {
           </p>
         </div>
         <div className="about-ressources">
-          <h2>Ressources</h2>
+          <h2>ADDITIONAL RESSOURCES</h2>
           <p>
             Ressources below shares this knowledge helped determine the attitude
             and power of my project.<br></br>
