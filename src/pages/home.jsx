@@ -47,7 +47,7 @@ export default function Home() {
       <div className="grid-container">
         <div className="paragraph1">
           <div className="scroll-container">
-            <h2>Warung Banner Identity</h2>
+            <h2>WARUNG BANNERS AND SHOUTING</h2>
             <p>
               <mark>
                 Waroeng in Indonesia have started to be embodied by “cheap”
@@ -111,7 +111,7 @@ export default function Home() {
         </div>
         <div className="paragraph2">
           <div className="scroll-container">
-            <h2>Typeface as a Program</h2>
+            <h2>TYPOGRAPHY AS A PROGRAM</h2>
             <p>
               {" "}
               <mark>
@@ -144,7 +144,7 @@ export default function Home() {
         </div>
         <div className="paragraph3">
           <div className="scroll-container">
-            <h2>Positions of Neutrality</h2>
+            <h2>POSITIONS OF NEUTRALITY</h2>
             <p>
               <mark>
                 Is it really efficient to create neutrality? Can you really be
@@ -155,20 +155,20 @@ export default function Home() {
                 Exploring Neutrality in Latin Script and Typography Is it truly
                 possible to achieve neutrality? This question becomes
                 particularly poignant when we consider the Latin script and
-                typography. 
+                typography.
                 <br></br>
                 <br></br>
-                In our quest for neutrality, do we inadvertently
-                create biases? Can there be a universal standard for neutrality,
-                or does it vary across languages, cultures, and experiences? In
-                many Western contexts, there's a prevailing notion that
-                neutrality can be attained through certain typographic choices
-                and the use of Latin script. However, this assumption warrants
-                scrutiny. The very act of striving for neutrality already
-                implies a standpoint, one that may not necessarily align with
-                the diverse perspectives and cultural nuances present globally.
-                Moreover, neutrality itself is not a monolithic concept. What
-                may seem neutral in one cultural context could carry different
+                In our quest for neutrality, do we inadvertently create biases?
+                Can there be a universal standard for neutrality, or does it
+                vary across languages, cultures, and experiences? In many
+                Western contexts, there's a prevailing notion that neutrality
+                can be attained through certain typographic choices and the use
+                of Latin script. However, this assumption warrants scrutiny. The
+                very act of striving for neutrality already implies a
+                standpoint, one that may not necessarily align with the diverse
+                perspectives and cultural nuances present globally. Moreover,
+                neutrality itself is not a monolithic concept. What may seem
+                neutral in one cultural context could carry different
                 connotations or implications in another. The fonts, styles, and
                 even the spacing of letters can evoke different emotions and
                 associations, shaped by the unique histories and experiences of
@@ -191,7 +191,7 @@ export default function Home() {
         </div>
         <div className="paragraph4">
           <div className="scroll-container">
-            <h2>Latinisation</h2>
+            <h2>LATINISATION AND LATIN BIAS</h2>
             <p>
               <mark>
                 Are the aspects of weights, italics, contrast only applicable to
@@ -206,18 +206,50 @@ export default function Home() {
         </div>
         <div className="paragraph5">
           <div className="scroll-container">
-            <h2>Public Presence</h2>
+            <h2>PUBLIC PRESENCE</h2>
             <p>
               Public signage is overly dominated with typefaces like the
               American's Highway Gothic present in an immense number of
               countries around the world. Doesn't that pose domincance over
-              communication?
+              communication? The ubiquity of typefaces like America's Highway
+              Gothic in public signage across numerous countries raises
+              important questions about dominance in communication. Does the
+              widespread adoption of such fonts inadvertently impose a singular
+              cultural perspective on diverse communities?<br></br>
+              <br></br>
+              Public signage serves as a crucial tool for communication, guiding
+              and informing people in various environments. However, the
+              prevalence of certain typefaces, particularly those like Highway
+              Gothic, suggests a hegemony in visual language that may overshadow
+              alternative voices and perspectives.<br></br>
+              <br></br>
+              By standardizing typography across different regions and cultures,
+              there is a risk of homogenizing communication and neglecting the
+              rich diversity of local languages and visual traditions. What
+              message does it send when the same font is used to convey
+              information in vastly different cultural contexts?<br></br>
+              <br></br>
+              Moreover, the dominance of specific typefaces raises concerns
+              about power dynamics and representation. Whose cultural and
+              aesthetic preferences are being prioritized in the selection of
+              these fonts? Are marginalized voices being silenced or
+              overshadowed by the imposition of a dominant visual language?
+              <br></br>
+              <br></br>
+              As we reflect on the impact of public signage typography, it
+              becomes clear that the quest for universality in communication
+              must not come at the expense of cultural diversity and
+              representation. Embracing a multiplicity of typefaces and visual
+              styles allows for greater inclusivity and recognition of the
+              varied experiences and perspectives that shape our global
+              landscape.<br></br>
+              <br></br>
             </p>
           </div>
         </div>
         <div className="paragraph6">
           <div className="scroll-container">
-            <h2>Process of Modernisation</h2>
+            <h2>MODERNISATION</h2>
             <p>
               The steps of making a modern typeface in a digital sphere mainly
               tends to the loss of its materiality. Over a series of

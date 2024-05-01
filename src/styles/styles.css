@@ -224,11 +224,13 @@ h2 {
 
 .paragraph1 p {
   font-family: AndersonGrotesk;
+  color: grey;
   
 }
 
 .paragraph1 mark {
   background-color: rgba(255,255,0,0.3); 
+  color: magenta;
   
 }
 
@@ -275,7 +277,7 @@ h2 {
 .about-project {
   
   margin: 1rem 1rem 1rem 0;
-  color: grey;
+  color: blue;
   width: calc(50vw - 2rem);
   position: fixed;
   top: 27rem;
@@ -287,7 +289,7 @@ h2 {
   
 }
 .about-project h2 {
-  color: grey;
+  color: blue;
 }
 
 .about-ressources {
