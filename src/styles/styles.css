@@ -229,7 +229,7 @@ h2 {
 }
 
 .paragraph1 mark {
-  background-color: rgba(255,255,0,0.3); 
+  background-color: rgba(255,255,255,0.7); 
   color: magenta;
   
 }

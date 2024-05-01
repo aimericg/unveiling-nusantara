@@ -47,7 +47,9 @@ export default function Home() {
       <div className="grid-container">
         <div className="paragraph1">
           <div className="scroll-container">
-            <h2>WARUNG BANNERS AND SHOUTING</h2>
+            
+              <h2><mark>VERNACULAR SHOUTING</mark></h2>
+            
             <p>
               <mark>
                 Waroeng in Indonesia have started to be embodied by “cheap”
@@ -71,7 +73,7 @@ export default function Home() {
                 <br></br>{" "}
                 <a>
                   CAN TYPEFACES BE READAPTED IN A FOREIGN ENVIRONMENT? ARE
-                  TYPEFACES TO CHANGE FUNCTION IN A FOREIGN ENVIRONMENT?
+                  TYPEFACES TO CHANGE FUNCTION IN A FOREIGN ENVIRONMENT? CAN TYPEFACES CHANGE POSITIONALITY WHEN BEING USED VERNACULARLY?
                 </a>{" "}
                 The use of these fonts are not the same in a western context,
                 they are more used or they used to be more used for more
