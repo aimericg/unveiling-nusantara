@@ -39,11 +39,7 @@ export default function Home() {
   };
   return (
     <>
-      <h1 className="title">{hello}</h1>
-      {/* When the user hovers over the image we apply the wiggle style to it */}
-      <h1 className="title">
-        >>> Decolonial Design <br></br>CAN TYPEFACES CHANGE POSITIONALITY WHEN BEING USED VERNACULARLY?
-      </h1>
+      
       <div className="grid-container">
         <div className="paragraph1">
           <div className="scroll-container">
@@ -313,7 +309,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+      
       <div className="about-section">
         <div className="about-project">
           <h2>
@@ -355,6 +351,11 @@ export default function Home() {
           </p>
         </div>
       </div>
+      <h1 className="title">{hello}</h1>
+      {/* When the user hovers over the image we apply the wiggle style to it */}
+      <h1 className="title">
+        >>> Decolonial Design <br></br>CAN TYPEFACES CHANGE POSITIONALITY WHEN BEING USED VERNACULARLY?
+      </h1>
     </>
   );
 }
