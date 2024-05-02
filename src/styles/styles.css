@@ -67,6 +67,13 @@ to this section's matching END comment to see page-specific styles.
     format("truetype");
 }
 
+@font-face {
+  font-family: Highway;
+  src: url("https://cdn.glitch.global/53ce0b84-77c9-492a-9b7d-5ff4dec3955e/HWYGNRRW.TTF?v=1714610526506")
+    format("truetype");
+}
+
+
 
 .divider {
   padding: 0 1rem;
@@ -284,8 +291,13 @@ h2 {
   width: calc(50vw - 2rem);
   position: fixed;
   top: 27rem;
-
+  background: linear-gradient(to top, rgba(204, 255, 0,1), yellow);
+  padding-top:none;
   
+.paragraph5 p {
+  font-family: "Highway";
+  
+}
   
 }
 .about-project p {
