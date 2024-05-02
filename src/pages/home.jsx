@@ -40,6 +40,7 @@ export default function Home() {
 
   // Attach the handleChangeHello function to the click event on the document body
   React.useEffect(() => {
+    handleChangeHello(); // Call handleChangeHello when the component mounts
     document.body.addEventListener("click", handleChangeHello);
 
     // Cleanup function to remove the event listener when the component unmounts
