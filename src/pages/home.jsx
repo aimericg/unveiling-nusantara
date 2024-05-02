@@ -214,8 +214,8 @@ export default function Home() {
         </div>
         <div className="paragraph5">
           <div className="scroll-container">
-            <h2>PUBLIC PRESENCE</h2>
-            <p>
+            <h2><mark>PUBLIC PRESENCE</mark></h2>
+            <p><mark>
               Public signage is overly dominated with typefaces like the
               American's Highway Gothic present in an immense number of
               countries around the world. Doesn't that pose domincance over
@@ -252,6 +252,7 @@ export default function Home() {
               varied experiences and perspectives that shape our global
               landscape.<br></br>
               <br></br>
+              </mark>
             </p>
           </div>
         </div>

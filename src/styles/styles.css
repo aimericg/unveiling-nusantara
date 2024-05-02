@@ -69,6 +69,7 @@ to this section's matching END comment to see page-specific styles.
 
 @font-face {
   font-family: Highway;
+  font-weight: regular;
   src: url("https://cdn.glitch.global/53ce0b84-77c9-492a-9b7d-5ff4dec3955e/HWYGNRRW.TTF?v=1714610526506")
     format("truetype");
 }
@@ -293,12 +294,17 @@ h2 {
   top: 27rem;
   background: linear-gradient(to top, rgba(204, 255, 0,1), yellow);
   padding-top:none;
+}
   
 .paragraph5 p {
   font-family: "Highway";
   
 }
-  
+
+.paragraph5 mark {
+  background-color: rgba(0,0,255,0.3);
+  box-shadow: inset 0 5px 5px rgba(0,255,0,0.5);
+  color: white;
 }
 .about-project p {
   
