@@ -199,7 +199,9 @@ export default function Home() {
         </div>
         <div className="paragraph4">
           <div className="scroll-container">
-            <h2>LATINISATION AND LATIN BIAS</h2>
+            <h2>
+              <mark>LATINISATION AND LATIN BIAS</mark>
+            </h2>
             <p>
               <mark>
                 Are the aspects of weights, italics, contrast only applicable to
@@ -214,51 +216,57 @@ export default function Home() {
         </div>
         <div className="paragraph5">
           <div className="scroll-container">
-            <h2><mark>PUBLIC PRESENCE</mark></h2>
-            <p><mark>
-              Public signage is overly dominated with typefaces like the
-              American's Highway Gothic present in an immense number of
-              countries around the world. Doesn't that pose domincance over
-              communication? The ubiquity of typefaces like America's Highway
-              Gothic in public signage across numerous countries raises
-              important questions about dominance in communication. Does the
-              widespread adoption of such fonts inadvertently impose a singular
-              cultural perspective on diverse communities?<br></br>
-              <br></br>
-              Public signage serves as a crucial tool for communication, guiding
-              and informing people in various environments. However, the
-              prevalence of certain typefaces, particularly those like Highway
-              Gothic, suggests a hegemony in visual language that may overshadow
-              alternative voices and perspectives.<br></br>
-              <br></br>
-              By standardizing typography across different regions and cultures,
-              there is a risk of homogenizing communication and neglecting the
-              rich diversity of local languages and visual traditions. What
-              message does it send when the same font is used to convey
-              information in vastly different cultural contexts?<br></br>
-              <br></br>
-              Moreover, the dominance of specific typefaces raises concerns
-              about power dynamics and representation. Whose cultural and
-              aesthetic preferences are being prioritized in the selection of
-              these fonts? Are marginalized voices being silenced or
-              overshadowed by the imposition of a dominant visual language?
-              <br></br>
-              <br></br>
-              As we reflect on the impact of public signage typography, it
-              becomes clear that the quest for universality in communication
-              must not come at the expense of cultural diversity and
-              representation. Embracing a multiplicity of typefaces and visual
-              styles allows for greater inclusivity and recognition of the
-              varied experiences and perspectives that shape our global
-              landscape.<br></br>
-              <br></br>
+            <h2>
+              <mark>PUBLIC PRESENCE</mark>
+            </h2>
+            <p>
+              <mark>
+                Public signage is overly dominated with typefaces like the
+                American's Highway Gothic present in an immense number of
+                countries around the world. Doesn't that pose domincance over
+                communication? The ubiquity of typefaces like America's Highway
+                Gothic in public signage across numerous countries raises
+                important questions about dominance in communication. Does the
+                widespread adoption of such fonts inadvertently impose a
+                singular cultural perspective on diverse communities?<br></br>
+                <br></br>
+                Public signage serves as a crucial tool for communication,
+                guiding and informing people in various environments. However,
+                the prevalence of certain typefaces, particularly those like
+                Highway Gothic, suggests a hegemony in visual language that may
+                overshadow alternative voices and perspectives.<br></br>
+                <br></br>
+                By standardizing typography across different regions and
+                cultures, there is a risk of homogenizing communication and
+                neglecting the rich diversity of local languages and visual
+                traditions. What message does it send when the same font is used
+                to convey information in vastly different cultural contexts?
+                <br></br>
+                <br></br>
+                Moreover, the dominance of specific typefaces raises concerns
+                about power dynamics and representation. Whose cultural and
+                aesthetic preferences are being prioritized in the selection of
+                these fonts? Are marginalized voices being silenced or
+                overshadowed by the imposition of a dominant visual language?
+                <br></br>
+                <br></br>
+                As we reflect on the impact of public signage typography, it
+                becomes clear that the quest for universality in communication
+                must not come at the expense of cultural diversity and
+                representation. Embracing a multiplicity of typefaces and visual
+                styles allows for greater inclusivity and recognition of the
+                varied experiences and perspectives that shape our global
+                landscape.<br></br>
+                <br></br>
               </mark>
             </p>
           </div>
         </div>
         <div className="paragraph6">
           <div className="scroll-container">
-            <h2>MODERNISATION</h2>
+            <h2>
+              <mark>MODERNISATION</mark>
+            </h2>
             <p>
               The steps of making a modern typeface in a digital sphere mainly
               tends to the loss of its materiality. Over a series of
@@ -287,13 +295,17 @@ export default function Home() {
         </div>
         <div className="paragraph6">
           <div className="scroll-container">
-            <h2>BANISHING DESIGN PRINCIPLES</h2>
+            <h2>
+              <mark>BANISHING DESIGN PRINCIPLES</mark>
+            </h2>
             <p>
-              Should there really be design principles for defining what is good
-              or bad design? On a global level, generalising criterias for
-              design can not be simply put. Design principles cannot and
-              shouldnt be adapted globally, this has consequences the local
-              cultural identity and its associated language.
+              <mark>
+                Should there really be design principles for defining what is
+                good or bad design? On a global level, generalising criterias
+                for design can not be simply put. Design principles cannot and
+                shouldnt be adapted globally, this has consequences the local
+                cultural identity and its associated language.
+              </mark>
             </p>
           </div>
         </div>
@@ -301,18 +313,23 @@ export default function Home() {
 
       <div className="grid-container2">
         <div className="about-project">
-          <h2>PURPOSE OF THIS TEXT</h2>
+          <h2>
+            <mark>PURPOSE OF THIS TEXT</mark>
+          </h2>
           <p>
-            This is a project started by Aimeric Permata Guerre, for his
-            graduation from Willem de Kooning Academy (Rotterdam, NL). <br></br>
-            <br></br>
-            The main purpose was a rediscovery of his Indonesian roots through
-            the study of local languages and the developement of the Graphic
-            Design in the region of South East Asia. As well as growing a
-            critical perspective on his past education which tended to be a bit
-            more Eurocentric/Western centric. This project very much welcomes
-            criticism and outside opinions. You are invited to contribute via
-            the following form.
+            <mark>
+              This is a project started by Aimeric Permata Guerre, for his
+              graduation from Willem de Kooning Academy (Rotterdam, NL).{" "}
+              <br></br>
+              <br></br>
+              The main purpose was a rediscovery of his Indonesian roots through
+              the study of local languages and the developement of the Graphic
+              Design in the region of South East Asia. As well as growing a
+              critical perspective on his past education which tended to be a
+              bit more Eurocentric/Western centric. This project very much
+              welcomes criticism and outside opinions. You are invited to
+              contribute via the following form.
+            </mark>
           </p>
         </div>
         <div className="about-ressources">
