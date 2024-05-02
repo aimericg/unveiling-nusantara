@@ -70,7 +70,7 @@ to this section's matching END comment to see page-specific styles.
 @font-face {
   font-family: Highway;
   font-weight: regular;
-  src: url("https://cdn.glitch.global/53ce0b84-77c9-492a-9b7d-5ff4dec3955e/HWYGNRRW.TTF?v=1714610526506")
+  src: url("https://cdn.glitch.global/53ce0b84-77c9-492a-9b7d-5ff4dec3955e/HWYGWDE.TTF?v=1714637991747")
     format("truetype");
 }
 
@@ -221,13 +221,14 @@ h2 {
 }
 
 /* Additional styling for paragraph headings */
-.paragraph1 h2,
-.paragraph2 h2,
-.paragraph3 h2,
-.paragraph4 h2,
-.paragraph5 h2,
-.paragraph6 h2 {
-  color: black;
+.paragraph1 mark,
+.paragraph2 mark,
+.paragraph3 mark,
+.paragraph4 mark,
+.paragraph5 mark,
+.paragraph6 mark {
+  color: white;
+  background-color: rgba(0,0,255,0.3);
 }
 
 .paragraph1 p {
