@@ -229,6 +229,7 @@ h2 {
 .paragraph6 mark {
   color: white;
   background-color: rgba(0,0,255,0.3);
+  box-shadow: inset 0 5px 5px rgba(255,255,0,0.5);
 }
 
 .paragraph1 p {
@@ -276,7 +277,7 @@ h2 {
 
 .paragraph3 mark {
   background-color: rgba(0,0,255,0.3);
-  box-shadow: inset 0 5px 5px rgba(150,150,150,0.5);
+  box-shadow: inset 0 5px 5px rgba(255,255,0,0.5);
   color: white;
 }
 
