@@ -8,7 +8,7 @@ to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 /* Our default values set as CSS variables */
 :root {
-  --color-bg: rgb(204,240,0);
+  --color-bg: yellow;
   --color-text-main: #000000;
   --color-primary: #AFECE0;
   --wrapper-height: 100vh;
@@ -256,8 +256,8 @@ h2 {
 }
 .paragraph2 mark {
   background-color: rgba(0,0,255,0.3);
-  color: black;
-  box-shadow: inset 0 0 10px rgba(255,0,255,0.5);
+  color: white;
+  box-shadow: inset 0 5px 5px rgba(180,150,0,0.5);
   
 }
 
