@@ -42,7 +42,7 @@ export default function Home() {
       <h1 className="title">{hello}</h1>
       {/* When the user hovers over the image we apply the wiggle style to it */}
       <h1 className="title">
-        >>> Decolonial Design <br></br>> >>>> Manifesto Indonesia
+        >>> Decolonial Design <br></br>CAN TYPEFACES CHANGE POSITIONALITY WHEN BEING USED VERNACULARLY?
       </h1>
       <div className="grid-container">
         <div className="paragraph1">
