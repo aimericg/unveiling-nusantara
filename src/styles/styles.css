@@ -190,10 +190,12 @@ h2 {
 
   display: grid;
   position:fixed;
-  grid-template-columns: calc(50vw - 1.2rem) calc(50vw - 1.2rem);
-  gap: 1.2rem;
+  grid-template-columns: calc(50vw - 1rem) calc(50vw - 1rem);
+  gap: 1rem;
   border-radius:0;
-  padding-left:
+  padding-left: 3rem;
+  margin: 2rem, 2rem, 2rem, -2rem;
+  left: -1rem;
   padding-right: 20px;
   background: linear-gradient(to top, rgba(255, 165, 0, 1), rgba(255, 255, 0, 0));
   top: 27rem;

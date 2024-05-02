@@ -268,28 +268,31 @@ export default function Home() {
               <mark>MODERNISATION</mark>
             </h2>
             <p>
-              The steps of making a modern typeface in a digital sphere mainly
-              tends to the loss of its materiality. Over a series of
-              modifications, imperfections lead to the medium the letters were
-              initially engraved on or brushed into are less and less present.
-              For the main objective of creating efficiency, yet sometimes
-              burning a big part of the initial character. Should the process of
-              digitalization be added to different scripts? As they all derive
-              from different forms of materiality, the Balinese script Aksara
-              Bali for example is heavily linked to its role in religious
-              manuscripts, sacred in the forms of "lontars" made out of palm
-              leaf strips and inked with burnt candlenut. If the main use of the
-              script today is in a palm leaf manuscript, shouldn't the script
-              still involve these imperfections as a vital part of its identity.
-              What would happen if that materiality is not respected? Under
-              colonial ruling, this is what happened for the Javanese script,
-              which is a sister script of Aksara Bali, yet this one was changed
-              to be adapted to movable type and to be printed with letterpress.
-              Are we then not noticing these changes under a different colonial
-              era? Should typefaces be developped the same as they were for
-              Latin scripts but for other scripts? Because that process already
-              works for the Latin script, it shouldnt not work for foreign
-              scripts? See "Latinisation" for more on this subject.
+              <mark>
+                The steps of making a modern typeface in a digital sphere mainly
+                tends to the loss of its materiality. Over a series of
+                modifications, imperfections lead to the medium the letters were
+                initially engraved on or brushed into are less and less present.
+                For the main objective of creating efficiency, yet sometimes
+                burning a big part of the initial character. Should the process
+                of digitalization be added to different scripts? As they all
+                derive from different forms of materiality, the Balinese script
+                Aksara Bali for example is heavily linked to its role in
+                religious manuscripts, sacred in the forms of "lontars" made out
+                of palm leaf strips and inked with burnt candlenut. If the main
+                use of the script today is in a palm leaf manuscript, shouldn't
+                the script still involve these imperfections as a vital part of
+                its identity. What would happen if that materiality is not
+                respected? Under colonial ruling, this is what happened for the
+                Javanese script, which is a sister script of Aksara Bali, yet
+                this one was changed to be adapted to movable type and to be
+                printed with letterpress. Are we then not noticing these changes
+                under a different colonial era? Should typefaces be developped
+                the same as they were for Latin scripts but for other scripts?
+                Because that process already works for the Latin script, it
+                shouldnt not work for foreign scripts? See "Latinisation" for
+                more on this subject.
+              </mark>
             </p>
           </div>
         </div>
@@ -333,18 +336,22 @@ export default function Home() {
           </p>
         </div>
         <div className="about-ressources">
-          <h2>ADDITIONAL RESSOURCES</h2>
+          <h2>
+            <mark>ADDITIONAL RESSOURCES</mark>
+          </h2>
           <p>
-            Ressources below shares this knowledge helped determine the attitude
-            and power of my project.<br></br>
-            <br></br>
-            <a href="https://docs.google.com/document/d/1Hbymt6a3zz044xF_LCqGfTmXJip3cetj5sHlxZEjtJ4/edit">
-              The Decolonial Reader
-            </a>
-            <br></br>
-            <a href="https://www.donner.nl/politics-of-design/ruben-pater/9789063694227">
-              The Politics of Design
-            </a>
+            <mark>
+              Ressources below shares this knowledge helped determine the
+              attitude and power of my project.<br></br>
+              <br></br>
+              <a href="https://docs.google.com/document/d/1Hbymt6a3zz044xF_LCqGfTmXJip3cetj5sHlxZEjtJ4/edit">
+                The Decolonial Reader
+              </a>
+              <br></br>
+              <a href="https://www.donner.nl/politics-of-design/ruben-pater/9789063694227">
+                The Politics of Design
+              </a>
+            </mark>
           </p>
         </div>
       </div>
