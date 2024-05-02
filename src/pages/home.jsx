@@ -4,7 +4,7 @@ import { useWiggle } from "../hooks/wiggle";
 import { Link } from "wouter";
 
 // Our language strings for the header
-const strings = ["Bahasa Dekolonial", "Decolonial Language"];
+const strings = ["Bahasa Dekolonial", "Decolonial Language","CAN TYPEFACES CHANGE POSITIONALITY WHEN BEING USED VERNACULARLY?"];
 
 // Utility function to choose a random value from the language array
 function randomLanguage() {
@@ -29,7 +29,7 @@ export default function Home() {
   */
   const [style, trigger] = useWiggle({ x: 5, y: 5, scale: 1 });
 
-  // When the user clicks we change the header language
+  // Function to handle changing the hello string
   const handleChangeHello = () => {
     // Choose a new Hello from our languages
     const newHello = randomLanguage();
@@ -37,6 +37,17 @@ export default function Home() {
     // Call the function to set the state string in our component
     setHello(newHello);
   };
+
+  // Attach the handleChangeHello function to the click event on the document body
+  React.useEffect(() => {
+    document.body.addEventListener("click", handleChangeHello);
+
+    // Cleanup function to remove the event listener when the component unmounts
+    return () => {
+      document.body.removeEventListener("click", handleChangeHello);
+    };
+  }, []); // Empty dependency array ensures the effect runs only once after the initial render
+
   return (
     <>
       
@@ -351,11 +362,8 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <h1 className="title">{hello}</h1>
       {/* When the user hovers over the image we apply the wiggle style to it */}
-      <h1 className="title">
-        >>> Decolonial Design <br></br>CAN TYPEFACES CHANGE POSITIONALITY WHEN BEING USED VERNACULARLY?
-      </h1>
+      <h1 className="title" onClick={handleChangeHello} style={style}><br></br>{hello}</h1>
     </>
   );
 }

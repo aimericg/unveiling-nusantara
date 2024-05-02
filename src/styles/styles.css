@@ -126,8 +126,8 @@ h1 {
   text-align: left;
   text-shadow: 4px 4px 3px grey;
   max-width: 100vw;
-  position: absolute;
-  top: -0rem;
+  position: relative;
+  top: -28rem;
   z-index:-1;
   overflow:none;
 }
@@ -183,6 +183,7 @@ h2 {
 .grid-container {
 
   display: grid;
+  position: static;
   grid-template-columns: repeat(7, 1fr);
   gap: 0.8rem;
   top: -0rem;
@@ -219,7 +220,6 @@ h2 {
 .paragraph4,
 .paragraph5,
 .paragraph6 {
-  position: relative;
   padding: 0.2rem;
   padding-top: 0;
   border-radius: 0;
