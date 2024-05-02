@@ -210,7 +210,7 @@ h2 {
 }
 
 .grid-container > * {
-  width: calc(33.33vw - 0.8rem); /* Each column takes 33.33vw with gap included */
+  width: calc(33.33vw - 1rem); /* Each column takes 33.33vw with gap included */
 }
 
 
@@ -319,14 +319,19 @@ h2 {
 
 @media screen and (max-width: 600px) {
   .grid-container {
-    grid-template-columns: 1fr; /* Change to one column */
+    grid-template-columns: repeat(7, 1fr);; /* Change to one column */
   }
 
   .about-section {
-    grid-template-columns: 1fr; /* Change to one column */
+    grid-template-columns: repeat(2, 1fr);; /* Change to one column */
+    grid-template-rows: auto auto; /* Set two rows */
   }
 
   .grid-container > * {
-    width: auto; /* Adjust width for single column layout */
+    width: calc(90vw - 1rem); /* Adjust width for single column layout */
+  }
+  
+  .about-section > * {
+    width: calc(90vw - 1rem); /* Adjust width for single column layout */
   }
 }
