@@ -288,13 +288,13 @@ h2 {
 /* About Project*/
 .about-project {
   
-  margin: 1rem 1rem 1rem 0;
+  margin: 1rem 1rem 1rem -2rem;
   color: black;
   width: calc(50vw - 2rem);
   position: fixed;
   top: 27rem;
-  background: linear-gradient(to top, rgba(255, 165, 0, 0.5), rgba(255, 255, 0, 0.5));
-  padding-top:-10rem;
+  background: linear-gradient(to top, rgba(255, 165, 0, 1), rgba(255, 255, 0, 0));
+  padding-left:2rem;
 }
   
 .paragraph5 p {
