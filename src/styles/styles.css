@@ -117,15 +117,17 @@ body {
 h1 {
   margin: -0.5rem -0.5rem;
   /* outline: 6px dotted orange;*/
-  color: rgb(255,165,0);
+  color: transparent; /* Set the text color to transparent */
   font-family: DOTCIRFUL;
   font-style: normal;
   font-weight: bold;
   font-size: 100px;
   line-height: 105%;
   text-align: left;
-  text-shadow: 2px 2px 4px black;
-
+  text-shadow: 4px 4px 4px white;
+  background: linear-gradient(to top, rgb(255, 165, 0), rgb(255, 215, 0)); /* Gradient from orange to yellow */
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; /* Fill the text with the background */
 }
 .page h1 {
   font-size: 48px;
