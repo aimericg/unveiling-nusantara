@@ -150,7 +150,9 @@ export default function Home() {
         </div>
         <div className="paragraph3">
           <div className="scroll-container">
-            <h2>POSITIONS OF NEUTRALITY</h2>
+            <h2>
+              <mark>POSITIONS OF NEUTRALITY</mark>
+            </h2>
             <p>
               <mark>
                 Is it really efficient to create neutrality? Can you really be

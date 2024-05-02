@@ -109,7 +109,7 @@ body {
 h1 {
   margin: -0.5rem -0.5rem;
   /* outline: 6px dotted orange;*/
-  color: black;
+  color: blacké;
   font-family: DOTCIRFUL;
   font-style: normal;
   font-weight: bold;
@@ -266,9 +266,9 @@ h2 {
 }
 
 .paragraph3 mark {
-  font-family: HK Grotesk;
   background-color: rgba(0,0,255,0.3);
-  box-shadow: inset 0 0 10px rgba(255,0,255,0.5);
+  box-shadow: inset 0 5px 5px rgba(150,150,150,0.5);
+  color: white;
 }
 
 .paragraph4 p {
@@ -280,7 +280,7 @@ h2 {
 .about-project {
   
   margin: 1rem 1rem 1rem 0;
-  color: blue;
+  color: black;
   width: calc(50vw - 2rem);
   position: fixed;
   top: 27rem;
@@ -292,7 +292,6 @@ h2 {
   
 }
 .about-project h2 {
-  color: blue;
 }
 
 .about-ressources {
