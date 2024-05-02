@@ -186,14 +186,17 @@ h2 {
   margin-left: -0.4rem;
 }
 
-.grid-container2 {
+.about-section {
 
   display: grid;
+  position:fixed;
   grid-template-columns: calc(50vw - 1.2rem) calc(50vw - 1.2rem);
   gap: 1.2rem;
   border-radius:0;
-  margin-left: -0.4rem;
+  padding-left:
   padding-right: 20px;
+  background: linear-gradient(to top, rgba(255, 165, 0, 1), rgba(255, 255, 0, 0));
+  top: 27rem;
 
   
 }
@@ -291,10 +294,9 @@ h2 {
   
   margin: 1rem 1rem 1rem -2rem;
   color: black;
-  width: calc(50vw - 2rem);
-  position: fixed;
-  top: 27rem;
-  background: linear-gradient(to top, rgba(255, 165, 0, 1), rgba(255, 255, 0, 0));
+  width: calc(50vw - 1rem);
+
+  
   padding-left:2rem;
 }
   
@@ -315,11 +317,11 @@ h2 {
 }
 
 .about-ressources {
-  position: fixed;
   left: 50vw;
+
   margin: 1rem 1rem 1rem 0.5rem;
-  width: calc(50vw - 2rem);
-  top: 27rem;
+  width: calc(50vw - 1rem);
+
 }
 
 h2 {

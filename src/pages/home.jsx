@@ -311,7 +311,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="grid-container2">
+      <div className="about-section">
         <div className="about-project">
           <h2>
             <mark>PURPOSE OF THIS TEXT</mark>
