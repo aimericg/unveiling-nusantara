@@ -125,7 +125,7 @@ h1 {
   line-height: 105%;
   text-align: left;
   text-shadow: 4px 4px 3px grey;
-  max-width: 100vw;
+  max-width: 95vw;
   position: fixed;
   top: -5rem;
   z-index:-1;
