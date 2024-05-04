@@ -2,36 +2,73 @@ import * as React from "react";
 import { animated } from "react-spring";
 import { useWiggle } from "../hooks/wiggle";
 import { Link } from "wouter";
+import React, { useState, useEffect } from 'react';
 
-const strings1 = ["ARE TYPEFACES TO CHANGE FUNCTION IN A FOREIGN ENVIRONMENT?", "CAN TYPEFACES BE READAPTED IN A FOREIGN ENVIRONMENT?"];
-const strings2 = ["CAN TYPEFACES CHANGE POSITIONALITY WHEN BEING USED VERNACULARLY?", "IN OUR QUEST FOR NEUTRALITY, DO WE INADVERTENTLY CREATE BIASES?"];
+const strings1 = [
+  "ARE TYPEFACES TO CHANGE FUNCTION IN A FOREIGN ENVIRONMENT?",
+  "CAN TYPEFACES BE READAPTED IN A FOREIGN ENVIRONMENT?",
+];
+const strings2 = [
+  "CAN TYPEFACES CHANGE POSITIONALITY WHEN BEING USED VERNACULARLY?",
+  "IN OUR QUEST FOR NEUTRALITY, DO WE INADVERTENTLY CREATE BIASES?",
+];
 //const strings3 = [...]; // add more string arrays for each paragraph
 
 export default function Home() {
   const [hello, setHello] = React.useState(strings1[0]);
-  const [prevHello, setPrevHello] = React.useState('');
+  const [prevHello, setPrevHello] = React.useState("");
 
   const handleHover = (strings) => {
     const newHello = randomLanguage(strings);
     setPrevHello(hello);
     setHello(newHello);
   };
+  
+  const [randomColor, setRandomColor] = useState('');
 
   function randomLanguage(strings) {
     return strings[Math.floor(Math.random() * strings.length)];
   }
 
   React.useEffect(() => {
-    const helloElement = document.querySelector('.title');
+    const helloElement = document.querySelector(".title");
     helloElement.style.opacity = 0.5;
-    setTimeout(() => {
-      helloElement.style.opacity = 1;
-    }, 800, 200);
+    setTimeout(
+      () => {
+        helloElement.style.opacity = 1;
+      },
+      800,
+      200
+    );
   }, [hello]);
   
+  React.useEffect(() => {
+    const paragraph1 = document.querySelector('.paragraph1');
+    const paragraph2 = document.querySelector('.paragraph2');
+
+    const colors = ['#008000', '#FFFF00', '#0000FF']; // green, yellow, blue
+
+    paragraph1.addEventListener('mouseover', () => {
+      const randomColor = colors[Math.floor(Math.random() * colors.length)];
+      document.body.style.background = randomColor;
+    });
+
+    paragraph1.addEventListener('mouseout', () => {
+      document.body.style.background = ''; // reset the background color
+    });
+
+    paragraph2.addEventListener('mouseover', () => {
+      const randomColor = colors[Math.floor(Math.random() * colors.length)];
+      document.body.style.background = randomColor;
+    });
+
+    paragraph2.addEventListener('mouseout', () => {
+      document.body.style.background = ''; // reset the background color
+    });
+  }, []);
+
   return (
     <>
-      
       <div className="grid-container">
         <div className="paragraph1" onMouseOver={() => handleHover(strings1)}>
           <div className="scroll-container">
@@ -301,7 +338,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      
+
       <div className="about-section">
         <div className="about-project">
           <h2>
@@ -310,8 +347,8 @@ export default function Home() {
           <p>
             <mark>
               This is a project started by Aimeric Permata Guerre, for his
-              graduation from BA. Graphic Design at Willem de Kooning Academy (Rotterdam, Netherlands).{" "}
-              <br></br>
+              graduation from BA. Graphic Design at Willem de Kooning Academy
+              (Rotterdam, Netherlands). <br></br>
               <br></br>
               The main purpose was a rediscovery of his Indonesian roots through
               the study of local languages and the developement of the Graphic
@@ -341,7 +378,8 @@ export default function Home() {
               </a>
               <br></br>
               <a href="https://www.donner.nl/politics-of-design/ruben-pater/9789063694227">
-                Affective Graphic Design: Beyond Identities & De-modernizing Design
+                Affective Graphic Design: Beyond Identities & De-modernizing
+                Design
               </a>
             </mark>
           </p>
