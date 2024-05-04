@@ -9,23 +9,26 @@ const strings2 = ["CAN TYPEFACES CHANGE POSITIONALITY WHEN BEING USED VERNACULAR
 
 export default function Home() {
   const [hello, setHello] = React.useState(strings1[0]);
+  const [prevHello, setPrevHello] = React.useState('');
 
   const handleHover = (strings) => {
     const newHello = randomLanguage(strings);
+    setPrevHello(hello);
     setHello(newHello);
   };
-// Utility function to choose a random value from the language array
-function randomLanguage(strings) {
-  return strings[Math.floor(Math.random() * strings.length)];
-}
 
-/**
- * The Home function defines the content that makes up the main content of the Home page
- *
- * This component is attached to the /about path in router.jsx
- * The function in app.jsx defines the page wrapper that this appears in along with the footer
- */
+  function randomLanguage(strings) {
+    return strings[Math.floor(Math.random() * strings.length)];
+  }
 
+  React.useEffect(() => {
+    const helloElement = document.querySelector('.title');
+    helloElement.style.opacity = 0;
+    setTimeout(() => {
+      helloElement.style.opacity = 1;
+    }, 500, 200);
+  }, [hello]);
+  
   return (
     <>
       
@@ -345,7 +348,9 @@ function randomLanguage(strings) {
         </div>
       </div>
       {/* When the user hovers over the image we apply the wiggle style to it */}
-      <h1 className="title"><br></br>{hello}</h1>
+      <h1 className="title" style={{ opacity: prevHello ? 0 : 1 }}>
+        {prevHello ? prevHello : hello}
+      </h1>
     </>
   );
 }

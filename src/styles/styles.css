@@ -127,7 +127,7 @@ h1 {
   text-shadow: 4px 4px 3px grey;
   max-width: 95vw;
   position: fixed;
-  top: -6rem;
+  top: 2rem;
   z-index:-1;
   overflow:none;
 }
