@@ -18,10 +18,10 @@ export default function Home() {
   const [prevHello, setPrevHello] = React.useState("");
 
   const handleHover = (strings) => {
-    const newHello = randomLanguage(strings);
-    setPrevHello(hello);
-    setHello(newHello);
-  };
+  const newHello = randomLanguage(strings);
+  setPrevHello(hello);
+  setHello(newHello);
+};
 
   const [randomColor, setRandomColor] = useState("");
 
@@ -68,10 +68,10 @@ export default function Home() {
 
     paragraph3.addEventListener("mouseover", () => {
       const randomColor = colors[Math.floor(Math.random() * colors.length)];
-      document.body.style.background = "light-grey";
+      document.body.style.background = "#d3d3d3";
       const markElements = document.querySelectorAll(".about-section mark");
       markElements.forEach((markElement) => {
-        markElement.style.background = "light-grey";
+        markElement.style.background = "#d3d3d3";
       });
     });
 
@@ -87,7 +87,7 @@ export default function Home() {
   return (
     <>
       <div className="grid-container">
-        <div className="paragraph1" onMouseOver={() => handleHover(strings1)}>
+        <div className="paragraph1" onMouseOver={() => handleHover(0)}>
           <div className="scroll-container">
             <h2>
               <mark>VERNACULAR SHOUTING</mark>
