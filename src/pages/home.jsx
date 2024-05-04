@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import { animated } from "react-spring";
 import { useWiggle } from "../hooks/wiggle";
 import { Link } from "wouter";
-
 
 const strings1 = [
   "ARE TYPEFACES TO CHANGE FUNCTION IN A FOREIGN ENVIRONMENT?",
@@ -23,8 +22,8 @@ export default function Home() {
     setPrevHello(hello);
     setHello(newHello);
   };
-  
-  const [randomColor, setRandomColor] = useState('');
+
+  const [randomColor, setRandomColor] = useState("");
 
   function randomLanguage(strings) {
     return strings[Math.floor(Math.random() * strings.length)];
@@ -41,39 +40,43 @@ export default function Home() {
       200
     );
   }, [hello]);
-  
+
   React.useEffect(() => {
-    const paragraph1 = document.querySelector('.paragraph1');
-    const paragraph2 = document.querySelector('.paragraph2');
-    const paragraph3 = document.querySelector('.paragraph3');
+    const paragraph1 = document.querySelector(".paragraph1");
+    const paragraph2 = document.querySelector(".paragraph2");
+    const paragraph3 = document.querySelector(".paragraph3");
 
-    const colors = ['#ff00ff', '#ffff00', '#00ffff']; // green, yellow, blue
+    const colors = ["#ff00ff", "#ffff00", "#00ffff"]; // green, yellow, blue
 
-    paragraph1.addEventListener('mouseover', () => {
+    paragraph1.addEventListener("mouseover", () => {
       const randomColor = colors[Math.floor(Math.random() * colors.length)];
-      document.body.style.background = '#ff00ff';
+      document.body.style.background = "#ff00ff";
     });
 
-    paragraph1.addEventListener('mouseout', () => {
-      document.body.style.background = ''; // reset the background color
+    paragraph1.addEventListener("mouseout", () => {
+      document.body.style.background = ""; // reset the background color
     });
 
-    paragraph2.addEventListener('mouseover', () => {
+    paragraph2.addEventListener("mouseover", () => {
       const randomColor = colors[Math.floor(Math.random() * colors.length)];
-      document.body.style.background = '#ffff00';
+      document.body.style.background = "#ffff00";
     });
 
-    paragraph2.addEventListener('mouseout', () => {
-      document.body.style.background = ''; // reset the background color
+    paragraph2.addEventListener("mouseout", () => {
+      document.body.style.background = ""; // reset the background color
     });
-    
-    paragraph3.addEventListener('mouseover', () => {
+
+    paragraph3.addEventListener("mouseover", () => {
       const randomColor = colors[Math.floor(Math.random() * colors.length)];
-      document.body.style.background = '#00ffff';
+      document.body.style.background = "#00ffff";
+      const markElement = document.querySelector(".about-section mark");
+      markElement.style.background = "pink";
     });
 
-    paragraph3.addEventListener('mouseout', () => {
-      document.body.style.background = ''; // reset the background color
+    paragraph3.addEventListener("mouseout", () => {
+      document.body.style.background = ""; // reset the background color
+      const markElement = document.querySelector(".about-section mark");
+      markElement.style.background = "yellow";
     });
   }, []);
 

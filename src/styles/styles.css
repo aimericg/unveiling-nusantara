@@ -291,6 +291,10 @@ h2 {
   
   padding-left:2rem;
 }
+
+.about-section mark {
+  background-color: yellow;
+}
   
 .paragraph5 p {
   font-family: "Highway";
