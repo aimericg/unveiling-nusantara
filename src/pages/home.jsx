@@ -3,11 +3,19 @@ import { animated } from "react-spring";
 import { useWiggle } from "../hooks/wiggle";
 import { Link } from "wouter";
 
-// Our language strings for the header
-const strings = ["ARE TYPEFACES TO CHANGE FUNCTION IN A FOREIGN ENVIRONMENT?", "CAN TYPEFACES BE READAPTED IN A FOREIGN ENVIRONMENT?","CAN TYPEFACES CHANGE POSITIONALITY WHEN BEING USED VERNACULARLY?","IN OUR QUEST FOR NEUTRALITY, DO WE INADVERTENTLY CREATE BIASES?"];
+const strings1 = ["ARE TYPEFACES TO CHANGE FUNCTION IN A FOREIGN ENVIRONMENT?", "CAN TYPEFACES BE READAPTED IN A FOREIGN ENVIRONMENT?"];
+const strings2 = ["CAN TYPEFACES CHANGE POSITIONALITY WHEN BEING USED VERNACULARLY?", "IN OUR QUEST FOR NEUTRALITY, DO WE INADVERTENTLY CREATE BIASES?"];
+//const strings3 = [...]; // add more string arrays for each paragraph
 
+export default function Home() {
+  const [hello, setHello] = React.useState(strings1[0]);
+
+  const handleHover = (strings) => {
+    const newHello = randomLanguage(strings);
+    setHello(newHello);
+  };
 // Utility function to choose a random value from the language array
-function randomLanguage() {
+function randomLanguage(strings) {
   return strings[Math.floor(Math.random() * strings.length)];
 }
 
@@ -18,42 +26,11 @@ function randomLanguage() {
  * The function in app.jsx defines the page wrapper that this appears in along with the footer
  */
 
-export default function Home() {
-  /* We use state to set the hello string from the array https://reactjs.org/docs/hooks-state.html
-     - We'll call setHello when the user clicks to change the string
-  */
-  const [hello, setHello] = React.useState(strings[0]);
-
-  /* The wiggle function defined in /hooks/wiggle.jsx returns the style effect and trigger function
-     - We can attach this to events on elements in the page and apply the resulting style
-  */
-  const [style, trigger] = useWiggle({ x: 5, y: 5, scale: 1 });
-
-  // Function to handle changing the hello string
-  const handleChangeHello = () => {
-    // Choose a new Hello from our languages
-    const newHello = randomLanguage();
-
-    // Call the function to set the state string in our component
-    setHello(newHello);
-  };
-
-  // Attach the handleChangeHello function to the click event on the document body
-  React.useEffect(() => {
-    handleChangeHello(); // Call handleChangeHello when the component mounts
-    document.body.addEventListener("click", handleChangeHello);
-
-    // Cleanup function to remove the event listener when the component unmounts
-    return () => {
-      document.body.removeEventListener("click", handleChangeHello);
-    };
-  }, []); // Empty dependency array ensures the effect runs only once after the initial render
-
   return (
     <>
       
       <div className="grid-container">
-        <div className="paragraph1">
+        <div className="paragraph1" onMouseOver={() => handleHover(strings1)}>
           <div className="scroll-container">
             <h2>
               <mark>VERNACULAR SHOUTING</mark>
@@ -121,7 +98,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="paragraph2">
+        <div className="paragraph2" onMouseOver={() => handleHover(strings2)}>
           <div className="scroll-container">
             <h2>
               <mark>TYPOGRAPHY AS A PROGRAM</mark>
