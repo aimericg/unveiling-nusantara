@@ -130,6 +130,7 @@ h1 {
   top: 2rem;
   z-index:-1;
   overflow:none;
+  text-align:center;
 }
 .page h1 {
   font-size: 72px;
