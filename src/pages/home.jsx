@@ -68,10 +68,10 @@ export default function Home() {
 
     paragraph3.addEventListener("mouseover", () => {
       const randomColor = colors[Math.floor(Math.random() * colors.length)];
-      document.body.style.background = "#00ffff";
+      document.body.style.background = "light-grey";
       const markElements = document.querySelectorAll(".about-section mark");
       markElements.forEach((markElement) => {
-        markElement.style.background = "pink";
+        markElement.style.background = "light-grey";
       });
     });
 
