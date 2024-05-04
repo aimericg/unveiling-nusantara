@@ -69,14 +69,18 @@ export default function Home() {
     paragraph3.addEventListener("mouseover", () => {
       const randomColor = colors[Math.floor(Math.random() * colors.length)];
       document.body.style.background = "#00ffff";
-      const markElement = document.querySelector(".about-section mark");
-      markElement.style.background = "pink";
+      const markElements = document.querySelectorAll(".about-section mark");
+      markElements.forEach((markElement) => {
+        markElement.style.background = "pink";
+      });
     });
 
     paragraph3.addEventListener("mouseout", () => {
       document.body.style.background = ""; // reset the background color
-      const markElement = document.querySelector(".about-section mark");
-      markElement.style.background = "yellow";
+      const markElements = document.querySelectorAll(".about-section mark");
+      markElements.forEach((markElement) => {
+        markElement.style.background = "yellow";
+      });
     });
   }, []);
 
