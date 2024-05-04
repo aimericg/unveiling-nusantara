@@ -25,9 +25,6 @@ export default function Home() {
   };
   
   const [randomColor, setRandomColor] = useState('');
-  const [currentColor, setCurrentColor] = useState('');
-  const [targetColor, setTargetColor] = useState('');
-  const [transitioning, setTransitioning] = useState(false);
 
   function randomLanguage(strings) {
     return strings[Math.floor(Math.random() * strings.length)];
@@ -45,47 +42,39 @@ export default function Home() {
     );
   }, [hello]);
   
-  useEffect(() => {
+  React.useEffect(() => {
     const paragraph1 = document.querySelector('.paragraph1');
     const paragraph2 = document.querySelector('.paragraph2');
+    const paragraph3 = document.querySelector('.paragraph3');
 
-    const colors = ['#ff00ff', '#ffff00', '#00ffff']; // magenta, yellow, cyan
+    const colors = ['#ff00ff', '#ffff00', '#00ffff']; // green, yellow, blue
 
     paragraph1.addEventListener('mouseover', () => {
-      setTargetColor(colors[Math.floor(Math.random() * colors.length)]);
-      setTransitioning(true);
+      const randomColor = colors[Math.floor(Math.random() * colors.length)];
+      document.body.style.background = '#ff00ff';
     });
 
     paragraph1.addEventListener('mouseout', () => {
-      setTransitioning(false);
+      document.body.style.background = ''; // reset the background color
     });
 
     paragraph2.addEventListener('mouseover', () => {
-      setTargetColor(colors[Math.floor(Math.random() * colors.length)]);
-      setTransitioning(true);
+      const randomColor = colors[Math.floor(Math.random() * colors.length)];
+      document.body.style.background = '#ffff00';
     });
 
     paragraph2.addEventListener('mouseout', () => {
-      setTransitioning(false);
+      document.body.style.background = ''; // reset the background color
+    });
+    
+    paragraph3.addEventListener('mouseover', () => {
+      const randomColor = colors[Math.floor(Math.random() * colors.length)];
+      document.body.style.background = '#00ffff';
     });
 
-    useEffect(() => {
-      if (transitioning) {
-        const timer = setInterval(() => {
-          const currentColorHex = window.getComputedStyle(document.body).backgroundColor;
-          const currentColor = parseInt(currentColorHex.replace(/^#/, ''), 16);
-          const targetColorHex = window.getComputedStyle(document.body).backgroundColor;
-          const targetColor = parseInt(targetColorHex.replace(/^#/, ''), 16);
-
-          const step = (targetColor - currentColor) / 100;
-          const newColor = currentColor + step;
-
-          document.body.style.background = `#${newColor.toString(16).padStart(6, '0')}`;
-        }, 16); // 16ms = 60fps
-
-        return () => clearInterval(timer);
-      }
-    }, [transitioning, targetColor]);
+    paragraph3.addEventListener('mouseout', () => {
+      document.body.style.background = ''; // reset the background color
+    });
   }, []);
 
   return (
