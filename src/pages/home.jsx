@@ -18,10 +18,10 @@ export default function Home() {
   const [prevHello, setPrevHello] = React.useState("");
 
   const handleHover = (strings) => {
-  const newHello = randomLanguage(strings);
-  setPrevHello(hello);
-  setHello(newHello);
-};
+    const newHello = randomLanguage(strings1);
+    setPrevHello(hello);
+    setHello(newHello);
+  };
 
   const [randomColor, setRandomColor] = useState("");
 
@@ -87,7 +87,7 @@ export default function Home() {
   return (
     <>
       <div className="grid-container">
-        <div className="paragraph1" onMouseOver={() => handleHover(0)}>
+        <div className="paragraph1" onMouseOver={() => handleHover(strings1)}>
           <div className="scroll-container">
             <h2>
               <mark>VERNACULAR SHOUTING</mark>
