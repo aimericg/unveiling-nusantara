@@ -330,7 +330,7 @@ export default function Home() {
           <p>
             <mark>
               This is a project started by Aimeric Permata Guerre, for his
-              graduation from Willem de Kooning Academy (Rotterdam, NL).{" "}
+              graduation from BA. Graphic Design at Willem de Kooning Academy (Rotterdam, Netherlands).{" "}
               <br></br>
               <br></br>
               The main purpose was a rediscovery of his Indonesian roots through
@@ -359,12 +359,16 @@ export default function Home() {
               <a href="https://www.donner.nl/politics-of-design/ruben-pater/9789063694227">
                 The Politics of Design
               </a>
+              <br></br>
+              <a href="https://www.donner.nl/politics-of-design/ruben-pater/9789063694227">
+                Affective Graphic Design: Beyond Identities & De-modernizing Design
+              </a>
             </mark>
           </p>
         </div>
       </div>
       {/* When the user hovers over the image we apply the wiggle style to it */}
-      <h1 className="title" onClick={handleChangeHello} style={style}><br></br>{hello}</h1>
+      <h1 className="title"><br></br>{hello}</h1>
     </>
   );
 }
