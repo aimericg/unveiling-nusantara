@@ -11,7 +11,7 @@ const strings2 = [
   "CAN TYPEFACES CHANGE POSITIONALITY WHEN BEING USED VERNACULARLY?",
   "IN OUR QUEST FOR NEUTRALITY, DO WE INADVERTENTLY CREATE BIASES?",
 ];
-//const strings3 = [...]; // add more string arrays for each paragraph
+const strings3 = ["IS NEUTRALITY TRULY ACHIEVABLE IN A GLOBAL CONTEXT?"]; // add more string arrays for each paragraph
 
 export default function Home() {
   const [hello, setHello] = React.useState(strings1[0]);
@@ -190,7 +190,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="paragraph3">
+        <div className="paragraph3" onMouseOver={() => handleHover(strings3)}>
           <div className="scroll-container">
             <h2>
               <mark>POSITIONS OF NEUTRALITY</mark>
