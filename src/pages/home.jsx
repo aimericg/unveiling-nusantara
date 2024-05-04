@@ -23,10 +23,10 @@ export default function Home() {
 
   React.useEffect(() => {
     const helloElement = document.querySelector('.title');
-    helloElement.style.opacity = 0;
+    helloElement.style.opacity = 0.5;
     setTimeout(() => {
       helloElement.style.opacity = 1;
-    }, 500, 200);
+    }, 800, 200);
   }, [hello]);
   
   return (
