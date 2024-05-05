@@ -3,7 +3,7 @@ import { animated } from "react-spring";
 import { useWiggle } from "../hooks/wiggle";
 import { Link } from "wouter";
 
-const strings = [
+const strings1 = [
   "ARE TYPEFACES TO CHANGE FUNCTION IN A FOREIGN ENVIRONMENT?",
   "CAN TYPEFACES BE READAPTED IN A FOREIGN ENVIRONMENT?",
 ];
@@ -14,7 +14,7 @@ const strings2 = [
 const strings3 = ["IS NEUTRALITY TRULY ACHIEVABLE IN A GLOBAL CONTEXT?"]; // add more string arrays for each paragraph
 
 export default function Home() {
-  const [hello, setHello] = React.useState(strings[0]);
+  const [hello, setHello] = React.useState(strings1[0]);
   const [prevHello, setPrevHello] = React.useState("");
 
   const handleHover = (strings) => {
@@ -51,13 +51,10 @@ export default function Home() {
     paragraph1.addEventListener("mouseover", () => {
       const randomColor = colors[Math.floor(Math.random() * colors.length)];
       document.body.style.background = "#ff00ff";
-      handleHover(strings1)
-      strings = ["IS NEUTRALITY TRULY ACHIEVABLE IN A GLOBAL CONTEXT?"];
     });
 
     paragraph1.addEventListener("mouseout", () => {
       document.body.style.background = ""; // reset the background color
-      strings = ["bahasa dekolonial"];
     });
 
     paragraph2.addEventListener("mouseover", () => {
@@ -90,7 +87,7 @@ export default function Home() {
   return (
     <>
       <div className="grid-container">
-        <div className="paragraph1">
+        <div className="paragraph1" onMouseOver={() => handleHover(strings1)}>
           <div className="scroll-container">
             <h2>
               <mark>VERNACULAR SHOUTING</mark>
