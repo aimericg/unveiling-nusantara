@@ -117,11 +117,16 @@ export default function Home() {
                 “cheap” fonts, such as impact, strechted type, cooper black and
                 more.
                 <br></br>
+                <br></br>
                 <img
                   src="https://cdn.glitch.global/53ce0b84-77c9-492a-9b7d-5ff4dec3955e/pecel-lele-warung.jpg?v=1713431011588"
                   alt="Warung stand in lamongan"
                 ></img>{" "}
-                <br></br>{" "}
+                <img
+                  src="https://cdn.glitch.global/7a0d470d-a08c-46c5-8148-bedf2cbc70f7/Pedagang_Makanan_Pecel_Lele_Lamongan_DiKebumen_Jateng_NKRI.jpg?v=1715015137489"
+                  alt="Warung stand in lamongan"
+                ></img>{" "}
+                <br></br> <br></br>
                 <a>
                   CAN TYPEFACES BE READAPTED IN A FOREIGN ENVIRONMENT? ARE
                   TYPEFACES TO CHANGE FUNCTION IN A FOREIGN ENVIRONMENT? CAN
@@ -159,6 +164,12 @@ export default function Home() {
                 to the showcase of how design is not well seen in a global
                 perspective. Its in a way a conflict of who is being the loudest
                 to put themselves forward.
+                <br></br>
+                <br></br>
+                <img
+                  src="https://cdn.glitch.global/7a0d470d-a08c-46c5-8148-bedf2cbc70f7/Pedagang_Makanan_Pecel_Lele_Lamongan_DiKebumen_Jateng_NKRI.jpg?v=1715015137489"
+                  alt="Warung stand in lamongan"
+                ></img>{" "}
               </mark>
             </p>
           </div>
