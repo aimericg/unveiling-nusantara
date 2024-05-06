@@ -201,6 +201,7 @@ React.useEffect(() => {
                 <img
                   src="https://cdn.glitch.global/7a0d470d-a08c-46c5-8148-bedf2cbc70f7/Pedagang_Makanan_Pecel_Lele_Lamongan_DiKebumen_Jateng_NKRI.jpg?v=1715015137489"
                   alt="Warung stand in lamongan"
+                  style="left= +2rem"
                 ></img>{" "}
                 <br></br> <br></br>
                 <a>
