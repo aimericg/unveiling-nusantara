@@ -27,17 +27,16 @@ export default function Home() {
   const [hello, setHello] = React.useState(strings1[0]);
   const [prevHello, setPrevHello] = React.useState("");
 
-  const handleHover = (strings) => {
+  const handleHover = (paragraph) => {
+    const strings = paragraph === "paragraph1" ? strings1 : paragraph === "paragraph2" ? strings2 : paragraph === "paragraph3" ? strings3 : [];
     const newHello = randomNumber(strings);
     setPrevHello(hello);
     setHello(newHello);
   };
 
-  const [randomColor, setRandomColor] = useState("");
-
-  function randomNumber(strings) {
+  const randomNumber = (strings) => {
     return strings[Math.floor(Math.random() * strings.length)];
-  }
+  };
 
   React.useEffect(() => {
     const helloElement = document.querySelector(".title");
@@ -177,7 +176,7 @@ export default function Home() {
   return (
     <>
       <div className="grid-container">
-        <div className="paragraph1" onMouseOver={() => handleHover(strings1)}>
+        <div className="paragraph1" onMouseOver={() => handleHover("paragraph1")}>">
           <div className="scroll-container">
             <h2>
               <mark>VERNACULAR SHOUTING</mark>
