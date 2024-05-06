@@ -32,17 +32,21 @@ export default function Home() {
     return strings[Math.floor(Math.random() * strings.length)];
   }
 
-  React.useEffect(() => {
-    const helloElement = document.querySelector(".title");
+React.useEffect(() => {
+  const helloElement = document.querySelector(".title");
+  helloElement.style.transition = "opacity 0.8s ease-in"; // Adding the transition effect
+  
+  // Set opacity to 0.5 after a brief delay
+  setTimeout(() => {
     helloElement.style.opacity = 0.5;
-    setTimeout(
-      () => {
-        helloElement.style.opacity = 1;
-      },
-      800,
-      200
-    );
-  }, [hello]);
+  }, 200);
+  
+  // Reset opacity to 1 after 800ms
+  setTimeout(() => {
+    helloElement.style.opacity = 1;
+  }, 1000); // Adjusted timing
+  
+}, [hello]);
 
   React.useEffect(() => {
     const paragraph1 = document.querySelector(".paragraph1");
@@ -53,12 +57,10 @@ export default function Home() {
     const paragraph6 = document.querySelector(".paragraph6");
     const paragraph7 = document.querySelector(".paragraph7");
 
-    
-
     paragraph1.addEventListener("mouseover", () => {
       const chosenColor = "#ff00ff";
       document.body.style.background = chosenColor;
-    
+
       const markElements = document.querySelectorAll(".about-section mark");
       markElements.forEach((markElement) => {
         markElement.style.background = chosenColor;
@@ -87,7 +89,7 @@ export default function Home() {
     });
 
     paragraph2.addEventListener("mouseover", () => {
-      const randomColor = colors[Math.floor(Math.random() * colors.length)];
+      const chosenColor = "#ffff00";
       document.body.style.background = "#ffff00";
     });
 
@@ -96,11 +98,18 @@ export default function Home() {
     });
 
     paragraph3.addEventListener("mouseover", () => {
-      const randomColor = colors[Math.floor(Math.random() * colors.length)];
-      document.body.style.background = "#d3d3d3";
+      const chosenColor = "#d3d3d3";
+      document.body.style.background = chosenColor;
       const markElements = document.querySelectorAll(".about-section mark");
       markElements.forEach((markElement) => {
-        markElement.style.background = "#d3d3d3";
+        markElement.style.background = chosenColor;
+      });
+      const highlightElements = document.querySelectorAll(
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark"
+      );
+      highlightElements.forEach((highlightElement) => {
+        highlightElement.style.boxShadow =
+          "inset 0 3px 5px rgba(211, 211, 211, 0.5)";
       });
     });
 
@@ -110,10 +119,15 @@ export default function Home() {
       markElements.forEach((markElement) => {
         markElement.style.background = "";
       });
+      const highlightElements = document.querySelectorAll(
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark"
+      );
+      highlightElements.forEach((highlightElement) => {
+        highlightElement.style.boxShadow = "";
+      });
     });
 
     paragraph4.addEventListener("mouseover", () => {
-      const randomColor = colors[Math.floor(Math.random() * colors.length)];
       document.body.style.background = "#FCFBF4";
       const markElements = document.querySelectorAll(".about-section mark");
       markElements.forEach((markElement) => {
@@ -137,7 +151,6 @@ export default function Home() {
       });
     });
     paragraph5.addEventListener("mouseover", () => {
-      const randomColor = colors[Math.floor(Math.random() * colors.length)];
       document.body.style.background = "#08FF08";
       const markElements = document.querySelectorAll(".about-section mark");
       markElements.forEach((markElement) => {
