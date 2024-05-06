@@ -332,19 +332,27 @@ ADAPT
   --color-text-main: #000000;
   --color-primary: #AFECE0;
   --wrapper-height: 100vh;
-  --wrapper-width: 700vw;
+  --wrapper-width: 100vw;
   --image-max-width: 320px;
   --font-family: "DejaVuSerifCondensed";
   --font-family-header: "DejaVuSerifCondensed";
 }
+
+.wrapper {
+  min-height: var(--wrapper-height);
+  min-width: var(--wrapper-width);
+  display: grid;
+  place-items: center;
+  margin: 0rem 0rem;
+  right: 1rem;
+}  
   
   .grid-container {
-    grid-template-columns: repeat(7, 1fr); /* Change to one column */
-    position: relative;
-    right: 7rem;
+    grid-template-columns: 100vw, 100vw, 100vw, 100vw, 100vw, 100vw, 100vw ; /* Change to one column */
+    left: 2rem;
   }
   .grid-container > * {
-  width: calc(100vw - 1rem); /* Each column takes 33.33vw with gap included */
+  width: calc(100vw); 
 }
 
   
@@ -362,19 +370,11 @@ ADAPT
 
 
 
-.wrapper {
-  min-height: var(--wrapper-height);
-  min-width: var(--wrapper-width);
-  display: grid;
-  place-items: center;
-  margin: 0rem 0rem;
-  right: 1rem;
-}
+
   
   
   .about-section {
-    grid-template-columns: repeat(2, 1fr);; /* Change to one column */
-    grid-template-rows: auto auto; /* Set two rows */
+    
   }
 
   .grid-container > * {
