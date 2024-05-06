@@ -53,14 +53,22 @@ export default function Home() {
     const paragraph6 = document.querySelector(".paragraph6");
     const paragraph7 = document.querySelector(".paragraph7");
 
-    const colors = ["#ff00ff", "#ffff00", "#00ffff"]; // green, yellow, blue
+    
 
     paragraph1.addEventListener("mouseover", () => {
-      const randomColor = colors[Math.floor(Math.random() * colors.length)];
-      document.body.style.background = "#ff00ff";
+      const chosenColor = "#ff00ff";
+      document.body.style.background = chosenColor;
+    
       const markElements = document.querySelectorAll(".about-section mark");
       markElements.forEach((markElement) => {
-        markElement.style.background = "#ff00ff";
+        markElement.style.background = chosenColor;
+      });
+      const highlightElements = document.querySelectorAll(
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark"
+      );
+      highlightElements.forEach((highlightElement) => {
+        highlightElement.style.boxShadow =
+          "inset 0 3px 5px rgba(255, 0, 255, 0.5)";
       });
     });
 
@@ -69,6 +77,12 @@ export default function Home() {
       const markElements = document.querySelectorAll(".about-section mark");
       markElements.forEach((markElement) => {
         markElement.style.background = "";
+      });
+      const highlightElements = document.querySelectorAll(
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark"
+      );
+      highlightElements.forEach((highlightElement) => {
+        highlightElement.style.boxShadow = "";
       });
     });
 
