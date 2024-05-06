@@ -45,6 +45,7 @@ export default function Home() {
     const paragraph1 = document.querySelector(".paragraph1");
     const paragraph2 = document.querySelector(".paragraph2");
     const paragraph3 = document.querySelector(".paragraph3");
+    const paragraph4 = document.querySelector(".paragraph4");
 
     const colors = ["#ff00ff", "#ffff00", "#00ffff"]; // green, yellow, blue
 
@@ -84,6 +85,23 @@ export default function Home() {
     });
 
     paragraph3.addEventListener("mouseout", () => {
+      document.body.style.background = ""; // reset the background color
+      const markElements = document.querySelectorAll(".about-section mark");
+      markElements.forEach((markElement) => {
+        markElement.style.background = "";
+      });
+    });
+    
+    paragraph4.addEventListener("mouseover", () => {
+      const randomColor = colors[Math.floor(Math.random() * colors.length)];
+      document.body.style.background = "off-white";
+      const markElements = document.querySelectorAll(".about-section mark");
+      markElements.forEach((markElement) => {
+        markElement.style.background = "white";
+      });
+    });
+    
+    paragraph4.addEventListener("mouseout", () => {
       document.body.style.background = ""; // reset the background color
       const markElements = document.querySelectorAll(".about-section mark");
       markElements.forEach((markElement) => {
@@ -167,8 +185,8 @@ export default function Home() {
                 <br></br>
                 <br></br>
                 <img
-                  src="https://cdn.glitch.global/7a0d470d-a08c-46c5-8148-bedf2cbc70f7/Pedagang_Makanan_Pecel_Lele_Lamongan_DiKebumen_Jateng_NKRI.jpg?v=1715015137489"
-                  alt="Warung stand in lamongan"
+                  src="https://cdn.glitch.global/7a0d470d-a08c-46c5-8148-bedf2cbc70f7/Pecel_Lele_Ayo_Mampir_-_Jelutung%2C_Kota_Jambi%2C_JA.jpg?v=1715015129285"
+                  alt="Warung stand banners in Lamongan, East Java Indonesia"
                 ></img>{" "}
               </mark>
             </p>
