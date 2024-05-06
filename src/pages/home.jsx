@@ -14,23 +14,29 @@ const strings2 = [
   "DOES DIGITALIZATION REALLY CONCLUDE TO LANGUAGE PRESERVATION?",
   "CAN THE UNICODE BE NON-RESTRICTIVE?",
   "CAN ENCODING SCRIPT BE NON-STANDARDIZED AND INCLUSIVE?",
-  "IS STANDARDISATION A NEED TO RETAIN ONE'S LANGUAGE?",
 ];
 const strings3 = [
   "IS NEUTRALITY TRULY ACHIEVABLE IN A GLOBAL CONTEXT?",
   "ARE LATIN SCRIPT DEVELOPMENTS TO BE IGNORED?",
   "ARE LATIN SCRIPT DEVELOPMENTS IRRELEVANT TO LOCAL SCRIPTS?",
-  "WHO SHOULD BE ABLE TO PART TAKE IN SCRIPT DECISIONS AND ENCODING?"
-]; // add more string arrays for each paragraph
+  "WHO SHOULD BE ABLE TO PART TAKE IN SCRIPT DECISIONS AND ENCODING?",
+];
 
 export default function Home() {
   const [hello, setHello] = React.useState(strings1[0]);
   const [prevHello, setPrevHello] = React.useState("");
 
   const handleHover = (paragraph) => {
-    const strings = paragraph === "paragraph1" ? strings1 : paragraph === "paragraph2" ? strings2 : paragraph === "paragraph3" ? strings3 : [];
+    setPrevHello("");
+    const strings =
+      paragraph === "paragraph1"
+        ? strings1
+        : paragraph === "paragraph2"
+        ? strings2
+        : paragraph === "paragraph3"
+        ? strings3
+        : [];
     const newHello = randomNumber(strings);
-    setPrevHello(hello);
     setHello(newHello);
   };
 
@@ -41,7 +47,7 @@ export default function Home() {
   React.useEffect(() => {
     const helloElement = document.querySelector(".title");
     helloElement.style.opacity = 0;
-    helloElement.style.transition = "opacity 1.2s ease-in"; // Adding the transition effect
+    helloElement.style.transition = "opacity 0.8s ease-in"; // Adding the transition effect
 
     // Set opacity to 0.5 after a brief delay
     setTimeout(() => {
@@ -176,7 +182,11 @@ export default function Home() {
   return (
     <>
       <div className="grid-container">
-        <div className="paragraph1" onMouseOver={() => handleHover("paragraph1")}>">
+        <div
+          className="paragraph1"
+          onMouseOver={() => handleHover("paragraph1")}
+        >
+          ">
           <div className="scroll-container">
             <h2>
               <mark>VERNACULAR SHOUTING</mark>
@@ -257,7 +267,10 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="paragraph2" onMouseOver={() => handleHover(strings2)}>
+        <div
+          className="paragraph2"
+          onMouseOver={() => handleHover("paragraph2")}
+        >
           <div className="scroll-container">
             <h2>
               <mark>TYPOGRAPHY AS A PROGRAM</mark>
@@ -292,7 +305,10 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="paragraph3" onMouseOver={() => handleHover(strings3)}>
+        <div
+          className="paragraph3"
+          onMouseOver={() => handleHover("paragraph3")}
+        >
           <div className="scroll-container">
             <h2>
               <mark>POSITIONS OF NEUTRALITY</mark>
