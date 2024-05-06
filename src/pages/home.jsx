@@ -32,22 +32,22 @@ export default function Home() {
     return strings[Math.floor(Math.random() * strings.length)];
   }
 
-React.useEffect(() => {
-  const helloElement = document.querySelector(".title");
-  helloElement.style.opacity = 0; 
-  helloElement.style.transition = "opacity 1.2s ease-in"; // Adding the transition effect
-  
-  // Set opacity to 0.5 after a brief delay
-  setTimeout(() => {
-    helloElement.style.opacity = 0.3;
-  }, 0);
-  
-  // Reset opacity to 1 after 800ms
-  setTimeout(() => {
-    helloElement.style.opacity = 1;
-  }, 1000); // Adjusted timing
-  
-}, [hello]);
+  React.useEffect(() => {
+    const helloElement = document.querySelector(".title");
+    helloElement.style.opacity = 0; 
+    helloElement.style.transition = "opacity 1.2s ease-in"; // Adding the transition effect
+    
+    // Set opacity to 0.5 after a brief delay
+    setTimeout(() => {
+      helloElement.style.opacity = 0.3;
+    }, 0);
+    
+    // Reset opacity to 1 after 800ms
+    setTimeout(() => {
+      helloElement.style.opacity = 1;
+    }, 1000); // Adjusted timing
+    
+  }, [hello]);
 
   React.useEffect(() => {
     const paragraph1 = document.querySelector(".paragraph1");
@@ -58,115 +58,24 @@ React.useEffect(() => {
     const paragraph6 = document.querySelector(".paragraph6");
     const paragraph7 = document.querySelector(".paragraph7");
 
-    paragraph1.addEventListener("mouseover", () => {
-      const chosenColor = "#ff00ff";
-      document.body.style.background = chosenColor;
+    // Function to handle mouse movement to trigger horizontal scroll
+    const handleMouseMove = (event) => {
+      const { clientX, innerWidth } = event;
+      const threshold = innerWidth * 0.9; // 10% most right part of the page
+      
+      if (clientX >= threshold) {
+        document.body.scrollLeft += innerWidth / 3.0; // Scroll body to the right by 33.33vw
+      }
+    };
 
-      const markElements = document.querySelectorAll(".about-section mark");
-      markElements.forEach((markElement) => {
-        markElement.style.background = chosenColor;
-      });
-      const highlightElements = document.querySelectorAll(
-        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark"
-      );
-      highlightElements.forEach((highlightElement) => {
-        highlightElement.style.boxShadow =
-          "inset 0 3px 5px rgba(255, 0, 255, 0.5)";
-      });
-    });
+    document.addEventListener('mousemove', handleMouseMove);
 
-    paragraph1.addEventListener("mouseout", () => {
-      document.body.style.background = ""; // reset the background color
-      const markElements = document.querySelectorAll(".about-section mark");
-      markElements.forEach((markElement) => {
-        markElement.style.background = "";
-      });
-      const highlightElements = document.querySelectorAll(
-        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark"
-      );
-      highlightElements.forEach((highlightElement) => {
-        highlightElement.style.boxShadow = "";
-      });
-    });
+    return () => {
+      document.removeEventListener('mousemove', handleMouseMove);
+    };
 
-    paragraph2.addEventListener("mouseover", () => {
-      const chosenColor = "#ffff00";
-      document.body.style.background = "#ffff00";
-    });
-
-    paragraph2.addEventListener("mouseout", () => {
-      document.body.style.background = ""; // reset the background color
-    });
-
-    paragraph3.addEventListener("mouseover", () => {
-      const chosenColor = "#d3d3d3";
-      document.body.style.background = chosenColor;
-      const markElements = document.querySelectorAll(".about-section mark");
-      markElements.forEach((markElement) => {
-        markElement.style.background = chosenColor;
-      });
-      const highlightElements = document.querySelectorAll(
-        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark"
-      );
-      highlightElements.forEach((highlightElement) => {
-        highlightElement.style.boxShadow =
-          "inset 0 3px 5px rgba(211, 211, 211, 0.5)";
-      });
-    });
-
-    paragraph3.addEventListener("mouseout", () => {
-      document.body.style.background = ""; // reset the background color
-      const markElements = document.querySelectorAll(".about-section mark");
-      markElements.forEach((markElement) => {
-        markElement.style.background = "";
-      });
-      const highlightElements = document.querySelectorAll(
-        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark"
-      );
-      highlightElements.forEach((highlightElement) => {
-        highlightElement.style.boxShadow = "";
-      });
-    });
-
-    paragraph4.addEventListener("mouseover", () => {
-      document.body.style.background = "#FCFBF4";
-      const markElements = document.querySelectorAll(".about-section mark");
-      markElements.forEach((markElement) => {
-        markElement.style.background = "#FCFBF4";
-      });
-      const h1Elements = document.querySelectorAll("h1");
-      h1Elements.forEach((h1Element) => {
-        h1Element.style.color = "orange";
-      });
-    });
-
-    paragraph4.addEventListener("mouseout", () => {
-      document.body.style.background = ""; // reset the background color
-      const markElements = document.querySelectorAll(".about-section mark");
-      markElements.forEach((markElement) => {
-        markElement.style.background = "";
-      });
-      const h1Elements = document.querySelectorAll("h1");
-      h1Elements.forEach((h1Element) => {
-        h1Element.style.color = "";
-      });
-    });
-    paragraph5.addEventListener("mouseover", () => {
-      document.body.style.background = "#08FF08";
-      const markElements = document.querySelectorAll(".about-section mark");
-      markElements.forEach((markElement) => {
-        markElement.style.background = "#08FF08";
-      });
-    });
-
-    paragraph5.addEventListener("mouseout", () => {
-      document.body.style.background = ""; // reset the background color
-      const markElements = document.querySelectorAll(".about-section mark");
-      markElements.forEach((markElement) => {
-        markElement.style.background = "";
-      });
-    });
   }, []);
+
 
   return (
     <>
