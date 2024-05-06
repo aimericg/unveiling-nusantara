@@ -51,10 +51,18 @@ export default function Home() {
     paragraph1.addEventListener("mouseover", () => {
       const randomColor = colors[Math.floor(Math.random() * colors.length)];
       document.body.style.background = "#ff00ff";
+      const markElements = document.querySelectorAll(".about-section mark");
+      markElements.forEach((markElement) => {
+        markElement.style.background = "#ff00ff";
+      });
     });
 
     paragraph1.addEventListener("mouseout", () => {
       document.body.style.background = ""; // reset the background color
+      const markElements = document.querySelectorAll(".about-section mark");
+      markElements.forEach((markElement) => {
+        markElement.style.background = "";
+      });
     });
 
     paragraph2.addEventListener("mouseover", () => {
@@ -79,7 +87,7 @@ export default function Home() {
       document.body.style.background = ""; // reset the background color
       const markElements = document.querySelectorAll(".about-section mark");
       markElements.forEach((markElement) => {
-        markElement.style.background = "yellow";
+        markElement.style.background = "";
       });
     });
   }, []);
