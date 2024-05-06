@@ -34,12 +34,13 @@ export default function Home() {
 
 React.useEffect(() => {
   const helloElement = document.querySelector(".title");
-  helloElement.style.transition = "opacity 0.8s ease-in"; // Adding the transition effect
+  helloElement.style.opacity = 0; 
+  helloElement.style.transition = "opacity 1.2s ease-in"; // Adding the transition effect
   
   // Set opacity to 0.5 after a brief delay
   setTimeout(() => {
-    helloElement.style.opacity = 0.5;
-  }, 200);
+    helloElement.style.opacity = 0.3;
+  }, 0);
   
   // Reset opacity to 1 after 800ms
   setTimeout(() => {
