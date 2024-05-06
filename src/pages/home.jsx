@@ -10,6 +10,9 @@ const strings1 = [
 const strings2 = [
   "CAN TYPEFACES CHANGE POSITIONALITY WHEN BEING USED VERNACULARLY?",
   "IN OUR QUEST FOR NEUTRALITY, DO WE INADVERTENTLY CREATE BIASES?",
+  "DO ENDANGERED SCRIPTS ONLY SURVIVE IF DIGITALIZED?",
+  "DOES DIGITALIZATION REALLY CONCLUDE TO LANGUAGE PRESERVATION?",
+  "CAN THE UNICODE BE NON-RESTRICTIVE?",
 ];
 const strings3 = ["IS NEUTRALITY TRULY ACHIEVABLE IN A GLOBAL CONTEXT?"]; // add more string arrays for each paragraph
 
@@ -94,26 +97,26 @@ export default function Home() {
         markElement.style.background = "";
       });
     });
-    
+
     paragraph4.addEventListener("mouseover", () => {
       const randomColor = colors[Math.floor(Math.random() * colors.length)];
       document.body.style.background = "#FCFBF4";
       const markElements = document.querySelectorAll(".about-section mark");
       markElements.forEach((markElement) => {
         markElement.style.background = "#FCFBF4";
-        });
+      });
       const h1Elements = document.querySelectorAll("h1");
       h1Elements.forEach((h1Element) => {
         h1Element.style.color = "orange";
       });
     });
-    
+
     paragraph4.addEventListener("mouseout", () => {
       document.body.style.background = ""; // reset the background color
       const markElements = document.querySelectorAll(".about-section mark");
       markElements.forEach((markElement) => {
         markElement.style.background = "";
-        });
+      });
       const h1Elements = document.querySelectorAll("h1");
       h1Elements.forEach((h1Element) => {
         h1Element.style.color = "";
@@ -127,7 +130,7 @@ export default function Home() {
         markElement.style.background = "#08FF08";
       });
     });
-    
+
     paragraph5.addEventListener("mouseout", () => {
       document.body.style.background = ""; // reset the background color
       const markElements = document.querySelectorAll(".about-section mark");
@@ -438,6 +441,12 @@ export default function Home() {
               bit more Eurocentric/Western centric. This project very much
               welcomes criticism and outside opinions. You are invited to
               contribute via the following form.
+              <br></br>
+              <br></br>
+              By writting this manifesto I am not authoritivally imposing change
+              and searching for solutions to all problems rather creating a
+              topics discussion to potentially address them in my own design
+              practices.
             </mark>
           </p>
         </div>
