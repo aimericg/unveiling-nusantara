@@ -12,7 +12,7 @@ to this section's matching END comment to see page-specific styles.
   --color-text-main: #000000;
   --color-primary: #AFECE0;
   --wrapper-height: 100vh;
-  --wrapper-width: 233vw;
+  --wrapper-width: 233.33vw;
   --image-max-width: 320px;
   --font-family: "DejaVuSerifCondensed";
   --font-family-header: "DejaVuSerifCondensed";
@@ -104,7 +104,7 @@ body {
   min-width: var(--wrapper-width);
   display: grid;
   place-items: center;
-  margin: 0rem 1rem;
+  margin: 0rem 0rem;
 }
 .content {
   display: flex;
@@ -322,9 +322,26 @@ h2 {
   top: +0.9rem;
 }
 
+/******************************************************************************
+ADAPT
+******************************************************************************/
+
 @media screen and (max-width: 700px) {
+  :root {
+  --color-bg: yellow;
+  --color-text-main: #000000;
+  --color-primary: #AFECE0;
+  --wrapper-height: 100vh;
+  --wrapper-width: 700vw;
+  --image-max-width: 320px;
+  --font-family: "DejaVuSerifCondensed";
+  --font-family-header: "DejaVuSerifCondensed";
+}
+  
   .grid-container {
     grid-template-columns: repeat(7, 1fr); /* Change to one column */
+    position: relative;
+    right: 7rem;
   }
   .grid-container > * {
   width: calc(100vw - 1rem); /* Each column takes 33.33vw with gap included */
@@ -338,7 +355,6 @@ h2 {
   overflow-x: inherit;
   overflow-y: visible;
   
-  min-width: 2330px;
   position: static;
   top:-1rem;
   
@@ -351,8 +367,11 @@ h2 {
   min-width: var(--wrapper-width);
   display: grid;
   place-items: center;
-  margin: 0rem 1rem;
+  margin: 0rem 0rem;
+  right: 1rem;
 }
+  
+  
   .about-section {
     grid-template-columns: repeat(2, 1fr);; /* Change to one column */
     grid-template-rows: auto auto; /* Set two rows */
