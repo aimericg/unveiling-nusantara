@@ -13,8 +13,15 @@ const strings2 = [
   "DO ENDANGERED SCRIPTS ONLY SURVIVE IF DIGITALIZED?",
   "DOES DIGITALIZATION REALLY CONCLUDE TO LANGUAGE PRESERVATION?",
   "CAN THE UNICODE BE NON-RESTRICTIVE?",
+  "CAN ENCODING SCRIPT BE INCLUSIVE?",
+  "IS STANDARDISATION A NEED TO RETAIN ONE'S LANGUAGE?",
 ];
-const strings3 = ["IS NEUTRALITY TRULY ACHIEVABLE IN A GLOBAL CONTEXT?"]; // add more string arrays for each paragraph
+const strings3 = [
+  "IS NEUTRALITY TRULY ACHIEVABLE IN A GLOBAL CONTEXT?",
+  "CAN LATIN SCRIPT DEVELOPMENTS BE IGNORED?",
+  "ARE LATIN SCRIPT DEVELOPMENTS IRRELEVANT TO LOCAL SCRIPTS?",
+  "WHO SHOULD BE ABLE TO PART TAKE IN SCRIPT DECISIONS AND ENCODING?"
+]; // add more string arrays for each paragraph
 
 export default function Home() {
   const [hello, setHello] = React.useState(strings1[0]);
@@ -32,22 +39,21 @@ export default function Home() {
     return strings[Math.floor(Math.random() * strings.length)];
   }
 
-React.useEffect(() => {
-  const helloElement = document.querySelector(".title");
-  helloElement.style.opacity = 0; 
-  helloElement.style.transition = "opacity 1.2s ease-in"; // Adding the transition effect
-  
-  // Set opacity to 0.5 after a brief delay
-  setTimeout(() => {
-    helloElement.style.opacity = 0.3;
-  }, 0);
-  
-  // Reset opacity to 1 after 800ms
-  setTimeout(() => {
-    helloElement.style.opacity = 1;
-  }, 1000); // Adjusted timing
-  
-}, [hello]);
+  React.useEffect(() => {
+    const helloElement = document.querySelector(".title");
+    helloElement.style.opacity = 0;
+    helloElement.style.transition = "opacity 1.2s ease-in"; // Adding the transition effect
+
+    // Set opacity to 0.5 after a brief delay
+    setTimeout(() => {
+      helloElement.style.opacity = 0.3;
+    }, 0);
+
+    // Reset opacity to 1 after 800ms
+    setTimeout(() => {
+      helloElement.style.opacity = 1;
+    }, 1000); // Adjusted timing
+  }, [hello]);
 
   React.useEffect(() => {
     const paragraph1 = document.querySelector(".paragraph1");
@@ -199,10 +205,9 @@ React.useEffect(() => {
                   alt="Warung stand in lamongan"
                 ></img>{" "}
                 <img
-                  style={{ left: '7rem' }}
+                  style={{ left: "7rem" }}
                   src="https://cdn.glitch.global/7a0d470d-a08c-46c5-8148-bedf2cbc70f7/Pedagang_Makanan_Pecel_Lele_Lamongan_DiKebumen_Jateng_NKRI.jpg?v=1715015137489"
                   alt="Warung stand in lamongan"
-                  
                 ></img>{" "}
                 <br></br> <br></br>
                 <a>
@@ -245,7 +250,7 @@ React.useEffect(() => {
                 <br></br>
                 <br></br>
                 <img
-                  style={{ left: '4rem' }}
+                  style={{ left: "4rem" }}
                   src="https://cdn.glitch.global/7a0d470d-a08c-46c5-8148-bedf2cbc70f7/Pecel_Lele_Ayo_Mampir_-_Jelutung%2C_Kota_Jambi%2C_JA.jpg?v=1715015129285"
                   alt="Warung stand banners in Lamongan, East Java Indonesia"
                 ></img>{" "}
