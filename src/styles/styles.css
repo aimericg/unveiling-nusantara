@@ -348,11 +348,11 @@ ADAPT
 }  
   
   .grid-container {
-    grid-template-columns: 100vw, 100vw, 100vw, 100vw, 100vw, 100vw, 100vw ; /* Change to one column */
+    grid-template-columns: repeat(7, 1fr); /* Change to one column */
     left: 2rem;
   }
   .grid-container > * {
-  width: calc(100vw); 
+  width: calc(10vw); 
 }
 
   
@@ -383,5 +383,8 @@ ADAPT
   
   .about-section > * {
     width: calc(90vw - 1rem); /* Adjust width for single column layout */
+  }
+  h1 {
+    font-size:6rem;
   }
 }

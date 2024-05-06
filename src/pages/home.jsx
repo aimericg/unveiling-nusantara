@@ -21,6 +21,18 @@ const strings3 = [
   "ARE LATIN SCRIPT DEVELOPMENTS IRRELEVANT TO LOCAL SCRIPTS?",
   "WHO SHOULD BE ABLE TO PART TAKE IN SCRIPT DECISIONS AND ENCODING?",
 ];
+const strings4 = [
+  ""
+];
+const strings5 = [
+  ""
+];
+const strings6 = [
+  ""
+];
+const strings7 = [
+  "UNVEILING NUSANTARA"
+];
 
 export default function Home() {
   const [hello, setHello] = React.useState(strings1[0]);
@@ -35,6 +47,14 @@ export default function Home() {
         ? strings2
         : paragraph === "paragraph3"
         ? strings3
+        : paragraph === "paragraph4"
+        ? strings4
+        : paragraph === "paragraph5"
+        ? strings5
+        : paragraph === "paragraph6"
+        ? strings6
+        : paragraph === "paragraph7"
+        ? strings7
         : [];
     const newHello = randomNumber(strings);
     setHello(newHello);
