@@ -204,6 +204,35 @@ export default function Home() {
       });
     });
     
+    paragraph6.addEventListener("mouseover", () => {
+      const chosenColor = "rgb(0,255,100)";
+      document.body.style.background = chosenColor;
+      const markElements = document.querySelectorAll(".about-section mark");
+      markElements.forEach((markElement) => {
+        markElement.style.background = chosenColor;
+      });
+      const highlightElements = document.querySelectorAll(
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark, .paragraph7 mark"
+      );
+      highlightElements.forEach((highlightElement) => {
+        highlightElement.style.boxShadow =
+          "inset 0 1px 5px rgba(0,255,100 0.3)";
+      });
+    });
+
+    paragraph6.addEventListener("mouseout", () => {
+      document.body.style.background = ""; // reset the background color
+      const markElements = document.querySelectorAll(".about-section mark");
+      markElements.forEach((markElement) => {
+        markElement.style.background = "";
+      });
+      const highlightElements = document.querySelectorAll(
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark, .paragraph7 mark"
+      );
+      highlightElements.forEach((highlightElement) => {
+        highlightElement.style.boxShadow = "";
+      });
+    });
     
     paragraph7.addEventListener("mouseover", () => {
       const chosenColor = "red";
