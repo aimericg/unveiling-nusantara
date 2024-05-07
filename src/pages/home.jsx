@@ -22,16 +22,21 @@ const strings3 = [
   "WHO SHOULD BE ABLE TO PART TAKE IN SCRIPT DECISIONS AND ENCODING?",
 ];
 const strings4 = [
-  ""
+  "HOW CAN LOCAL SCRIPTS ABSTRACT THEMSELVES FROM PAST LATIN SCRIPT DEVELOPMENTS?"
 ];
 const strings5 = [
-  ""
+  "ARE AMERICAN TYPEFACES CONTROLLING COMMUNICATION IN FOREIGN COUNTRIES?"
 ];
 const strings6 = [
-  ""
+  "ARE TYPEFACES TO ABSTRACT AWAY FROM THEIR MATERIAL PAST?"
 ];
 const strings7 = [
-  "UNVEILING NUSANTARA"
+  "UNVEILING NUSANTARA?",
+  "ARE TYPEFACES TO ABSTRACT AWAY FROM THEIR MATERIAL PAST?"
+];
+const strings8 = [
+  "UNVEILING NUSANTARA BY AIMERIC PERMATA GUERRE",
+  
 ];
 
 export default function Home() {
@@ -55,6 +60,8 @@ export default function Home() {
         ? strings6
         : paragraph === "paragraph7"
         ? strings7
+    : paragraph === "paragraph8"
+        ? strings8
         : [];
     const newHello = randomNumber(strings);
     setHello(newHello);
@@ -377,7 +384,10 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="paragraph4">
+        <div
+          className="paragraph4"
+          onMouseOver={() => handleHover("paragraph4")}
+        >
           <div className="scroll-container">
             <h2>
               <mark>LATINISATION AND LATIN BIAS</mark>
@@ -394,7 +404,10 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="paragraph5">
+        <div
+          className="paragraph5"
+          onMouseOver={() => handleHover("paragraph5")}
+        >
           <div className="scroll-container">
             <h2>
               <mark>PUBLIC PRESENCE</mark>
@@ -442,7 +455,10 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="paragraph6">
+        <div
+          className="paragraph6"
+          onMouseOver={() => handleHover("paragraph6")}
+        >
           <div className="scroll-container">
             <h2>
               <mark>MODERNISATION</mark>
@@ -476,7 +492,10 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="paragraph6">
+        <div
+          className="paragraph7"
+          onMouseOver={() => handleHover("paragraph7")}
+        >
           <div className="scroll-container">
             <h2>
               <mark>BANISHING DESIGN PRINCIPLES</mark>
@@ -494,7 +513,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="about-section">
+      <div
+          className="about-section"
+          onMouseOver={() => handleHover("paragraph8")}
+        >
         <div className="about-project">
           <h2>
             <mark>PURPOSE OF THIS TEXT</mark>
