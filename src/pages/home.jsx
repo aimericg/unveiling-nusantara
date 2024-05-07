@@ -31,8 +31,7 @@ const strings6 = [
   "ARE TYPEFACES TO ABSTRACT AWAY FROM THEIR MATERIAL PAST?"
 ];
 const strings7 = [
-  "UNVEILING NUSANTARA?",
-  "ARE TYPEFACES TO ABSTRACT AWAY FROM THEIR MATERIAL PAST?"
+  "WHAT IS GOOD OR BAD DESIGN IN A GLOBAL CONTEXT?"
 ];
 const strings8 = [
   "UNVEILING NUSANTARA BY AIMERIC PERMATA GUERRE",
@@ -105,7 +104,7 @@ export default function Home() {
         markElement.style.background = chosenColor;
       });
       const highlightElements = document.querySelectorAll(
-        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark"
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark, .paragraph7 mark"
       );
       highlightElements.forEach((highlightElement) => {
         highlightElement.style.boxShadow =
@@ -120,7 +119,7 @@ export default function Home() {
         markElement.style.background = "";
       });
       const highlightElements = document.querySelectorAll(
-        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark"
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark, .paragraph7 mark"
       );
       highlightElements.forEach((highlightElement) => {
         highlightElement.style.boxShadow = "";
@@ -144,7 +143,7 @@ export default function Home() {
         markElement.style.background = chosenColor;
       });
       const highlightElements = document.querySelectorAll(
-        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark"
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark, .paragraph7 mark"
       );
       highlightElements.forEach((highlightElement) => {
         highlightElement.style.boxShadow =
@@ -159,7 +158,7 @@ export default function Home() {
         markElement.style.background = "";
       });
       const highlightElements = document.querySelectorAll(
-        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark"
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark, .paragraph7 mark"
       );
       highlightElements.forEach((highlightElement) => {
         highlightElement.style.boxShadow = "";
@@ -204,6 +203,38 @@ export default function Home() {
         markElement.style.background = "";
       });
     });
+    
+    
+    paragraph7.addEventListener("mouseover", () => {
+      const chosenColor = "red";
+      document.body.style.background = chosenColor;
+      const markElements = document.querySelectorAll(".about-section mark");
+      markElements.forEach((markElement) => {
+        markElement.style.background = chosenColor;
+      });
+      const highlightElements = document.querySelectorAll(
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark, .paragraph7 mark"
+      );
+      highlightElements.forEach((highlightElement) => {
+        highlightElement.style.boxShadow =
+          "inset 0 1px 5px rgba(255, 0, 0, 0.3)";
+      });
+    });
+
+    paragraph7.addEventListener("mouseout", () => {
+      document.body.style.background = ""; // reset the background color
+      const markElements = document.querySelectorAll(".about-section mark");
+      markElements.forEach((markElement) => {
+        markElement.style.background = "";
+      });
+      const highlightElements = document.querySelectorAll(
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark, .paragraph7 mark"
+      );
+      highlightElements.forEach((highlightElement) => {
+        highlightElement.style.boxShadow = "";
+      });
+    });
+    
   }, []);
 
   return (
