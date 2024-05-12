@@ -275,7 +275,6 @@ export default function Home() {
           className="paragraph1"
           onMouseOver={() => handleHover("paragraph1")}
         >
-          ">
           <div className="scroll-container">
             <h2>
               <mark>VERNACULAR SHOUTING</mark>
