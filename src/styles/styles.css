@@ -187,10 +187,15 @@ h2 {
   position: static;
   grid-template-columns: repeat(7, 1fr);
   position: relative;
-  gap: 0.8rem;
+  gap: 1rem;
   top: -10.5rem;
   border-radius:0;
-  margin-left: -0.4rem;
+  margin-left: 1.4rem;
+  
+}
+
+.grid-container > * {
+  width: calc(33.33vw - 1rem); /* Each column takes 33.33vw with gap included */
 }
 
 .about-section {
@@ -205,14 +210,12 @@ h2 {
   left: -1rem;
   padding-right: 20px;
   background: linear-gradient(to top, rgba(255, 165, 0, 1), rgba(255, 255, 0, 0));
-  top: 27rem;
+  bottom: 0rem;
 
   
 }
 
-.grid-container > * {
-  width: calc(33.33vw - 1rem); /* Each column takes 33.33vw with gap included */
-}
+
 
 
 
