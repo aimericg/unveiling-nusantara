@@ -115,7 +115,9 @@ body {
 
 /* Page titles */
 h1 {
-  margin: -0.5rem -0.5rem;
+  margin: 1rem 1rem 10rem 10rem;
+  margin-left: 1rem;
+  
   /* outline: 6px dotted orange;*/
   color: white; /* Set the text color to transparent */
   font-family: DOTCIRFUL;
@@ -127,7 +129,7 @@ h1 {
   text-shadow: 4px 4px 3px grey;
   max-width: 95vw;
   position: fixed;
-  top: 2rem;
+  top: 0rem;
   z-index:-1;
   overflow:none;
   text-align:center;
@@ -188,7 +190,7 @@ h2 {
   grid-template-columns: repeat(7, 1fr);
   position: relative;
   gap: 1rem;
-  top: -10.5rem;
+  top: -20vh;
   border-radius:0;
   margin-left: 1.4rem;
   
@@ -354,7 +356,6 @@ ADAPT
   
   .grid-container {
     grid-template-columns: repeat(7, 1fr); /* Change to one column */
-    left: 2rem;
   }
   .grid-container > * {
   width: calc(10vw); 
@@ -379,7 +380,10 @@ ADAPT
   
   
   .about-section {
-    
+    bottom: -90vw;
+    background-color:orange;
+    margin: none;
+    padding: none;
   }
 
   .grid-container > * {
