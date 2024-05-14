@@ -190,7 +190,7 @@ h2 {
   grid-template-columns: repeat(7, 1fr);
   position: relative;
   gap: 1rem;
-  top: -20vh;
+  top: -8rem;
   border-radius:0;
   margin-left: 1.4rem;
   
@@ -232,9 +232,9 @@ h2 {
   padding-top: 0;
   border-radius: 0;
  
-  top: 0rem;
+  
   padding-bottom: -7rem;
-  margin-bottom: -6rem;
+  
 }
 
 /* Additional styling for paragraph headings */
@@ -380,8 +380,7 @@ ADAPT
   
   
   .about-section {
-    bottom: -90vw;
-    background-color:orange;
+    bottom: -20rem;
     margin: none;
     padding: none;
   }
