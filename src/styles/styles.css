@@ -76,6 +76,13 @@ to this section's matching END comment to see page-specific styles.
 
 
 
+@font-face {
+  font-family: Authentic;
+  font-weight: regular;
+  src: url("https://cdn.glitch.global/7a0d470d-a08c-46c5-8148-bedf2cbc70f7/AUTHENTICSans-130.woff?v=1715727986738")
+    format("truetype");
+}
+
 .divider {
   padding: 0 1rem;
 }
@@ -309,6 +316,9 @@ h2 {
   
 }
 
+.paragraph6 p {
+  font-family: "Authentic";
+}
 
 .about-project p {
   
