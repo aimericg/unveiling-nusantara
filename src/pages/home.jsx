@@ -273,7 +273,7 @@ export default function Home() {
         >
           <div className="scroll-container">
             <h2>
-              <mark>VERNACULAR SHOUTING</mark>
+              <mark>CULTURAL CRINGE</mark>
             </h2>
 
             <p>
@@ -357,34 +357,54 @@ export default function Home() {
         >
           <div className="scroll-container">
             <h2>
-              <mark>TYPOGRAPHY AS A PROGRAM</mark>
+              <mark>WESTERN CONFORMED DIGITAL</mark>
             </h2>
             <p>
               {" "}
               <mark>
-                Latinisation - latin bias, Unicode standardisation and
-                showcasing alternatives, materiality of type, holistic thinking,
-                preserving scripts, taking back the public space / public
-                signage Apple and Adobe and large companies involved in the
-                technologies of fonts and computers do not value the importance
-                of other scripts and put themselves in a hierarchical role in
-                which scripts must be adapted to their conventions/standards,
-                not the other way around. In a larger perspective, perhaps other
-                models should be inovated to counter this problem and perhaps
-                Unicode is not the only way after all? The unicode also lacks
-                funding and is mostly developped and iterating with the help of
-                volunteer work. The Unicode should not be seen as this flawless
-                and perfect model. It is a method of standardisation in itself.
-                <br></br>
-                <br></br>
-                The use of typography is now heavily reliant on its digital form
-                as a software, one that is nurtured for a specific expected use
-                and that is mainly centered around the english language and
-                languages that use the Latin alphabet as it is undoubtably the
-                environment in which it was developped the most. The unicode
-                consortium in that sense is made initially for the Latin script,
-                now has been adapted to expand to various foreign scripts but a
-                large latin bias is still quite present.
+                Typography is now very mainly manipulated digitally and used as
+                a program. Most of its common uses are through digital tools or
+                mediums on screens. There is the birth of a user, the program is
+                therefore adapted and conceived according to that user. Present
+                dominant design softwares were primarily made to find solutions
+                to Western problems, and it is foreign visual cultures that have
+                adapted them to fit with the complications of these mediums. In
+                these softwares, there is a real push for practicality and
+                efficiency specifically intended for the conformity of Western
+                uses and the Latin script. In this regard, placing complex
+                ‘local’ scripts in tricky situations of use. As “software
+                developers often find it cumbersome to support different
+                scripts. For example, Adobe’s InDesign has recently introduced
+                support for some Southeast Asian scripts, but the user needs to
+                find a hidden setting to display text correctly, and cannot
+                access font features linked to particular languages.”
+                (Mitchell). The use of ‘local’ scripts is sometimes therefore
+                “susceptible to highly unattractive typographic representation,
+                as some users are using the QWERTY keyboard to type out scripts
+                like Balinese, often leading to strings of gibberish
+                characters.” (Perdana) The adaptation of softwares for ‘local’
+                minorities is often neglected yet those have impacts on how
+                their languages and culture develop over time. As Western
+                technological developments are the ones leading the march for
+                the implementations of ‘local’ scripts, they hold a certain
+                position of power. Are Western softwares therefore dictating the
+                developments of ‘local’ scripts? ‘local’ identities? With the
+                importation of the Unicode, ‘local’ scripts are subjected to a
+                new form of writing system that is developed around ‘movable
+                type’ and the Latin script. In addition to that, trapped in a
+                new language standardisation with a Unicode consortium that
+                stays impartial. Is the unicode therefore always respecting
+                ‘local’ ethics and customs? CAN THE UNICODE BE NON-RESTRICTIVE?
+                CAN ENCODING SCRIPT BE NON-STANDARDIZED AND INCLUSIVE? CAN A
+                UNIVERSAL ENCODING BE APPLIED WITHOUT DISCREDITING LOCAL
+                CUSTOMS? In relation to its effects on ‘local’ cultures: DOES
+                DIGITALIZATION REALLY CONCLUDE TO LANGUAGE PRESERVATION? CAN A
+                NEW DIGITAL SPACE EMERGE TO FACE THESE CHALLENGES? As stated by
+                Aditya Bayu Perdana, “digitalization should be hand in hand with
+                the people’s willingness to use it in mundane everyday manner.
+                Some scripts are not to be used digitally as their everyday
+                common use is outside of the digital space.” This train of
+                thought is further formulated in Material Essence.
               </mark>
             </p>
           </div>
@@ -518,7 +538,7 @@ export default function Home() {
         >
           <div className="scroll-container">
             <h2>
-              <mark>MODERNISATION</mark>
+              <mark>MATERIAL ESSENCE</mark>
             </h2>
             <p>
               <mark>
@@ -555,7 +575,7 @@ export default function Home() {
         >
           <div className="scroll-container">
             <h2>
-              <mark>BANISHING DESIGN PRINCIPLES</mark>
+              <mark>BANISHING DESIGN PRINCIPLES?</mark>
             </h2>
             <p>
               <mark>
@@ -607,13 +627,13 @@ export default function Home() {
               <br></br>
               This text also uses ‘local’ as a replacement for the use of
               ‘indigenous’ and ‘common informal’ as a replacement for the use of
-              ‘vernacular’ to accompany an attitude towards a decolonial
-              action. As the terms ‘indigenous’ and ‘vernacular’ are often used
-              in an ambiguous and imprecise manner and ultimately presents a
-              position of hierarchy and separation. The term "common informal"
-              mainly refers to a form of visual culture that emerges
-              organically, rooted in the local context and shaped by local
-              demands and culture.
+              ‘vernacular’ to accompany an attitude towards a decolonial action.
+              As the terms ‘indigenous’ and ‘vernacular’ are often used in an
+              ambiguous and imprecise manner and ultimately presents a position
+              of hierarchy and separation. The term "common informal" mainly
+              refers to a form of visual culture that emerges organically,
+              rooted in the local context and shaped by local demands and
+              culture.
             </mark>
           </p>
         </div>
