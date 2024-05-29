@@ -467,7 +467,7 @@ export default function Home() {
         >
           <div className="scroll-container">
             <h2>
-              <mark>LATINISATION AND LATIN BIAS</mark>
+              <mark>LATINIZATION</mark>
             </h2>
             <p>
               <mark>
