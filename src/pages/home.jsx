@@ -579,11 +579,30 @@ export default function Home() {
             </h2>
             <p>
               <mark>
-                Should there really be design principles for defining what is
-                good or bad design? On a global level, generalising criterias
-                for design can not be simply put. Design principles cannot and
-                shouldnt be adapted globally, this has consequences the local
-                cultural identity and its associated language.
+                On a global level, design criterias cannot be simply generalized
+                without considering the unique cultural contexts and local
+                identities that shape them. Should design principles really be
+                adapted globally? Isn’t their intent for neutrality erasing
+                local cultural identities and associated languages? As the
+                International/Swiss style is often taught at school globally and
+                often a first reference to graphic design. Academically it often
+                dictates what is good or bad design. Should there really be
+                design principles for defining what is good or bad design? How
+                can non-Western centric conventions adapt to these dominant
+                design principles? How are local identities to evolve under
+                restrictive Western conventions? These Western imposed
+                conventions do come at the expense of local visual cultures and
+                cultural diversity. Where expressiveness is toned down and
+                nurtured. Though as stated by Peter Bilak, “The alphabet is by
+                its very nature dependent on and defined by conventions. Type
+                design that is not bound by convention is like a private
+                language: both lack the ability to communicate.” Therefore there
+                still needs to be some conventions for the message to come
+                across successfully. Shouldn’t local languages find their own
+                conventions? Can local languages truly find their own
+                conventions? Are they trapped by the dominant design principles?
+                Can dominant powers adapt their narrative for more inclusive
+                conventions?
               </mark>
             </p>
           </div>
