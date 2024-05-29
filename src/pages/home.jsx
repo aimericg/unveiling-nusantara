@@ -634,6 +634,11 @@ export default function Home() {
               refers to a form of visual culture that emerges organically,
               rooted in the local context and shaped by local demands and
               culture.
+              <br></br>
+              <br></br>
+              Furthermore, criticism and outside perspectives are gladly
+              welcomed to potentially upgrade this text. Contact:
+              aimericmail@gmail.com
             </mark>
           </p>
         </div>
