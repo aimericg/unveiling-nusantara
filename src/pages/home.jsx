@@ -22,23 +22,20 @@ const strings3 = [
   "WHO SHOULD BE ABLE TO PART TAKE IN SCRIPT DECISIONS AND ENCODING?",
 ];
 const strings4 = [
-  "HOW CAN LOCAL SCRIPTS ABSTRACT THEMSELVES FROM PAST LATIN SCRIPT DEVELOPMENTS?"
+  "HOW CAN LOCAL SCRIPTS ABSTRACT THEMSELVES FROM PAST LATIN SCRIPT DEVELOPMENTS?",
 ];
 const strings5 = [
-  "ARE AMERICAN TYPEFACES CONTROLLING COMMUNICATION IN FOREIGN COUNTRIES?"
+  "ARE AMERICAN TYPEFACES CONTROLLING COMMUNICATION IN FOREIGN COUNTRIES?",
 ];
 const strings6 = [
   "ARE TYPEFACES TO ABSTRACT AWAY FROM THEIR MATERIAL PAST?",
-  "IS MODERNITY TO BE DEFINED IN THE SAME WAY GLOBALLY?"
+  "IS MODERNITY TO BE DEFINED IN THE SAME WAY GLOBALLY?",
 ];
 const strings7 = [
   "WHAT IS GOOD OR BAD DESIGN IN A GLOBAL CONTEXT?",
-  "HOW CAN WESTERN VISIONS ASSERT DOMINANCE OVER GLOBAL DESIGN KNOWLEDGE?"
+  "HOW CAN WESTERN VISIONS ASSERT DOMINANCE OVER GLOBAL DESIGN KNOWLEDGE?",
 ];
-const strings8 = [
-  "UNVEILING NUSANTARA BY AIMERIC PERMATA GUERRE",
-  
-];
+const strings8 = ["UNVEILING NUSANTARA BY AIMERIC PERMATA GUERRE"];
 
 export default function Home() {
   const [hello, setHello] = React.useState(strings1[0]);
@@ -61,7 +58,7 @@ export default function Home() {
         ? strings6
         : paragraph === "paragraph7"
         ? strings7
-    : paragraph === "paragraph8"
+        : paragraph === "paragraph8"
         ? strings8
         : [];
     const newHello = randomNumber(strings);
@@ -205,7 +202,7 @@ export default function Home() {
         markElement.style.background = "";
       });
     });
-    
+
     paragraph6.addEventListener("mouseover", () => {
       const chosenColor = "rgb(0,255,100)";
       document.body.style.background = chosenColor;
@@ -235,7 +232,7 @@ export default function Home() {
         highlightElement.style.boxShadow = "";
       });
     });
-    
+
     paragraph7.addEventListener("mouseover", () => {
       const chosenColor = "red";
       document.body.style.background = chosenColor;
@@ -265,7 +262,6 @@ export default function Home() {
         highlightElement.style.boxShadow = "";
       });
     });
-    
   }, []);
 
   return (
@@ -575,32 +571,49 @@ export default function Home() {
       </div>
 
       <div
-          className="about-section"
-          onMouseOver={() => handleHover("paragraph8")}
-        >
+        className="about-section"
+        onMouseOver={() => handleHover("paragraph8")}
+      >
         <div className="about-project">
           <h2>
-            <mark>PURPOSE OF THIS TEXT</mark>
+            <mark>ABOUT</mark>
           </h2>
           <p>
             <mark>
-              This is a project started by Aimeric Permata Guerre, for his
-              graduation from BA. Graphic Design at Willem de Kooning Academy
-              (Rotterdam, Netherlands). <br></br>
-              <br></br>
-              The main purpose was a rediscovery of his Indonesian roots through
-              the study of local languages and the developement of the Graphic
-              Design in the region of South East Asia. As well as growing a
-              critical perspective on his past education which tended to be a
-              bit more Eurocentric/Western centric. This project very much
-              welcomes criticism and outside opinions. You are invited to
-              contribute via the following form.
+              Made by Aimeric Permata Guerre in 2024, for his graduation from
+              Willem de Kooning Academy (Rotterdam, Netherlands).
               <br></br>
               <br></br>
-              By writting this manifesto I am not authoritivally imposing change
-              and searching for solutions to all problems rather creating a
-              topics discussion to potentially address them in my own design
-              practices.
+              Unveiling Nusantara is a manifesto that challenges and sparks
+              conversations about decolonizing and de-canonizing type and
+              graphic design to encourage the development of ‘local’ scripts and
+              the ‘common informal’ of the Indonesian archipelago. It looks into
+              the ongoing challenges due to the influence and past presence of
+              Western colonial powers in the region.
+              <br></br>
+              <br></br>
+              ‘Nusantara’ refers to the Indonesian archipelago as a whole,
+              reclaimed as a term that predates the arrival of Western powers.
+              Encompassing the concept of 'buitengewesten', which originally
+              referred to the outer islands beyond Java during the Javanese
+              empire. However, in this context, it is to be used in a rebellious
+              sense to reclaim the identity of these peripheral regions, which
+              were often overlooked and disregarded. By embracing this term,
+              "Nusantara" becomes a powerful symbol of Indonesian resistance,
+              challenging the dominant narratives against the erasure of ‘local’
+              cultures and the imposition of foreign values. Reclaiming the
+              spotlight for the often marginalized regions of the archipelago.
+              <br></br>
+              <br></br>
+              This text also uses ‘local’ as a replacement for the use of
+              ‘indigenous’ and ‘common informal’ as a replacement for the use of
+              ‘vernacular’ to accompany an attitude towards a decolonial
+              action. As the terms ‘indigenous’ and ‘vernacular’ are often used
+              in an ambiguous and imprecise manner and ultimately presents a
+              position of hierarchy and separation. The term "common informal"
+              mainly refers to a form of visual culture that emerges
+              organically, rooted in the local context and shaped by local
+              demands and culture.
             </mark>
           </p>
         </div>
