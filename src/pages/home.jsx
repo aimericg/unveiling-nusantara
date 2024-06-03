@@ -242,7 +242,7 @@ export default function Home() {
         >
           <div className="scroll-container">
             <h2>
-              <mark>CULTURAL CRINGE</mark>
+              CULTURAL CRINGE
             </h2>
 
             <p>
@@ -282,7 +282,7 @@ export default function Home() {
         >
           <div className="scroll-container">
             <h2>
-              <mark>WESTERN CONFORMED DIGITAL</mark>
+              WESTERN CONFORMED DIGITAL
             </h2>
             <p>
               {" "}
@@ -340,7 +340,7 @@ export default function Home() {
         >
           <div className="scroll-container">
             <h2>
-              <mark>BANISHING DESIGN PRINCIPLES</mark>
+              BANISHING DESIGN PRINCIPLES
             </h2>
             <p>
               On a global level, design criterias cannot be simply generalized
@@ -374,10 +374,10 @@ export default function Home() {
         >
           <div className="scroll-container">
             <h2>
-              <mark>LATINIZATION</mark>
+              LATINIZATION
             </h2>
             <p>
-              <mark>
+              
                 For the development of multi-script typefaces, the Latin script
                 is often the primary reference sometimes leading to forms of
                 ‘Latinization’. When Latin shapes are incorporated into other
@@ -411,7 +411,7 @@ export default function Home() {
                 Latinization a new form of language standardization? Are ‘local’
                 scripts benefitting from being latinized or is it exclusively
                 empowering the Latin script?
-              </mark>
+              
             </p>
           </div>
         </div>
@@ -421,10 +421,10 @@ export default function Home() {
         >
           <div className="scroll-container">
             <h2>
-              <mark>PUBLIC PRESENCE</mark>
+              PUBLIC PRESENCE
             </h2>
             <p>
-              <mark>
+              
                 Public signage is overly dominated with typefaces like the
                 American's Highway Gothic present in an immense number of
                 countries around the world. Doesn't that pose domincance over
@@ -462,7 +462,7 @@ export default function Home() {
                 varied experiences and perspectives that shape our global
                 landscape.<br></br>
                 <br></br>
-              </mark>
+              
             </p>
           </div>
         </div>
@@ -472,10 +472,10 @@ export default function Home() {
         >
           <div className="scroll-container">
             <h2>
-              <mark>MATERIAL ESSENCE</mark>
+              MATERIAL ESSENCE
             </h2>
             <p>
-              <mark>
+              
                 The steps of making a modern typeface in a digital sphere mainly
                 tends to the loss of its materiality. Over a series of
                 modifications, imperfections lead to the medium the letters were
@@ -499,7 +499,7 @@ export default function Home() {
                 Because that process already works for the Latin script, it
                 shouldnt not work for foreign scripts? See "Latinisation" for
                 more on this subject.
-              </mark>
+              
             </p>
           </div>
         </div>

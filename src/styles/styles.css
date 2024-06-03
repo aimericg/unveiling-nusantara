@@ -259,8 +259,6 @@ h2 {
 
 .paragraph1 p {
   font-family: AndersonGrotesk;
-  color: grey;
-  
 }
 
 
@@ -279,17 +277,13 @@ h2 {
 }
 
 
-
 .paragraph2 p {
   font-family: DejaVuSans;
 }
 
-
 .paragraph3 p {
   font-family: HK Grotesk;
 }
-
-
 
 .paragraph4 p {
   font-family: "Comissioner";
