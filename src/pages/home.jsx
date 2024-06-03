@@ -16,13 +16,15 @@ const strings2 = [
   "CAN ENCODING SCRIPT BE NON-STANDARDIZED AND INCLUSIVE?",
 ];
 const strings3 = [
-  "IS NEUTRALITY TRULY ACHIEVABLE IN A GLOBAL CONTEXT?",
-  "ARE LATIN SCRIPT DEVELOPMENTS TO BE IGNORED?",
-  "ARE LATIN SCRIPT DEVELOPMENTS IRRELEVANT TO LOCAL SCRIPTS?",
-  "WHO SHOULD BE ABLE TO PART TAKE IN SCRIPT DECISIONS AND ENCODING?",
+  "WHAT IS GOOD OR BAD DESIGN IN A GLOBAL CONTEXT?",
+  "HOW CAN WESTERN VISIONS ASSERT DOMINANCE OVER GLOBAL DESIGN KNOWLEDGE?",
 ];
 const strings4 = [
   "HOW CAN LOCAL SCRIPTS ABSTRACT THEMSELVES FROM PAST LATIN SCRIPT DEVELOPMENTS?",
+  "IS NEUTRALITY TRULY ACHIEVABLE IN A GLOBAL CONTEXT?",
+  "ARE LATIN SCRIPT DEVELOPMENTS TO BE IGNORED?",
+  "ARE LATIN SCRIPT DEVELOPMENTS IRRELEVANT TO LOCAL SCRIPTS?",
+  "WHO SHOULD BE ABLE TO PART TAKE IN SCRIPT DECISIONS AND ENCODING?"
 ];
 const strings5 = [
   "ARE AMERICAN TYPEFACES CONTROLLING COMMUNICATION IN FOREIGN COUNTRIES?",
@@ -90,7 +92,6 @@ export default function Home() {
     const paragraph4 = document.querySelector(".paragraph4");
     const paragraph5 = document.querySelector(".paragraph5");
     const paragraph6 = document.querySelector(".paragraph6");
-
 
     paragraph1.addEventListener("mouseover", () => {
       const chosenColor = "#ff00ff";
@@ -230,9 +231,6 @@ export default function Home() {
         highlightElement.style.boxShadow = "";
       });
     });
-
-
-   
   }, []);
 
   return (
@@ -442,12 +440,39 @@ export default function Home() {
             </h2>
             <p>
               <mark>
-                Are the aspects of weights, italics, contrast only applicable to
-                Latin script? Design education is centered around Latin script,
-                notions of weights, italics, contrast have been used for the
-                developments of typefaces and is creating the designer's liberty
-                to create emphasis on certain aspects. Though in other
-                languages, emphasis can be done through different forms.
+                For the development of multi-script typefaces, the Latin script
+                is often the primary reference sometimes leading to forms of
+                ‘Latinization’. When Latin shapes are incorporated into other
+                scripts, regardless of whether they conform to the script’s
+                initial conventions, this can result in a disregard for the
+                script’s unique characteristics and ‘local’ identity. How can
+                type design processes be less dependent on Latin script
+                developments? Can script development break free from Latin
+                script dominance? Despite some efforts to revitalize a script
+                respectfully, most current type design processes remain centered
+                on the notions and developments of the Latin script, with less
+                attention paid to the specific needs and requirements of
+                distinguished scripts. Current typographic endeavors for
+                multi-script typefaces start with the objective of harmonization
+                “yet the problem arising is assimilation” (Ben Ayed). There is a
+                certain push for unifying scripts to be legible in the same
+                exact way, with a typeface that matches perfectly from script to
+                script. Where do we draw the line between processes of
+                Latinization and independent development? At what point do we
+                prioritize preserving the unique characteristics of non-Latin
+                scripts over the pursuit of uniformity and legibility in
+                multi-script typefaces? To adhere to Western markets some once
+                exclusively Latin concepts have been applied to ‘local’ scripts
+                completely foreign from that. Such as weights and thick and thin
+                contrasts. In efforts to unify a wide range of scripts for
+                Google Fonts Noto Sans, thick/thin contrasts have been named
+                with the concepts of ‘serif’ and ‘sans serif’ completely
+                irrelevant to ‘local’ scripts like Balinese, Javanese, or
+                Lontara. Or any other scripts other than Latin or Greek. Is
+                Latinization a new form of colonial autority on language? Is
+                Latinization a new form of language standardization? Are ‘local’
+                scripts benefitting from being latinized or is it exclusively
+                empowering the Latin script?
               </mark>
             </p>
           </div>
@@ -539,6 +564,8 @@ export default function Home() {
               </mark>
             </p>
           </div>
+        </div>
+      </div>
       <div
         className="about-section"
         onMouseOver={() => handleHover("paragraph8")}
@@ -559,35 +586,6 @@ export default function Home() {
               the ‘common informal’ of the Indonesian archipelago. It looks into
               the ongoing challenges due to the influence and past presence of
               Western colonial powers in the region.
-              <br></br>
-              <br></br>
-              ‘Nusantara’ refers to the Indonesian archipelago as a whole,
-              reclaimed as a term that predates the arrival of Western powers.
-              Encompassing the concept of 'buitengewesten', which originally
-              referred to the outer islands beyond Java during the Javanese
-              empire. However, in this context, it is to be used in a rebellious
-              sense to reclaim the identity of these peripheral regions, which
-              were often overlooked and disregarded. By embracing this term,
-              "Nusantara" becomes a powerful symbol of Indonesian resistance,
-              challenging the dominant narratives against the erasure of ‘local’
-              cultures and the imposition of foreign values. Reclaiming the
-              spotlight for the often marginalized regions of the archipelago.
-              <br></br>
-              <br></br>
-              This text also uses ‘local’ as a replacement for the use of
-              ‘indigenous’ and ‘common informal’ as a replacement for the use of
-              ‘vernacular’ to accompany an attitude towards a decolonial action.
-              As the terms ‘indigenous’ and ‘vernacular’ are often used in an
-              ambiguous and imprecise manner and ultimately presents a position
-              of hierarchy and separation. The term "common informal" mainly
-              refers to a form of visual culture that emerges organically,
-              rooted in the local context and shaped by local demands and
-              culture.
-              <br></br>
-              <br></br>
-              Furthermore, criticism and outside perspectives are gladly
-              welcomed to potentially upgrade this text. Contact:
-              aimericmail@gmail.com
             </mark>
           </p>
         </div>
