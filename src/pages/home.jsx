@@ -24,7 +24,7 @@ const strings4 = [
   "IS NEUTRALITY TRULY ACHIEVABLE IN A GLOBAL CONTEXT?",
   "ARE LATIN SCRIPT DEVELOPMENTS TO BE IGNORED?",
   "ARE LATIN SCRIPT DEVELOPMENTS IRRELEVANT TO LOCAL SCRIPTS?",
-  "WHO SHOULD BE ABLE TO PART TAKE IN SCRIPT DECISIONS AND ENCODING?"
+  "WHO SHOULD BE ABLE TO PART TAKE IN SCRIPT DECISIONS AND ENCODING?",
 ];
 const strings5 = [
   "ARE AMERICAN TYPEFACES CONTROLLING COMMUNICATION IN FOREIGN COUNTRIES?",
@@ -246,77 +246,33 @@ export default function Home() {
             </h2>
 
             <p>
-              <mark>
-                Waroeng in Indonesia have started to be embodied by “cheap”
-                fonts, such as impact, strechted type, cooper black and more.
-                The use of these fonts are not the same in a western context,
-                they are more used or they used to be more used for more
-                conventional stuff. Waroeng have embraced new meanings and new
-                purposes for the font, they are now used more unconventionally,
-                in bold store fronts fulll of color and often strechted to the
-                max. The graphic identity of Warung in Indonesia should be
-                celebrated and embraced rather than seen as cheap. The
-                practicality and the commonalities have emerged to give it its
-                own charm. Waroeng in Indonesia have started to be embodied by
-                “cheap” fonts, such as impact, strechted type, cooper black and
-                more.
-                <br></br>
-                <br></br>
-                <img
-                  src="https://cdn.glitch.global/53ce0b84-77c9-492a-9b7d-5ff4dec3955e/pecel-lele-warung.jpg?v=1713431011588"
-                  alt="Warung stand in lamongan"
-                ></img>{" "}
-                <img
-                  style={{ left: "7rem" }}
-                  src="https://cdn.glitch.global/7a0d470d-a08c-46c5-8148-bedf2cbc70f7/Pedagang_Makanan_Pecel_Lele_Lamongan_DiKebumen_Jateng_NKRI.jpg?v=1715015137489"
-                  alt="Warung stand in lamongan"
-                ></img>{" "}
-                <br></br> <br></br>
-                <a>
-                  CAN TYPEFACES BE READAPTED IN A FOREIGN ENVIRONMENT? ARE
-                  TYPEFACES TO CHANGE FUNCTION IN A FOREIGN ENVIRONMENT? CAN
-                  TYPEFACES CHANGE POSITIONALITY WHEN BEING USED VERNACULARLY?
-                </a>{" "}
-                The use of these fonts are not the same in a western context,
-                they are more used or they used to be more used for more
-                conventional stuff. Waroeng have embraced new meanings and new
-                purposes for the font, they are now used more unconventionally,
-                in bold store fronts fulll of color and often strechted to the
-                max. The graphic identity of Warung in Indonesia should be
-                celebrated and embraced rather than seen as cheap. The
-                practicality and the commonalities have emerged to give it its
-                own charm. Waroeng in Indonesia have started to be embodied by
-                “cheap” fonts, such as impact, strechted type, cooper black and
-                more. The use of these fonts are not the same in a western
-                context, they are more used or they used to be more used for
-                more conventional stuff. Waroeng have embraced new meanings and
-                new purposes for the font, they are now used more
-                unconventionally, in bold store fronts fulll of color and often
-                strechted to the max. The graphic identity of Warung in
-                Indonesia should be celebrated and embraced rather than seen as
-                cheap. The practicality and the commonalities have emerged to
-                give it its own charm.
-                <br></br>
-                <br></br>
-                Should we accept the design canon or should start over from
-                scratch and remove it? Its time for the canon to incorporate
-                these different voices in design.
-                <br></br>
-                <br></br>
-                There is also this shouting aspect of having ALL CAPS. It comes
-                from a more capitalist approach and does not correspond the
-                design thinking of Western designers. It is the perfect example
-                to the showcase of how design is not well seen in a global
-                perspective. Its in a way a conflict of who is being the loudest
-                to put themselves forward.
-                <br></br>
-                <br></br>
-                <img
-                  style={{ left: "4rem" }}
-                  src="https://cdn.glitch.global/7a0d470d-a08c-46c5-8148-bedf2cbc70f7/Pecel_Lele_Ayo_Mampir_-_Jelutung%2C_Kota_Jambi%2C_JA.jpg?v=1715015129285"
-                  alt="Warung stand banners in Lamongan, East Java Indonesia"
-                ></img>{" "}
-              </mark>
+              Warung banners portray a large facette of Indonesia’s ‘common
+              informal’. They are characterized by large headings, all-caps
+              text, stretched/distorted typefaces, effects, and gradients which
+              from a Western graphic design perspective can give the impression
+              of aggressive shouting. They are therefore often overlooked or
+              undervalued under more common views associated with the
+              International/Swiss style and minimalism. However, their designs
+              do have their importance in local culture, as exemplified by the
+              iconic Lamongan Pecel Lele warung banners, serving as a vibrant
+              symbol of the regional identity and street food culture of East
+              Java.This Western critical eye finds its sense when relating it to
+              A.A. Philip's theory of cultural cringe, which Filipino cultural
+              worker Clara Balaguer defines as the phenomenon "by which the
+              culture produced in an ex-colonial or colonial country is seen as
+              inferior to that being produced in the colonial seat," This is
+              furthermore accentuated by Novreica “the opulence of these
+              Indonesian-styled graphics is sometimes overlooked, forgotten, and
+              even underestimated because of the assumptions of them being
+              low-brow or kitschy.” How can cultural cringe be countered? How
+              can these colonial traps be avoided? The focus of study should be
+              shifted towards prioritizing ‘local’ cultures rather than the
+              study of Western concepts first. Novreica emphasizes that
+              “Indonesian ephemeras deserve to be used as a primary source for
+              further research– which offers unique windows into cultures past.”
+              By digging deeper into Indonesian ephemeras and artifacts, we can
+              uncover the stories and designs that make Indonesian culture
+              unique.
             </p>
           </div>
         </div>
@@ -330,51 +286,51 @@ export default function Home() {
             </h2>
             <p>
               {" "}
-              <mark>
-                Typography is now very mainly manipulated digitally and used as
-                a program. Most of its common uses are through digital tools or
-                mediums on screens. There is the birth of a user, the program is
-                therefore adapted and conceived according to that user. Present
-                dominant design softwares were primarily made to find solutions
-                to Western problems, and it is foreign visual cultures that have
-                adapted them to fit with the complications of these mediums. In
-                these softwares, there is a real push for practicality and
-                efficiency specifically intended for the conformity of Western
-                uses and the Latin script. In this regard, placing complex
-                ‘local’ scripts in tricky situations of use. As “software
-                developers often find it cumbersome to support different
-                scripts. For example, Adobe’s InDesign has recently introduced
-                support for some Southeast Asian scripts, but the user needs to
-                find a hidden setting to display text correctly, and cannot
-                access font features linked to particular languages.”
-                (Mitchell). The use of ‘local’ scripts is sometimes therefore
-                “susceptible to highly unattractive typographic representation,
-                as some users are using the QWERTY keyboard to type out scripts
-                like Balinese, often leading to strings of gibberish
-                characters.” (Perdana) The adaptation of softwares for ‘local’
-                minorities is often neglected yet those have impacts on how
-                their languages and culture develop over time. As Western
-                technological developments are the ones leading the march for
-                the implementations of ‘local’ scripts, they hold a certain
-                position of power. Are Western softwares therefore dictating the
-                developments of ‘local’ scripts? ‘local’ identities? With the
-                importation of the Unicode, ‘local’ scripts are subjected to a
-                new form of writing system that is developed around ‘movable
-                type’ and the Latin script. In addition to that, trapped in a
-                new language standardisation with a Unicode consortium that
-                stays impartial. Is the unicode therefore always respecting
-                ‘local’ ethics and customs? CAN THE UNICODE BE NON-RESTRICTIVE?
-                CAN ENCODING SCRIPT BE NON-STANDARDIZED AND INCLUSIVE? CAN A
-                UNIVERSAL ENCODING BE APPLIED WITHOUT DISCREDITING LOCAL
-                CUSTOMS? In relation to its effects on ‘local’ cultures: DOES
-                DIGITALIZATION REALLY CONCLUDE TO LANGUAGE PRESERVATION? CAN A
-                NEW DIGITAL SPACE EMERGE TO FACE THESE CHALLENGES? As stated by
-                Aditya Bayu Perdana, “digitalization should be hand in hand with
-                the people’s willingness to use it in mundane everyday manner.
-                Some scripts are not to be used digitally as their everyday
-                common use is outside of the digital space.” This train of
-                thought is further formulated in Material Essence.
-              </mark>
+              Typography is now very mainly manipulated digitally and used as a
+              program. Most of its common uses are through digital tools or
+              mediums on screens. There is the birth of a user, the program is
+              therefore adapted and conceived according to that user. Present
+              dominant design softwares were primarily made to find solutions to
+              Western problems, making foreign visual cultures having to adapt
+              to fit with the complications of these mediums. In these
+              softwares, there is a real push for practicality and efficiency
+              specifically intended for the conformity of Western uses and the
+              Latin script. Placing complex ‘local’ scripts in tricky situations
+              of use. “software developers often find it cumbersome to support
+              different scripts. For example, Adobe’s InDesign has recently
+              introduced support for some Southeast Asian scripts, but the user
+              needs to find a hidden setting to display text correctly, and
+              cannot access font features linked to particular languages.”
+              (Mitchell). The use of ‘local’ scripts is sometimes therefore
+              “susceptible to highly unattractive typographic representation, as
+              some users are using the QWERTY keyboard to type out scripts like
+              Balinese, often leading to strings of gibberish characters.”
+              (Perdana) The adaptation of software for ‘local’ minorities is
+              often neglected yet those have impacts on how their languages and
+              culture develop over time. As Western technological developments
+              are the ones leading the march for the implementation of ‘local’
+              scripts, they hold a certain position of power. ARE WESTERN
+              SOFTWARE THEREFORE DICTATING THE DEVELOPMENTS OF ‘LOCAL’ SCRIPTS?
+              ‘LOCAL’ IDENTITIES? With the importation of Unicode, ‘local’
+              scripts are subjected to a new form of writing system that is
+              developed around ‘movable type’ and the Latin script. In addition
+              to that, trapped in a new language standardization with a Unicode
+              consortium that stays impartial. IS THE UNICODE THEREFORE ALWAYS
+              RESPECTING ‘LOCAL’ ETHICS AND CUSTOMS? CAN THE UNICODE BE
+              NON-RESTRICTIVE? CAN ENCODING SCRIPT BE NON-STANDARDIZED AND
+              INCLUSIVE? CAN A UNIVERSAL ENCODING BE APPLIED WITHOUT
+              DISCREDITING LOCAL CUSTOMS? We could think of QUNI by collective
+              Bye Bye Binary for example which is a first approach towards a
+              more inclusive encoding. “QUNI allows us to bring together our
+              fonts, with all the diversity they contain, around the same
+              encoding system for their use by a wide audience.” However,
+              concerning its effects on ‘local’ cultures: DOES DIGITALIZATION
+              REALLY LEAD TO LANGUAGE PRESERVATION? CAN A NEW DIGITAL SPACE
+              EMERGE TO FACE THESE CHALLENGES? As stated by Aditya Bayu Perdana,
+              “digitalization should be hand in hand with the people’s
+              willingness to use it in mundane everyday manner. Some scripts are
+              not to be used digitally as their everyday common use is outside
+              of the digital space.”
             </p>
           </div>
         </div>
@@ -387,46 +343,28 @@ export default function Home() {
               <mark>BANISHING DESIGN PRINCIPLES</mark>
             </h2>
             <p>
-              <mark>
-                Is it really efficient to create neutrality? Can you really be
-                neutral? Perhaps you could in a more local Western environment
-                but the emphasis on trying to show neutrality already creates a
-                standpoint. Is there only one neutrality? Is neutral the same in
-                every language? under different cultures and experiences? Title:
-                Exploring Neutrality in Latin Script and Typography Is it truly
-                possible to achieve neutrality? This question becomes
-                particularly poignant when we consider the Latin script and
-                typography.
-                <br></br>
-                <br></br>
-                In our quest for neutrality, do we inadvertently create biases?
-                Can there be a universal standard for neutrality, or does it
-                vary across languages, cultures, and experiences? In many
-                Western contexts, there's a prevailing notion that neutrality
-                can be attained through certain typographic choices and the use
-                of Latin script. However, this assumption warrants scrutiny. The
-                very act of striving for neutrality already implies a
-                standpoint, one that may not necessarily align with the diverse
-                perspectives and cultural nuances present globally. Moreover,
-                neutrality itself is not a monolithic concept. What may seem
-                neutral in one cultural context could carry different
-                connotations or implications in another. The fonts, styles, and
-                even the spacing of letters can evoke different emotions and
-                associations, shaped by the unique histories and experiences of
-                different communities. Furthermore, the idea of neutrality in
-                language and typography raises questions about power dynamics.
-                Whose perspective is being privileged in the pursuit of
-                neutrality? Whose voices are being marginalized or excluded?
-                These considerations underscore the complexity of the concept
-                and challenge us to reevaluate our assumptions about what
-                constitutes neutrality. Ultimately, the quest for neutrality in
-                Latin script and typography invites us to engage in a deeper
-                exploration of language, culture, and representation. Rather
-                than aiming for a one-size-fits-all solution, we must embrace
-                diversity and multiplicity, recognizing that true neutrality may
-                lie not in uniformity, but in embracing and celebrating
-                difference.
-              </mark>
+              On a global level, design criterias cannot be simply generalized
+              without considering the unique cultural contexts and local
+              identities that shape them. Should design principles really be
+              adapted globally? Isn’t their intent for neutrality erasing local
+              cultural identities and associated languages? The
+              International/Swiss style is often taught at school globally and
+              is often a first reference to graphic design. Academically it
+              often dictates what is good or bad design. Should there really be
+              design principles for defining what is good or bad design? How can
+              non-Western-centric conventions adapt to these dominant design
+              principles? How do local identities evolve under restrictive
+              Western conventions? These Western-imposed conventions do come at
+              the expense of local visual cultures and cultural diversity. Where
+              expressiveness is toned down and nurtured. However, as stated by
+              Peter Bilak, “The alphabet is by its very nature dependent on and
+              defined by conventions. Type design that is not bound by
+              convention is like a private language: both lack the ability to
+              communicate.” Therefore there still needs to be some conventions
+              for the message to come across successfully. Can local languages
+              truly find their own distinct conventions and structures? Are they
+              trapped by the dominant design principles? Can dominant powers
+              adapt their narrative for more inclusive conventions?
             </p>
           </div>
         </div>
