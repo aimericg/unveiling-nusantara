@@ -384,7 +384,7 @@ export default function Home() {
         >
           <div className="scroll-container">
             <h2>
-              <mark>POSITIONS OF NEUTRALITY</mark>
+              <mark>BANISHING DESIGN PRINCIPLES</mark>
             </h2>
             <p>
               <mark>
