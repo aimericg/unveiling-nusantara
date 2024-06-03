@@ -56,8 +56,6 @@ export default function Home() {
         ? strings5
         : paragraph === "paragraph6"
         ? strings6
-        : paragraph === "paragraph7"
-        ? strings7
         : paragraph === "paragraph8"
         ? strings8
         : [];
@@ -92,7 +90,7 @@ export default function Home() {
     const paragraph4 = document.querySelector(".paragraph4");
     const paragraph5 = document.querySelector(".paragraph5");
     const paragraph6 = document.querySelector(".paragraph6");
-    const paragraph7 = document.querySelector(".paragraph7");
+
 
     paragraph1.addEventListener("mouseover", () => {
       const chosenColor = "#ff00ff";
@@ -103,7 +101,7 @@ export default function Home() {
         markElement.style.background = chosenColor;
       });
       const highlightElements = document.querySelectorAll(
-        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark, .paragraph7 mark"
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark"
       );
       highlightElements.forEach((highlightElement) => {
         highlightElement.style.boxShadow =
@@ -118,7 +116,7 @@ export default function Home() {
         markElement.style.background = "";
       });
       const highlightElements = document.querySelectorAll(
-        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark, .paragraph7 mark"
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark"
       );
       highlightElements.forEach((highlightElement) => {
         highlightElement.style.boxShadow = "";
@@ -142,7 +140,7 @@ export default function Home() {
         markElement.style.background = chosenColor;
       });
       const highlightElements = document.querySelectorAll(
-        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark, .paragraph7 mark"
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark"
       );
       highlightElements.forEach((highlightElement) => {
         highlightElement.style.boxShadow =
@@ -157,7 +155,7 @@ export default function Home() {
         markElement.style.background = "";
       });
       const highlightElements = document.querySelectorAll(
-        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark, .paragraph7 mark"
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark"
       );
       highlightElements.forEach((highlightElement) => {
         highlightElement.style.boxShadow = "";
@@ -211,7 +209,7 @@ export default function Home() {
         markElement.style.background = chosenColor;
       });
       const highlightElements = document.querySelectorAll(
-        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark, .paragraph7 mark"
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark, "
       );
       highlightElements.forEach((highlightElement) => {
         highlightElement.style.boxShadow =
@@ -226,42 +224,15 @@ export default function Home() {
         markElement.style.background = "";
       });
       const highlightElements = document.querySelectorAll(
-        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark, .paragraph7 mark"
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark, "
       );
       highlightElements.forEach((highlightElement) => {
         highlightElement.style.boxShadow = "";
       });
     });
 
-    paragraph7.addEventListener("mouseover", () => {
-      const chosenColor = "red";
-      document.body.style.background = chosenColor;
-      const markElements = document.querySelectorAll(".about-section mark");
-      markElements.forEach((markElement) => {
-        markElement.style.background = chosenColor;
-      });
-      const highlightElements = document.querySelectorAll(
-        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark, .paragraph7 mark"
-      );
-      highlightElements.forEach((highlightElement) => {
-        highlightElement.style.boxShadow =
-          "inset 0 1px 5px rgba(255, 0, 0, 0.3)";
-      });
-    });
 
-    paragraph7.addEventListener("mouseout", () => {
-      document.body.style.background = ""; // reset the background color
-      const markElements = document.querySelectorAll(".about-section mark");
-      markElements.forEach((markElement) => {
-        markElement.style.background = "";
-      });
-      const highlightElements = document.querySelectorAll(
-        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark, .paragraph7 mark"
-      );
-      highlightElements.forEach((highlightElement) => {
-        highlightElement.style.boxShadow = "";
-      });
-    });
+   
   }, []);
 
   return (
@@ -568,47 +539,6 @@ export default function Home() {
               </mark>
             </p>
           </div>
-        </div>
-        <div
-          className="paragraph7"
-          onMouseOver={() => handleHover("paragraph7")}
-        >
-          <div className="scroll-container">
-            <h2>
-              <mark>BANISHING DESIGN PRINCIPLES?</mark>
-            </h2>
-            <p>
-              <mark>
-                On a global level, design criterias cannot be simply generalized
-                without considering the unique cultural contexts and local
-                identities that shape them. Should design principles really be
-                adapted globally? Isn’t their intent for neutrality erasing
-                local cultural identities and associated languages? As the
-                International/Swiss style is often taught at school globally and
-                often a first reference to graphic design. Academically it often
-                dictates what is good or bad design. Should there really be
-                design principles for defining what is good or bad design? How
-                can non-Western centric conventions adapt to these dominant
-                design principles? How are local identities to evolve under
-                restrictive Western conventions? These Western imposed
-                conventions do come at the expense of local visual cultures and
-                cultural diversity. Where expressiveness is toned down and
-                nurtured. Though as stated by Peter Bilak, “The alphabet is by
-                its very nature dependent on and defined by conventions. Type
-                design that is not bound by convention is like a private
-                language: both lack the ability to communicate.” Therefore there
-                still needs to be some conventions for the message to come
-                across successfully. Shouldn’t local languages find their own
-                conventions? Can local languages truly find their own
-                conventions? Are they trapped by the dominant design principles?
-                Can dominant powers adapt their narrative for more inclusive
-                conventions?
-              </mark>
-            </p>
-          </div>
-        </div>
-      </div>
-
       <div
         className="about-section"
         onMouseOver={() => handleHover("paragraph8")}
@@ -663,7 +593,7 @@ export default function Home() {
         </div>
         <div className="about-ressources">
           <h2>
-            <mark>ADDITIONAL RESSOURCES</mark>
+            <mark>ADDITIONAL RESSOURCE</mark>
           </h2>
           <p>
             <mark>
