@@ -3,6 +3,7 @@ import { animated } from "react-spring";
 import { useWiggle } from "../hooks/wiggle";
 import { Link } from "wouter";
 
+
 const strings1 = [
   "ARE TYPEFACES TO CHANGE FUNCTION IN A FOREIGN ENVIRONMENT?",
   "CAN TYPEFACES BE READAPTED IN A FOREIGN ENVIRONMENT?",
@@ -241,9 +242,7 @@ export default function Home() {
           onMouseOver={() => handleHover("paragraph1")}
         >
           <div className="scroll-container">
-            <h2>
-              CULTURAL CRINGE
-            </h2>
+            <h2>CULTURAL CRINGE</h2>
 
             <p>
               Warung banners portray a large facette of Indonesia’s ‘common
@@ -281,9 +280,7 @@ export default function Home() {
           onMouseOver={() => handleHover("paragraph2")}
         >
           <div className="scroll-container">
-            <h2>
-              WESTERN CONFORMED DIGITAL
-            </h2>
+            <h2>WESTERN CONFORMED DIGITAL</h2>
             <p>
               {" "}
               Typography is now very mainly manipulated digitally and used as a
@@ -339,9 +336,7 @@ export default function Home() {
           onMouseOver={() => handleHover("paragraph3")}
         >
           <div className="scroll-container">
-            <h2>
-              BANISHING DESIGN PRINCIPLES
-            </h2>
+            <h2>BANISHING DESIGN PRINCIPLES</h2>
             <p>
               On a global level, design criterias cannot be simply generalized
               without considering the unique cultural contexts and local
@@ -373,45 +368,39 @@ export default function Home() {
           onMouseOver={() => handleHover("paragraph4")}
         >
           <div className="scroll-container">
-            <h2>
-              LATINIZATION
-            </h2>
+            <h2>LATINIZATION</h2>
             <p>
-              
-                For the development of multi-script typefaces, the Latin script
-                is often the primary reference sometimes leading to forms of
-                ‘Latinization’. When Latin shapes are incorporated into other
-                scripts, regardless of whether they conform to the script’s
-                initial conventions, this can result in a disregard for the
-                script’s unique characteristics and ‘local’ identity. How can
-                type design processes be less dependent on Latin script
-                developments? Can script development break free from Latin
-                script dominance? Despite some efforts to revitalize a script
-                respectfully, most current type design processes remain centered
-                on the notions and developments of the Latin script, with less
-                attention paid to the specific needs and requirements of
-                distinguished scripts. Current typographic endeavors for
-                multi-script typefaces start with the objective of harmonization
-                “yet the problem arising is assimilation” (Ben Ayed). There is a
-                certain push for unifying scripts to be legible in the same
-                exact way, with a typeface that matches perfectly from script to
-                script. Where do we draw the line between processes of
-                Latinization and independent development? At what point do we
-                prioritize preserving the unique characteristics of non-Latin
-                scripts over the pursuit of uniformity and legibility in
-                multi-script typefaces? To adhere to Western markets some once
-                exclusively Latin concepts have been applied to ‘local’ scripts
-                completely foreign from that. Such as weights and thick and thin
-                contrasts. In efforts to unify a wide range of scripts for
-                Google Fonts Noto Sans, thick/thin contrasts have been named
-                with the concepts of ‘serif’ and ‘sans serif’ completely
-                irrelevant to ‘local’ scripts like Balinese, Javanese, or
-                Lontara. Or any other scripts other than Latin or Greek. Is
-                Latinization a new form of colonial autority on language? Is
-                Latinization a new form of language standardization? Are ‘local’
-                scripts benefitting from being latinized or is it exclusively
-                empowering the Latin script?
-              
+              For the development of multi-script typefaces, the Latin script is
+              often the primary reference sometimes leading to forms of
+              ‘Latinization’. When Latin shapes are incorporated into other
+              scripts, regardless of whether they conform to the script’s
+              initial conventions, this can result in a disregard for the
+              script’s unique characteristics and ‘local’ identity. How can type
+              design processes be less dependent on Latin script developments?
+              Can script development break free from Latin script dominance?
+              Despite some efforts to revitalize a script respectfully, most
+              current type design processes remain centered on the notions and
+              developments of the Latin script, with less attention paid to the
+              specific needs and requirements of distinguished scripts. Current
+              typographic endeavors for multi-script typefaces start with the
+              objective of harmonization “yet the problem arising is
+              assimilation” (Ben Ayed). There is a certain push for unifying
+              scripts to be legible in the same exact way, with a typeface that
+              matches perfectly from script to script. Where do we draw the line
+              between processes of Latinization and independent development? At
+              what point do we prioritize preserving the unique characteristics
+              of non-Latin scripts over the pursuit of uniformity and legibility
+              in multi-script typefaces? To adhere to Western markets some once
+              exclusively Latin concepts have been applied to ‘local’ scripts
+              completely foreign from that. Such as weights and thick and thin
+              contrasts. In efforts to unify a wide range of scripts for Google
+              Fonts Noto Sans, thick/thin contrasts have been named with the
+              concepts of ‘serif’ and ‘sans serif’ completely irrelevant to
+              ‘local’ scripts like Balinese, Javanese, or Lontara. Or any other
+              scripts other than Latin or Greek. Is Latinization a new form of
+              colonial autority on language? Is Latinization a new form of
+              language standardization? Are ‘local’ scripts benefitting from
+              being latinized or is it exclusively empowering the Latin script?
             </p>
           </div>
         </div>
@@ -420,49 +409,45 @@ export default function Home() {
           onMouseOver={() => handleHover("paragraph5")}
         >
           <div className="scroll-container">
-            <h2>
-              PUBLIC PRESENCE
-            </h2>
+            <h2>PUBLIC PRESENCE</h2>
             <p>
-              
-                Public signage is overly dominated with typefaces like the
-                American's Highway Gothic present in an immense number of
-                countries around the world. Doesn't that pose domincance over
-                communication? The ubiquity of typefaces like America's Highway
-                Gothic in public signage across numerous countries raises
-                important questions about dominance in communication. Does the
-                widespread adoption of such fonts inadvertently impose a
-                singular cultural perspective on diverse communities?<br></br>
-                <br></br>
-                Public signage serves as a crucial tool for communication,
-                guiding and informing people in various environments. However,
-                the prevalence of certain typefaces, particularly those like
-                Highway Gothic, suggests a hegemony in visual language that may
-                overshadow alternative voices and perspectives.<br></br>
-                <br></br>
-                By standardizing typography across different regions and
-                cultures, there is a risk of homogenizing communication and
-                neglecting the rich diversity of local languages and visual
-                traditions. What message does it send when the same font is used
-                to convey information in vastly different cultural contexts?
-                <br></br>
-                <br></br>
-                Moreover, the dominance of specific typefaces raises concerns
-                about power dynamics and representation. Whose cultural and
-                aesthetic preferences are being prioritized in the selection of
-                these fonts? Are marginalized voices being silenced or
-                overshadowed by the imposition of a dominant visual language?
-                <br></br>
-                <br></br>
-                As we reflect on the impact of public signage typography, it
-                becomes clear that the quest for universality in communication
-                must not come at the expense of cultural diversity and
-                representation. Embracing a multiplicity of typefaces and visual
-                styles allows for greater inclusivity and recognition of the
-                varied experiences and perspectives that shape our global
-                landscape.<br></br>
-                <br></br>
-              
+              Public signage is overly dominated with typefaces like the
+              American's Highway Gothic present in an immense number of
+              countries around the world. Doesn't that pose domincance over
+              communication? The ubiquity of typefaces like America's Highway
+              Gothic in public signage across numerous countries raises
+              important questions about dominance in communication. Does the
+              widespread adoption of such fonts inadvertently impose a singular
+              cultural perspective on diverse communities?<br></br>
+              <br></br>
+              Public signage serves as a crucial tool for communication, guiding
+              and informing people in various environments. However, the
+              prevalence of certain typefaces, particularly those like Highway
+              Gothic, suggests a hegemony in visual language that may overshadow
+              alternative voices and perspectives.<br></br>
+              <br></br>
+              By standardizing typography across different regions and cultures,
+              there is a risk of homogenizing communication and neglecting the
+              rich diversity of local languages and visual traditions. What
+              message does it send when the same font is used to convey
+              information in vastly different cultural contexts?
+              <br></br>
+              <br></br>
+              Moreover, the dominance of specific typefaces raises concerns
+              about power dynamics and representation. Whose cultural and
+              aesthetic preferences are being prioritized in the selection of
+              these fonts? Are marginalized voices being silenced or
+              overshadowed by the imposition of a dominant visual language?
+              <br></br>
+              <br></br>
+              As we reflect on the impact of public signage typography, it
+              becomes clear that the quest for universality in communication
+              must not come at the expense of cultural diversity and
+              representation. Embracing a multiplicity of typefaces and visual
+              styles allows for greater inclusivity and recognition of the
+              varied experiences and perspectives that shape our global
+              landscape.<br></br>
+              <br></br>
             </p>
           </div>
         </div>
@@ -471,35 +456,30 @@ export default function Home() {
           onMouseOver={() => handleHover("paragraph6")}
         >
           <div className="scroll-container">
-            <h2>
-              MATERIAL ESSENCE
-            </h2>
+            <h2>MATERIAL ESSENCE</h2>
             <p>
-              
-                The steps of making a modern typeface in a digital sphere mainly
-                tends to the loss of its materiality. Over a series of
-                modifications, imperfections lead to the medium the letters were
-                initially engraved on or brushed into are less and less present.
-                For the main objective of creating efficiency, yet sometimes
-                burning a big part of the initial character. Should the process
-                of digitalization be added to different scripts? As they all
-                derive from different forms of materiality, the Balinese script
-                Aksara Bali for example is heavily linked to its role in
-                religious manuscripts, sacred in the forms of "lontars" made out
-                of palm leaf strips and inked with burnt candlenut. If the main
-                use of the script today is in a palm leaf manuscript, shouldn't
-                the script still involve these imperfections as a vital part of
-                its identity. What would happen if that materiality is not
-                respected? Under colonial ruling, this is what happened for the
-                Javanese script, which is a sister script of Aksara Bali, yet
-                this one was changed to be adapted to movable type and to be
-                printed with letterpress. Are we then not noticing these changes
-                under a different colonial era? Should typefaces be developped
-                the same as they were for Latin scripts but for other scripts?
-                Because that process already works for the Latin script, it
-                shouldnt not work for foreign scripts? See "Latinisation" for
-                more on this subject.
-              
+              The steps of making a modern typeface in a digital sphere mainly
+              tends to the loss of its materiality. Over a series of
+              modifications, imperfections lead to the medium the letters were
+              initially engraved on or brushed into are less and less present.
+              For the main objective of creating efficiency, yet sometimes
+              burning a big part of the initial character. Should the process of
+              digitalization be added to different scripts? As they all derive
+              from different forms of materiality, the Balinese script Aksara
+              Bali for example is heavily linked to its role in religious
+              manuscripts, sacred in the forms of "lontars" made out of palm
+              leaf strips and inked with burnt candlenut. If the main use of the
+              script today is in a palm leaf manuscript, shouldn't the script
+              still involve these imperfections as a vital part of its identity.
+              What would happen if that materiality is not respected? Under
+              colonial ruling, this is what happened for the Javanese script,
+              which is a sister script of Aksara Bali, yet this one was changed
+              to be adapted to movable type and to be printed with letterpress.
+              Are we then not noticing these changes under a different colonial
+              era? Should typefaces be developped the same as they were for
+              Latin scripts but for other scripts? Because that process already
+              works for the Latin script, it shouldnt not work for foreign
+              scripts? See "Latinisation" for more on this subject.
             </p>
           </div>
         </div>
