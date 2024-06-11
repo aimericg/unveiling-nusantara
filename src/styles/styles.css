@@ -8,7 +8,7 @@ to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 /* Our default values set as CSS variables */
 :root {
-  --color-bg: yellow;
+  --color-bg: white;
   --color-text-main: #000000;
   --color-primary: #AFECE0;
   --wrapper-height: 100vh;
@@ -75,11 +75,33 @@ to this section's matching END comment to see page-specific styles.
 }
 
 
+@font-face {
+  font-family: Computer Modern;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/7a0d470d-a08c-46c5-8148-bedf2cbc70f7/cmunbx.ttf?v=1718059497298")
+    format("truetype");
+}
+
+
+@font-face {
+  font-family: Toren;
+  font-weight: regular;
+  src: url("https://cdn.glitch.global/7a0d470d-a08c-46c5-8148-bedf2cbc70f7/Toren-Proportional.otf?v=1718059502812")
+    format("opentype");
+}
 
 @font-face {
   font-family: Authentic;
   font-weight: regular;
   src: url("https://cdn.glitch.global/7a0d470d-a08c-46c5-8148-bedf2cbc70f7/AUTHENTICSans-130.woff?v=1715727986738")
+    format("truetype");
+}
+
+
+@font-face {
+  font-family: Drogowskaz;
+  font-weight: regular;
+  src: url("https://cdn.glitch.global/7a0d470d-a08c-46c5-8148-bedf2cbc70f7/Drogowskaz%20Custom%20Bank.ttf?v=1718060461808")
     format("truetype");
 }
 
@@ -125,8 +147,8 @@ h1 {
   margin: 1rem 1rem 10rem 10rem;
   margin-left: 1rem;
   
-  /* outline: 6px dotted orange;*/
-  color: white; /* Set the text color to transparent */
+  /* outline: 6px dotted orange; */
+  color: rgba(255, 165, 0, 1); /* Set the text color to transparent */
   font-family: DOTCIRFUL;
   font-style: normal;
   font-weight: bold;
@@ -187,17 +209,18 @@ h2 {
 .scroll-container {
   overflow-y: auto;
   max-height: 70vh; /* Adjust the height as needed */
+  position: relative;
   padding-right: 20px; /* Adjust for scrollbar width */
+  top: -9rem;
 }
 
 .grid-container {
-
+  
   display: grid;
   position: static;
   grid-template-columns: repeat(6, 1fr);
-  position: relative;
+  
   gap: 1rem;
-  top: -8rem;
   border-radius:0;
   margin-left: 1.4rem;
   
@@ -282,12 +305,11 @@ h2 {
 }
 
 .paragraph3 p {
-  font-family: HK Grotesk;
+  font-family: Computer Modern;
 }
 
 .paragraph4 p {
-  font-family: "Comissioner";
-  font-weight:400;
+  font-family: Toren;
 }
 
 /* About Project*/
@@ -306,12 +328,13 @@ h2 {
 }
   
 .paragraph5 p {
-  font-family: "Highway";
+  font-family: Drogowskaz;
+  letter-spacing: -0.05em;
   
 }
 
 .paragraph6 p {
-  font-family: "Authentic";
+  font-family: AndersonGrotesk;
 }
 
 .about-project p {

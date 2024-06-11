@@ -3,7 +3,6 @@ import { animated } from "react-spring";
 import { useWiggle } from "../hooks/wiggle";
 import { Link } from "wouter";
 
-
 const strings1 = [
   "ARE TYPEFACES TO CHANGE FUNCTION IN A FOREIGN ENVIRONMENT?",
   "CAN TYPEFACES BE READAPTED IN A FOREIGN ENVIRONMENT?",
@@ -93,6 +92,11 @@ export default function Home() {
     const paragraph4 = document.querySelector(".paragraph4");
     const paragraph5 = document.querySelector(".paragraph5");
     const paragraph6 = document.querySelector(".paragraph6");
+    const aboutSection = document.querySelector(".about-section");
+
+    const originalContent = aboutSection
+      .querySelector("#originalAbout")
+      .cloneNode(true);
 
     paragraph1.addEventListener("mouseover", () => {
       const chosenColor = "#ff00ff";
@@ -109,6 +113,10 @@ export default function Home() {
         highlightElement.style.boxShadow =
           "inset 0 3px 5px rgba(255, 0, 255, 0.5)";
       });
+      const h1Elements = document.querySelectorAll("h1");
+      h1Elements.forEach((h1Element) => {
+        h1Element.style.color = "white";
+      });
     });
 
     paragraph1.addEventListener("mouseout", () => {
@@ -123,19 +131,14 @@ export default function Home() {
       highlightElements.forEach((highlightElement) => {
         highlightElement.style.boxShadow = "";
       });
+      const h1Elements = document.querySelectorAll("h1");
+      h1Elements.forEach((h1Element) => {
+        h1Element.style.color = "";
+      });
     });
 
     paragraph2.addEventListener("mouseover", () => {
-      const chosenColor = "#ffff00";
-      document.body.style.background = "#ffff00";
-    });
-
-    paragraph2.addEventListener("mouseout", () => {
-      document.body.style.background = ""; // reset the background color
-    });
-
-    paragraph3.addEventListener("mouseover", () => {
-      const chosenColor = "#d3d3d3";
+      const chosenColor = "rgba(0,230,230,1)";
       document.body.style.background = chosenColor;
       const markElements = document.querySelectorAll(".about-section mark");
       markElements.forEach((markElement) => {
@@ -147,6 +150,48 @@ export default function Home() {
       highlightElements.forEach((highlightElement) => {
         highlightElement.style.boxShadow =
           "inset 0 3px 5px rgba(211, 211, 211, 0.5)";
+      });
+      const h1Elements = document.querySelectorAll("h1");
+      h1Elements.forEach((h1Element) => {
+        h1Element.style.color = "white";
+      });
+    });
+
+    paragraph2.addEventListener("mouseout", () => {
+      document.body.style.background = ""; // reset the background color
+      const markElements = document.querySelectorAll(".about-section mark");
+      markElements.forEach((markElement) => {
+        markElement.style.background = "";
+      });
+      const highlightElements = document.querySelectorAll(
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark"
+      );
+      highlightElements.forEach((highlightElement) => {
+        highlightElement.style.boxShadow = "";
+      });
+      const h1Elements = document.querySelectorAll("h1");
+      h1Elements.forEach((h1Element) => {
+        h1Element.style.color = "";
+      });
+    });
+
+    paragraph3.addEventListener("mouseover", () => {
+      const chosenColor = "rgba(206, 189, 172, 1)";
+      document.body.style.background = chosenColor;
+      const markElements = document.querySelectorAll(".about-section mark");
+      markElements.forEach((markElement) => {
+        markElement.style.background = chosenColor;
+      });
+      const highlightElements = document.querySelectorAll(
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark"
+      );
+      highlightElements.forEach((highlightElement) => {
+        highlightElement.style.boxShadow =
+          "inset 0 3px 5px rgba(211, 211, 211, 0.5)";
+      });
+      const h1Elements = document.querySelectorAll("h1");
+      h1Elements.forEach((h1Element) => {
+        h1Element.style.color = "white";
       });
     });
 
@@ -162,17 +207,21 @@ export default function Home() {
       highlightElements.forEach((highlightElement) => {
         highlightElement.style.boxShadow = "";
       });
+      const h1Elements = document.querySelectorAll("h1");
+      h1Elements.forEach((h1Element) => {
+        h1Element.style.color = "";
+      });
     });
 
     paragraph4.addEventListener("mouseover", () => {
-      document.body.style.background = "#FCFBF4";
+      document.body.style.background = "yellow";
       const markElements = document.querySelectorAll(".about-section mark");
       markElements.forEach((markElement) => {
-        markElement.style.background = "#FCFBF4";
+        markElement.style.background = "yellow";
       });
       const h1Elements = document.querySelectorAll("h1");
       h1Elements.forEach((h1Element) => {
-        h1Element.style.color = "orange";
+        h1Element.style.color = "white";
       });
     });
 
@@ -187,11 +236,16 @@ export default function Home() {
         h1Element.style.color = "";
       });
     });
+
     paragraph5.addEventListener("mouseover", () => {
-      document.body.style.background = "#08FF08";
+      document.body.style.background = "rgba(20, 220, 20, 1)";
       const markElements = document.querySelectorAll(".about-section mark");
       markElements.forEach((markElement) => {
-        markElement.style.background = "#08FF08";
+        markElement.style.background = "rgba(20, 220, 20, 1)";
+      });
+      const h1Elements = document.querySelectorAll("h1");
+      h1Elements.forEach((h1Element) => {
+        h1Element.style.color = "white";
       });
     });
 
@@ -201,21 +255,29 @@ export default function Home() {
       markElements.forEach((markElement) => {
         markElement.style.background = "";
       });
+      const h1Elements = document.querySelectorAll("h1");
+      h1Elements.forEach((h1Element) => {
+        h1Element.style.color = "";
+      });
     });
 
     paragraph6.addEventListener("mouseover", () => {
-      const chosenColor = "rgb(0,255,100)";
+      const chosenColor = "#d3d3d3";
       document.body.style.background = chosenColor;
       const markElements = document.querySelectorAll(".about-section mark");
       markElements.forEach((markElement) => {
         markElement.style.background = chosenColor;
       });
       const highlightElements = document.querySelectorAll(
-        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark, "
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark"
       );
       highlightElements.forEach((highlightElement) => {
         highlightElement.style.boxShadow =
-          "inset 0 1px 5px rgba(0,255,100 0.3)";
+          "inset 0 3px 5px rgba(211, 211, 211, 0.5)";
+      });
+      const h1Elements = document.querySelectorAll("h1");
+      h1Elements.forEach((h1Element) => {
+        h1Element.style.color = "white";
       });
     });
 
@@ -226,11 +288,54 @@ export default function Home() {
         markElement.style.background = "";
       });
       const highlightElements = document.querySelectorAll(
-        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark, "
+        ".paragraph1 mark, .paragraph2 mark, .paragraph3 mark, .paragraph4 mark, .paragraph5 mark, .paragraph6 mark"
       );
       highlightElements.forEach((highlightElement) => {
         highlightElement.style.boxShadow = "";
       });
+      const h1Elements = document.querySelectorAll("h1");
+      h1Elements.forEach((h1Element) => {
+        h1Element.style.color = "";
+      });
+    });
+
+    aboutSection.addEventListener("mouseover", () => {
+      const scrollContainers = document.querySelectorAll(".scroll-container");
+      scrollContainers.forEach((container) => {
+        container.style.maxHeight = "53vh";
+        container.style.top = "-14rem";
+      });
+      
+      const aboutParagraph = aboutSection.querySelector("p");
+      if (aboutParagraph) {
+        aboutParagraph.innerHTML = `
+        <mark>Unveiling Nusantara is a design manifesto that sparks conversations about decolonizing type and graphic design, encouraging the development of ‘local’ scripts and the ‘common informal’ of the Indonesian archipelago. The manifesto explores the ongoing challenges posed by the historical influence of Western colonial powers, placing strict colonial conventions and ideologies back up for debate.
+<br></br>
+It draws its argumentation from observations gathered through a visual derive, workshops in Indonesia, and interviews with people involved with local scripts. Unlike more common design manifestos, its argumentation is less defined and is open for discussion, addressing questions to help interrogate our own positionality.
+<br></br>
+This manifesto is mainly addressed to individuals and students whose education is Western-centric and who work within a multicultural scope. Furthermore, it is also intended for use in Indonesia as a motivational booster for movements of urgent reclaiming.
+<br></br>
+‘Nusantara’ refers to the Indonesian archipelago as a whole, reclaimed as a term predating Western colonization. It encompasses the concept of “buitengewesten,” which originally referred to the outer islands beyond Java during the Javanese empire. Now to be used rebelliously to reclaim the identity of overlooked regions. By embracing this term, ‘Nusantara’ becomes a powerful symbol of Indonesian resistance, challenging dominant narratives against the erasure of ‘local’ cultures and the imposition of limiting foreign values.
+</mark>
+      `;
+      }
+    });
+
+    aboutSection.addEventListener("mouseout", () => {
+      const scrollContainers = document.querySelectorAll(".scroll-container");
+      scrollContainers.forEach((container) => {
+        container.style.maxHeight = "";
+        container.style.top = "";
+      });
+
+      const aboutParagraph = aboutSection.querySelector("p");
+      if (aboutParagraph) {
+        aboutParagraph.style.opacity = 1;
+        aboutParagraph.parentNode.replaceChild(
+          originalContent.cloneNode(true),
+          aboutParagraph
+        );
+      }
     });
   }, []);
 
@@ -255,23 +360,33 @@ export default function Home() {
               do have their importance in local culture, as exemplified by the
               iconic Lamongan Pecel Lele warung banners, serving as a vibrant
               symbol of the regional identity and street food culture of East
-              Java.This Western critical eye finds its sense when relating it to
-              A.A. Philip's theory of cultural cringe, which Filipino cultural
-              worker Clara Balaguer defines as the phenomenon "by which the
-              culture produced in an ex-colonial or colonial country is seen as
-              inferior to that being produced in the colonial seat," This is
-              furthermore accentuated by Novreica “the opulence of these
-              Indonesian-styled graphics is sometimes overlooked, forgotten, and
-              even underestimated because of the assumptions of them being
-              low-brow or kitschy.” How can cultural cringe be countered? How
-              can these colonial traps be avoided? The focus of study should be
-              shifted towards prioritizing ‘local’ cultures rather than the
-              study of Western concepts first. Novreica emphasizes that
-              “Indonesian ephemeras deserve to be used as a primary source for
-              further research– which offers unique windows into cultures past.”
-              By digging deeper into Indonesian ephemeras and artifacts, we can
-              uncover the stories and designs that make Indonesian culture
-              unique.
+              Java. They are characterized by illustrations/paintings of
+              animals, neon borders and text with warm gradients.
+              <br></br>
+              <br></br>
+              This Western critical eye relates to A.A. Philip’s theory of
+              cultural cringe, which Filipino cultural worker Clara Balaguer
+              defines as the phenomenon “by which the culture produced in an
+              ex-colonial or colonial country is seen as inferior to that being
+              produced in the colonial seat”2. This is furthermore accentuated
+              by Novreica, “the opulence of these Indonesian-styled graphics is
+              sometimes overlooked, forgotten, and even underestimated because
+              of the assumptions of them being low-brow or kitschy.”
+              <br></br>
+              <br></br>
+              How can cultural cringe be countered? How can these colonial traps
+              be avoided? The focus of study should be shifted towards
+              prioritizing ‘local’ cultures rather than the study of Western
+              concepts first. How can the Western design can be re-questioned?
+              How can one step out of the Western design canon? Should a new
+              canon be built?
+              <br></br>
+              <br></br>
+              Novreica emphasizes that “Indonesian ephemeras deserve to be used
+              as a primary source for further research– which offers unique
+              windows into cultures past.”3 By digging deeper into Indonesian
+              ephemeras and artifacts, we can uncover the stories and designs
+              that make Indonesian culture unique.
             </p>
           </div>
         </div>
@@ -286,7 +401,7 @@ export default function Home() {
               Typography is now very mainly manipulated digitally and used as a
               program. Most of its common uses are through digital tools or
               mediums on screens. There is the birth of a user, the program is
-              therefore adapted and conceived according to that user. Present
+              therefore adapted and conceived according to that user.1 Present
               dominant design softwares were primarily made to find solutions to
               Western problems, making foreign visual cultures having to adapt
               to fit with the complications of these mediums. In these
@@ -297,37 +412,44 @@ export default function Home() {
               different scripts. For example, Adobe’s InDesign has recently
               introduced support for some Southeast Asian scripts, but the user
               needs to find a hidden setting to display text correctly, and
-              cannot access font features linked to particular languages.”
+              cannot access font features linked to particular languages.”2
               (Mitchell). The use of ‘local’ scripts is sometimes therefore
               “susceptible to highly unattractive typographic representation, as
-              some users are using the QWERTY keyboard to type out scripts like
-              Balinese, often leading to strings of gibberish characters.”
+              some users are using the "QWERTY" keyboard to type out scripts
+              like Balinese, often leading to strings of gibberish characters.”3
               (Perdana) The adaptation of software for ‘local’ minorities is
               often neglected yet those have impacts on how their languages and
-              culture develop over time. As Western technological developments
-              are the ones leading the march for the implementation of ‘local’
-              scripts, they hold a certain position of power. ARE WESTERN
-              SOFTWARE THEREFORE DICTATING THE DEVELOPMENTS OF ‘LOCAL’ SCRIPTS?
-              ‘LOCAL’ IDENTITIES? With the importation of Unicode, ‘local’
-              scripts are subjected to a new form of writing system that is
-              developed around ‘movable type’ and the Latin script. In addition
-              to that, trapped in a new language standardization with a Unicode
-              consortium that stays impartial. IS THE UNICODE THEREFORE ALWAYS
-              RESPECTING ‘LOCAL’ ETHICS AND CUSTOMS? CAN THE UNICODE BE
-              NON-RESTRICTIVE? CAN ENCODING SCRIPT BE NON-STANDARDIZED AND
-              INCLUSIVE? CAN A UNIVERSAL ENCODING BE APPLIED WITHOUT
-              DISCREDITING LOCAL CUSTOMS? We could think of QUNI by collective
-              Bye Bye Binary for example which is a first approach towards a
-              more inclusive encoding. “QUNI allows us to bring together our
-              fonts, with all the diversity they contain, around the same
-              encoding system for their use by a wide audience.” However,
-              concerning its effects on ‘local’ cultures: DOES DIGITALIZATION
-              REALLY LEAD TO LANGUAGE PRESERVATION? CAN A NEW DIGITAL SPACE
-              EMERGE TO FACE THESE CHALLENGES? As stated by Aditya Bayu Perdana,
-              “digitalization should be hand in hand with the people’s
-              willingness to use it in mundane everyday manner. Some scripts are
-              not to be used digitally as their everyday common use is outside
-              of the digital space.”
+              culture develop over time.
+              <br></br>
+              <br></br>
+              As Western technological developments are the ones leading the
+              march for the implementation of ‘local’ scripts, they hold a
+              certain position of power. Are Western software therefore
+              dictating the development of ‘local’ scripts? With the importation
+              of Unicode, ‘local’ scripts are subjected to a new form of writing
+              system that is developed around ‘movable type’ and the Latin
+              script. In addition to that, trapped in a new language
+              standardization with a Unicode consortium that stays impartial. Is
+              the Unicode therefore always respecting ‘local’ ethics and
+              customs? Can the Unicode be non-restrictive? Can encoding scriptbe
+              non-standardized and inclusive? Can a universal encoding be
+              applied without discrediting local customs?
+              <br></br>
+              <br></br>
+              We could think of QUNI by collective Bye Bye Binary for example
+              which is a first approach towards a more inclusive encoding. “QUNI
+              allows us to bring together our fonts, with all the diversity they
+              contain, around the same encoding system for their use by a wide
+              audience.”*4
+              <br></br>
+              <br></br>
+              However, concerning its effects on ‘local’ cultures: Does
+              digitalization really lead to language preservation? Can a new
+              digital space emerge to face these challenges? As stated by Aditya
+              Bayu Perdana, “digitalization should be hand in hand with the
+              people’s willingness to use it in mundane everyday manner. Some
+              scripts are not to be used digitally as their everyday common use
+              is outside of the digital space.”
             </p>
           </div>
         </div>
@@ -336,30 +458,48 @@ export default function Home() {
           onMouseOver={() => handleHover("paragraph3")}
         >
           <div className="scroll-container">
-            <h2>BANISHING DESIGN PRINCIPLES</h2>
+            <h2>MATERIAL ESSENCE</h2>
             <p>
-              On a global level, design criterias cannot be simply generalized
-              without considering the unique cultural contexts and local
-              identities that shape them. Should design principles really be
-              adapted globally? Isn’t their intent for neutrality erasing local
-              cultural identities and associated languages? The
-              International/Swiss style is often taught at school globally and
-              is often a first reference to graphic design. Academically it
-              often dictates what is good or bad design. Should there really be
-              design principles for defining what is good or bad design? How can
-              non-Western-centric conventions adapt to these dominant design
-              principles? How do local identities evolve under restrictive
-              Western conventions? These Western-imposed conventions do come at
-              the expense of local visual cultures and cultural diversity. Where
-              expressiveness is toned down and nurtured. However, as stated by
-              Peter Bilak, “The alphabet is by its very nature dependent on and
-              defined by conventions. Type design that is not bound by
-              convention is like a private language: both lack the ability to
-              communicate.” Therefore there still needs to be some conventions
-              for the message to come across successfully. Can local languages
-              truly find their own distinct conventions and structures? Are they
-              trapped by the dominant design principles? Can dominant powers
-              adapt their narrative for more inclusive conventions?
+              The process of creating a modern typeface in the digital sphere
+              often prioritizes efficiency over materiality, leading to the loss
+              of the script’s original written characteristics. As modifications
+              are made, imperfections are gradually erased, and the medium on
+              which the letters were initially engraved or brushed becomes less
+              prominent in its design.Is this loss of materiality a necessary
+              sacrifice for the sake of efficiency and modernity? The Balinese
+              script Aksara Bali is heavily linked to its role in religious
+              manuscripts, sacred in the forms of ‘lontar’ made out of palm leaf
+              strips and inked with burnt candlenut. If the main use of the
+              script today is in a palm-leaf manuscript. What would happen if
+              that materiality is lost? Shouldn’t the script’s imperfections be
+              respected as an integral part of its identity?
+              <br></br>
+              <br></br>
+              Under colonial rule, the Javanese script, a sister script of
+              Aksara Bali, was altered to accommodate movable type and
+              letterpress printing. Are we witnessing a similar phenomenon in
+              the digital era, where the materiality of non-Latin scripts is
+              being eroded?
+              <br></br>
+              <br></br>
+              In this search for perfect typography, do these modern approaches
+              share the vision of locals? Views of modernity in South East Asia
+              for example are quite distinct from Western visions, sometimes
+              viewed quite negatively. “In Myanmar/Burmese, other more
+              idiosyncratic terms for the modern have also appeared, related not
+              to time but rather to an ill-at-ease mental state: a phenomenon
+              which seems not to have been replicated in the other languages
+              under discussion.” (Nelson, 1)
+              <br></br>
+              <br></br>
+              However, there is a resurgence to materiality with the arrival of
+              hand brush, and handwritten stylized typography in the Indonesian
+              ‘common informal’. “Some years ago, probably circa 2010-2018,
+              lettering was booming in Indonesia, thanks to Instagram and other
+              similar platforms. More people tried hand lettering, calligraphy,
+              etc.” However, are these typefaces just a quick or efficient
+              digital alternative to sign paintings? Are they benefitting local
+              traditions and local customs?
             </p>
           </div>
         </div>
@@ -373,34 +513,40 @@ export default function Home() {
               For the development of multi-script typefaces, the Latin script is
               often the primary reference sometimes leading to forms of
               ‘Latinization’. When Latin shapes are incorporated into other
-              scripts, regardless of whether they conform to the script’s
+              scripts, regardless of whether they conform to the script's
               initial conventions, this can result in a disregard for the
-              script’s unique characteristics and ‘local’ identity. How can type
-              design processes be less dependent on Latin script developments?
-              Can script development break free from Latin script dominance?
-              Despite some efforts to revitalize a script respectfully, most
-              current type design processes remain centered on the notions and
-              developments of the Latin script, with less attention paid to the
-              specific needs and requirements of distinguished scripts. Current
-              typographic endeavors for multi-script typefaces start with the
-              objective of harmonization “yet the problem arising is
-              assimilation” (Ben Ayed). There is a certain push for unifying
-              scripts to be legible in the same exact way, with a typeface that
-              matches perfectly from script to script. Where do we draw the line
-              between processes of Latinization and independent development? At
-              what point do we prioritize preserving the unique characteristics
-              of non-Latin scripts over the pursuit of uniformity and legibility
-              in multi-script typefaces? To adhere to Western markets some once
-              exclusively Latin concepts have been applied to ‘local’ scripts
-              completely foreign from that. Such as weights and thick and thin
-              contrasts. In efforts to unify a wide range of scripts for Google
-              Fonts Noto Sans, thick/thin contrasts have been named with the
-              concepts of ‘serif’ and ‘sans serif’ completely irrelevant to
-              ‘local’ scripts like Balinese, Javanese, or Lontara. Or any other
-              scripts other than Latin or Greek. Is Latinization a new form of
-              colonial autority on language? Is Latinization a new form of
-              language standardization? Are ‘local’ scripts benefitting from
-              being latinized or is it exclusively empowering the Latin script?
+              script's unique characteristics and ‘local’ identity.
+              <br></br>
+              <br></br>
+              How can type design processes be less dependent on Latin script
+              developments? Can script development break free from Latin script
+              dominance? Despite some efforts to revitalize a script
+              respectfully, most current type design processes remain centered
+              on the notions and developments of the Latin script, with less
+              attention paid to the specific needs and requirements of
+              distinguished scripts. Current typographic endeavors for
+              multi-script typefaces start with the objective of harmonization
+              “yet the problem arising is assimilation” (Ben Ayed). There is a
+              certain push for unifying scripts to be legible in the same exact
+              way, with a typeface that matches from script to script.
+              <br></br>
+              <br></br>
+              Where do we draw the line between processes of Latinization and
+              independent development? At what point do we prioritize preserving
+              the unique characteristics of non-Latin scripts over the pursuit
+              of uniformity and legibility in multi-script typefaces? To adhere
+              to Western markets some once exclusively Latin concepts have been
+              applied to ‘local’ scripts completely foreign from that. Such as
+              weights and thick and thin contrasts. In efforts to unify a wide
+              range of scripts for Google Fonts Noto Sans, thick/thin contrasts
+              have been named with the concepts of ‘serif’ and ‘sans serif’
+              completely irrelevant to ‘local’ scripts like Balinese, Javanese,
+              or Lontara. Or any other scripts other than Latin or Greek.
+              <br></br>
+              <br></br>
+              Is Latinization a new form of language standardization? Are
+              ‘local’ scripts benefitting from being latinized or is it
+              exclusively empowering the Latin script?
             </p>
           </div>
         </div>
@@ -411,43 +557,49 @@ export default function Home() {
           <div className="scroll-container">
             <h2>PUBLIC PRESENCE</h2>
             <p>
-              Public signage is overly dominated with typefaces like the
-              American's Highway Gothic present in an immense number of
-              countries around the world. Doesn't that pose domincance over
-              communication? The ubiquity of typefaces like America's Highway
-              Gothic in public signage across numerous countries raises
-              important questions about dominance in communication. Does the
-              widespread adoption of such fonts inadvertently impose a singular
-              cultural perspective on diverse communities?<br></br>
-              <br></br>
-              Public signage serves as a crucial tool for communication, guiding
-              and informing people in various environments. However, the
-              prevalence of certain typefaces, particularly those like Highway
-              Gothic, suggests a hegemony in visual language that may overshadow
-              alternative voices and perspectives.<br></br>
-              <br></br>
-              By standardizing typography across different regions and cultures,
-              there is a risk of homogenizing communication and neglecting the
-              rich diversity of local languages and visual traditions. What
-              message does it send when the same font is used to convey
-              information in vastly different cultural contexts?
+              The widespread use of Western typefaces in Indonesian “common
+              informal” graphic design raises important concerns about cultural
+              representation and the development of ‘local’ design identities.
+              Western typefaces have been popularized globally, spreading a
+              design vision that can be inconsiderate of ‘local’ customs.
               <br></br>
               <br></br>
-              Moreover, the dominance of specific typefaces raises concerns
-              about power dynamics and representation. Whose cultural and
-              aesthetic preferences are being prioritized in the selection of
-              these fonts? Are marginalized voices being silenced or
-              overshadowed by the imposition of a dominant visual language?
+              There is prevalence of American typefaces —such as Helvetica,
+              which has become quite ubiquitous.”Now it’s probably never going
+              to go away because it’s ubiquitous; it’s a default. It’s air, you
+              know, it’s just there. There’s no choice. “1 (Spiekerman,
+              Helvetica, 2007)
               <br></br>
               <br></br>
-              As we reflect on the impact of public signage typography, it
-              becomes clear that the quest for universality in communication
-              must not come at the expense of cultural diversity and
-              representation. Embracing a multiplicity of typefaces and visual
-              styles allows for greater inclusivity and recognition of the
-              varied experiences and perspectives that shape our global
-              landscape.<br></br>
+              Clearview Hwy/Highway Gothic, the chosen typeface(s) for the
+              national traffic signage of Indonesia whilst initially
+              conceptualized for the traffic signage of the United-States.
+              Cooper Black, Impact, Egyptienne, Balloon and other common Western
+              typefaces found on warung stands—illustrate the significant
+              Western influence on Indonesian visual culture. Davida is used out
+              of a Victorian context, for its decorative features.
               <br></br>
+              <br></br>
+              Typefaces mentioned previously were mainly conceptualized for
+              Western environments making them not entirely suitable for such
+              global outreach. Possibly leading to lack of consideration for the
+              specific linguistic and cultural needs of Southeast Asian
+              countries like Indonesia. Can typefaces and conventions be
+              suitable globally without disrespecting ‘local’ customs? Shouldn’t
+              the appropriateness of these Western typefaces be questioned
+              before being accepted as the default choice for all situations?
+              Does the dominant presence of Western typefaces change the way
+              locals interact with letters and their unique alphabets?
+              <br></br>
+              <br></br>
+              With this massive dominance of Western typefaces, Are new ‘local’
+              typefaces and scripts able to develop their own distinctive
+              identity? Very little room is given for Indonesian type design to
+              be explored. Cultural identity with the use of Latin script is
+              also suppressed and placed in a concerning position for its
+              development. Where is the presence of Indonesian typography amidst
+              this dominance? Is Indonesian type design given enough space to
+              develop its own identity?
             </p>
           </div>
         </div>
@@ -456,30 +608,37 @@ export default function Home() {
           onMouseOver={() => handleHover("paragraph6")}
         >
           <div className="scroll-container">
-            <h2>MATERIAL ESSENCE</h2>
+            <h2>BANISHING DESIGN PRINCIPLES?</h2>
             <p>
-              The steps of making a modern typeface in a digital sphere mainly
-              tends to the loss of its materiality. Over a series of
-              modifications, imperfections lead to the medium the letters were
-              initially engraved on or brushed into are less and less present.
-              For the main objective of creating efficiency, yet sometimes
-              burning a big part of the initial character. Should the process of
-              digitalization be added to different scripts? As they all derive
-              from different forms of materiality, the Balinese script Aksara
-              Bali for example is heavily linked to its role in religious
-              manuscripts, sacred in the forms of "lontars" made out of palm
-              leaf strips and inked with burnt candlenut. If the main use of the
-              script today is in a palm leaf manuscript, shouldn't the script
-              still involve these imperfections as a vital part of its identity.
-              What would happen if that materiality is not respected? Under
-              colonial ruling, this is what happened for the Javanese script,
-              which is a sister script of Aksara Bali, yet this one was changed
-              to be adapted to movable type and to be printed with letterpress.
-              Are we then not noticing these changes under a different colonial
-              era? Should typefaces be developped the same as they were for
-              Latin scripts but for other scripts? Because that process already
-              works for the Latin script, it shouldnt not work for foreign
-              scripts? See "Latinisation" for more on this subject.
+              On a global level, design criterias cannot be simply generalized
+              without considering the unique cultural contexts and local
+              identities that shape them. Should design principles really be
+              adapted globally? Isn’t their intent for neutrality erasing local
+              cultural identities and associated languages?
+              <br></br>
+              <br></br>
+              The International/Swiss style is often taught at school globally
+              and is often a first reference to graphic design. Academically it
+              often dictates what is good or bad design. Should there really be
+              design principles for defining what is good or bad design? How can
+              non-Western-centric conventions adapt to these dominant design
+              principles? How do local identities evolve under restrictive
+              Western conventions? These Western-imposed conventions do come at
+              the expense of local visual cultures and cultural diversity. Where
+              expressiveness is toned down and nurtured.
+              <br></br>
+              <br></br>
+              However, as stated by Peter Bilak, “The alphabet is by its very
+              nature dependent on and defined by conventions. Type design that
+              is not bound by convention is like a private language: both lack
+              the ability to communicate.” Therefore there still needs to be
+              some conventions for the message to come across successfully.
+              <br></br>
+              <br></br>
+              Can local languages truly find their own distinct conventions and
+              structures? Are they trapped by the dominant design principles?
+              Can dominant powers adapt their narrative for more inclusive
+              conventions?
             </p>
           </div>
         </div>
@@ -492,7 +651,7 @@ export default function Home() {
           <h2>
             <mark>ABOUT</mark>
           </h2>
-          <p>
+          <p id="originalAbout">
             <mark>
               Made by Aimeric Permata Guerre in 2024, for his graduation from
               Willem de Kooning Academy (Rotterdam, Netherlands).
